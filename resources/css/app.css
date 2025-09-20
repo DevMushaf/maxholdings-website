@@ -1,11 +1,127 @@
-@import 'tailwindcss';
+/* Import Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
-@source '../../storage/framework/views/*.php';
-@source '../**/*.blade.php';
-@source '../**/*.js';
+/* CSS Custom Properties for Colors */
+:root {
+    --primary: #FF2212;
+    --secondary: #55403F;
+    --black: #2F2523;
+    --black-75: rgba(47, 37, 35, 0.75);
+    --black-50: rgba(47, 37, 35, 0.5);
+    --black-25: rgba(47, 37, 35, 0.25);
+    --black-10: rgba(47, 37, 35, 0.1);
+    --black-5: rgba(47, 37, 35, 0.05);
+    --error: #EE1210;
+}
 
-@theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+/* Base Typography */
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--black);
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+/* Custom Button Styles */
+.btn-primary {
+    background-color: var(--primary);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #E01F0F;
+    transform: translateY(-2px);
+}
+
+/* Navigation Styles */
+.nav-link {
+    color: var(--black);
+    font-weight: 500;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--primary);
+}
+
+.nav-link.active {
+    color: var(--primary);
+}
+
+/* Hero Section Styles */
+.hero-section {
+    background: linear-gradient(135deg, rgba(255, 34, 18, 0.1) 0%, rgba(85, 64, 63, 0.1) 100%);
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.hero-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.hero-title {
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    color: white;
+}
+
+.hero-description {
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+    line-height: 1.6;
+    margin-bottom: 2rem;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+/* Mobile Navigation */
+.mobile-menu {
+    display: none;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .mobile-menu {
+        display: block;
+    }
+    
+    .desktop-menu {
+        display: none;
+    }
+    
+    .hero-content {
+        padding: 0 16px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 640px) {
+    .hero-section {
+        min-height: 70vh;
+        padding: 2rem 0;
+    }
+    
+    .nav-link {
+        padding: 12px 0;
+        border-bottom: 1px solid var(--black-10);
+    }
 }
