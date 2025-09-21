@@ -12,10 +12,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <!-- Styles -->
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
     @stack('styles')
 </head>
-<body>
+<body class="font-inter antialiased">
     @include('partials.navigation')
     
     <main>
@@ -24,7 +25,6 @@
     
     @include('partials.footer')
     
-    <script src="{{ asset('js/app.js') }}"></script>
     @stack('scripts')
 </body>
 </html>
