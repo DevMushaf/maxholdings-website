@@ -4,7 +4,7 @@
             <!-- Logo -->
             <div class="flex-shrink-0">
                 <a href="{{ route('home') }}" class="flex items-center">
-                    <img src="{{ asset('images/maxholdingslogo.png') }}" 
+                    <img src="{{ asset('images/maxholdingslogo.jpg') }}" 
                          alt="Max Holdings Logo" 
                          class="h-12 w-auto">
                 </a>
