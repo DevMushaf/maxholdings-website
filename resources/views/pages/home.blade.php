@@ -305,6 +305,302 @@
     </div>
 </section>
 
+<!-- Brands We Work With Section -->
+<section class="py-20 bg-white overflow-hidden">
+    <div class="container mx-auto px-4">
+        <!-- Section Header -->
+        <div class="text-center mb-16">
+            <h2 class="text-4xl lg:text-5xl font-poppins font-bold text-black mb-6">
+                Brands We Work With
+            </h2>
+            <p class="text-lg lg:text-xl text-black-75 max-w-3xl mx-auto leading-relaxed">
+                We're proud to partner with leading brands across various industries, building lasting relationships through trust and excellence.
+            </p>
+        </div>
+
+        <!-- Logo Carousel -->
+        <div class="brands-carousel-wrapper">
+            <!-- Desktop View - 5 logos -->
+            <div class="hidden lg:block">
+                <div class="brands-carousel">
+                    <div class="brands-track">
+                        <!-- First set of logos -->
+                        <div class="brand-logo">
+                            <div class="w-48 h-24 bg-gray-200 rounded-lg flex items-center justify-center">
+                                <span class="text-gray-500 font-medium">Brand Logo 1</span>
+                            </div>
+                        </div>
+                        <div class="brand-logo">
+                            <div class="w-48 h-24 bg-gray-200 rounded-lg flex items-center justify-center">
+                                <span class="text-gray-500 font-medium">Brand Logo 2</span>
+                            </div>
+                        </div>
+                        <div class="brand-logo">
+                            <div class="w-48 h-24 bg-gray-200 rounded-lg flex items-center justify-center">
+                                <span class="text-gray-500 font-medium">Brand Logo 3</span>
+                            </div>
+                        </div>
+                        <div class="brand-logo">
+                            <div class="w-48 h-24 bg-gray-200 rounded-lg flex items-center justify-center">
+                                <span class="text-gray-500 font-medium">Brand Logo 4</span>
+                            </div>
+                        </div>
+                        <div class="brand-logo">
+                            <div class="w-48 h-24 bg-gray-200 rounded-lg flex items-center justify-center">
+                                <span class="text-gray-500 font-medium">Brand Logo 5</span>
+                            </div>
+                        </div>
+                        <!-- Duplicate set for seamless loop -->
+                        <div class="brand-logo">
+                            <div class="w-48 h-24 bg-gray-200 rounded-lg flex items-center justify-center">
+                                <span class="text-gray-500 font-medium">Brand Logo 1</span>
+                            </div>
+                        </div>
+                        <div class="brand-logo">
+                            <div class="w-48 h-24 bg-gray-200 rounded-lg flex items-center justify-center">
+                                <span class="text-gray-500 font-medium">Brand Logo 2</span>
+                            </div>
+                        </div>
+                        <div class="brand-logo">
+                            <div class="w-48 h-24 bg-gray-200 rounded-lg flex items-center justify-center">
+                                <span class="text-gray-500 font-medium">Brand Logo 3</span>
+                            </div>
+                        </div>
+                        <div class="brand-logo">
+                            <div class="w-48 h-24 bg-gray-200 rounded-lg flex items-center justify-center">
+                                <span class="text-gray-500 font-medium">Brand Logo 4</span>
+                            </div>
+                        </div>
+                        <div class="brand-logo">
+                            <div class="w-48 h-24 bg-gray-200 rounded-lg flex items-center justify-center">
+                                <span class="text-gray-500 font-medium">Brand Logo 5</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tablet View - 3 logos -->
+            <div class="hidden md:block lg:hidden">
+                <div class="brands-carousel">
+                    <div class="brands-track brands-track-tablet">
+                        <!-- First set of logos -->
+                        <div class="brand-logo">
+                            <div class="w-48 h-24 bg-gray-200 rounded-lg flex items-center justify-center">
+                                <span class="text-gray-500 font-medium">Brand Logo 1</span>
+                            </div>
+                        </div>
+                        <div class="brand-logo">
+                            <div class="w-48 h-24 bg-gray-200 rounded-lg flex items-center justify-center">
+                                <span class="text-gray-500 font-medium">Brand Logo 2</span>
+                            </div>
+                        </div>
+                        <div class="brand-logo">
+                            <div class="w-48 h-24 bg-gray-200 rounded-lg flex items-center justify-center">
+                                <span class="text-gray-500 font-medium">Brand Logo 3</span>
+                            </div>
+                        </div>
+                        <!-- Duplicate set for seamless loop -->
+                        <div class="brand-logo">
+                            <div class="w-48 h-24 bg-gray-200 rounded-lg flex items-center justify-center">
+                                <span class="text-gray-500 font-medium">Brand Logo 1</span>
+                            </div>
+                        </div>
+                        <div class="brand-logo">
+                            <div class="w-48 h-24 bg-gray-200 rounded-lg flex items-center justify-center">
+                                <span class="text-gray-500 font-medium">Brand Logo 2</span>
+                            </div>
+                        </div>
+                        <div class="brand-logo">
+                            <div class="w-48 h-24 bg-gray-200 rounded-lg flex items-center justify-center">
+                                <span class="text-gray-500 font-medium">Brand Logo 3</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobile View - 2 logos -->
+            <div class="md:hidden">
+                <div class="brands-carousel">
+                    <div class="brands-track brands-track-mobile">
+                        <!-- First set of logos -->
+                        <div class="brand-logo">
+                            <div class="w-40 h-20 bg-gray-200 rounded-lg flex items-center justify-center">
+                                <span class="text-gray-500 font-medium text-sm">Brand Logo 1</span>
+                            </div>
+                        </div>
+                        <div class="brand-logo">
+                            <div class="w-40 h-20 bg-gray-200 rounded-lg flex items-center justify-center">
+                                <span class="text-gray-500 font-medium text-sm">Brand Logo 2</span>
+                            </div>
+                        </div>
+                        <!-- Duplicate set for seamless loop -->
+                        <div class="brand-logo">
+                            <div class="w-40 h-20 bg-gray-200 rounded-lg flex items-center justify-center">
+                                <span class="text-gray-500 font-medium text-sm">Brand Logo 1</span>
+                            </div>
+                        </div>
+                        <div class="brand-logo">
+                            <div class="w-40 h-20 bg-gray-200 rounded-lg flex items-center justify-center">
+                                <span class="text-gray-500 font-medium text-sm">Brand Logo 2</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Message From CEO Section -->
+<section class="py-20" style="background-color: rgba(47, 37, 35, 0.1);">
+    <div class="container mx-auto px-4">
+        <!-- Desktop View -->
+        <div class="hidden lg:block">
+            <div class="flex items-center gap-16 max-w-6xl mx-auto">
+                <!-- CEO Image -->
+                <div class="w-2/5 flex-shrink-0">
+                    <div class="relative">
+                        <img src="{{ asset('images/ceopicture.jpeg') }}" 
+                             alt="Shiraq Shaleel - Founder / CEO" 
+                             class="w-full max-w-md mx-auto rounded-full aspect-square object-cover shadow-2xl">
+                    </div>
+                </div>
+                
+                <!-- Message Content -->
+                <div class="w-3/5">
+                    <h2 class="text-4xl lg:text-5xl font-poppins font-bold text-black mb-8">
+                        Message From CEO
+                    </h2>
+                    
+                    <div class="relative">
+                        <!-- Opening Quote -->
+                        <div class="absolute -top-4 -left-4 text-6xl font-bold text-black opacity-20">
+                            "
+                        </div>
+                        
+                        <p class="text-lg text-black-75 leading-relaxed mb-8 relative z-10 pl-8">
+                            Lorem ipsum dolor sit amet consectetur. Nulla vitae eget amet sagittis. Consectetur lorem 
+                            tellus morbi enim amet eget eget nunc enim. A sit condimentum parturient porttitor ornare 
+                            gravida lectus nulla. Adipiscing nunc justo arcu mi tortor. Ac sollicitudin turpis quisque 
+                            interdum tellus eget. Risus magna facilisi at risus sed habitant non porttitor.
+                        </p>
+                        
+                        <!-- Closing Quote -->
+                        <div class="absolute -bottom-4 right-0 text-6xl font-bold text-black opacity-20">
+                            "
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8">
+                        <h3 class="text-2xl font-poppins font-bold text-black mb-2">
+                            Shiraq Shaleel
+                        </h3>
+                        <p class="text-lg text-black-75">
+                            Founder / CEO
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tablet View -->
+        <div class="hidden md:block lg:hidden">
+            <div class="max-w-4xl mx-auto text-center">
+                <!-- CEO Image -->
+                <div class="mb-12">
+                    <img src="{{ asset('images/ceo-photo.jpg') }}" 
+                         alt="Shiraq Shaleel - Founder / CEO" 
+                         class="w-48 h-48 mx-auto rounded-full object-cover shadow-2xl">
+                </div>
+                
+                <!-- Message Content -->
+                <div>
+                    <h2 class="text-4xl font-poppins font-bold text-black mb-12">
+                        Message From CEO
+                    </h2>
+                    
+                    <div class="relative mb-12">
+                        <!-- Opening Quote -->
+                        <div class="absolute -top-6 left-1/2 transform -translate-x-1/2 -translate-y-full text-6xl font-bold text-black opacity-20">
+                            "
+                        </div>
+                        
+                        <p class="text-lg text-black-75 leading-relaxed relative z-10 px-8">
+                            Lorem ipsum dolor sit amet consectetur. Nulla vitae eget amet sagittis. Consectetur lorem 
+                            tellus morbi enim amet eget eget nunc enim. A sit condimentum parturient porttitor ornare 
+                            gravida lectus nulla. Adipiscing nunc justo arcu mi tortor. Ac sollicitudin turpis quisque 
+                            interdum tellus eget. Risus magna facilisi at risus sed habitant non porttitor.
+                        </p>
+                        
+                        <!-- Closing Quote -->
+                        <div class="absolute -bottom-6 left-1/2 transform -translate-x-1/2 translate-y-full text-6xl font-bold text-black opacity-20">
+                            "
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-2xl font-poppins font-bold text-black mb-2">
+                            Shiraq Shaleel
+                        </h3>
+                        <p class="text-lg text-black-75">
+                            Founder / CEO
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile View -->
+        <div class="md:hidden">
+            <div class="max-w-sm mx-auto text-center">
+                <!-- CEO Image -->
+                <div class="mb-8">
+                    <img src="{{ asset('images/ceo-photo.jpg') }}" 
+                         alt="Shiraq Shaleel - Founder / CEO" 
+                         class="w-32 h-32 mx-auto rounded-full object-cover shadow-2xl">
+                </div>
+                
+                <!-- Message Content -->
+                <div>
+                    <h2 class="text-3xl font-poppins font-bold text-black mb-8">
+                        Message From CEO
+                    </h2>
+                    
+                    <div class="relative mb-8">
+                        <!-- Opening Quote -->
+                        <div class="absolute -top-4 left-4 text-4xl font-bold text-black opacity-20">
+                            "
+                        </div>
+                        
+                        <p class="text-base text-black-75 leading-relaxed relative z-10 px-6 text-center">
+                            Lorem ipsum dolor sit amet consectetur. Nulla vitae eget amet sagittis. Consectetur lorem 
+                            tellus morbi enim amet eget eget nunc enim. A sit condimentum parturient porttitor ornare 
+                            gravida lectus nulla. Adipiscing nunc justo arcu mi tortor. Ac sollicitudin turpis quisque 
+                            interdum tellus eget. Risus magna facilisi at risus sed habitant non porttitor.
+                        </p>
+                        
+                        <!-- Closing Quote -->
+                        <div class="absolute -bottom-4 right-4 text-4xl font-bold text-black opacity-20">
+                            "
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <h3 class="text-xl font-poppins font-bold text-black mb-2">
+                            Shiraq Shaleel
+                        </h3>
+                        <p class="text-base text-black-75">
+                            Founder / CEO
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 @endsection
 
 @push('styles')
@@ -334,6 +630,122 @@
 
     .company-tab-btn:hover {
         color: #FF2212;
+    }
+
+    /* Brands Carousel Styles */
+    .brands-carousel-wrapper {
+        position: relative;
+        width: 100%;
+    }
+
+    .brands-carousel {
+        overflow: hidden;
+        width: 100%;
+        position: relative;
+    }
+
+    .brands-track {
+        display: flex;
+        animation: scroll-brands 30s linear infinite;
+        gap: 4rem;
+        width: fit-content;
+    }
+
+    .brands-track-tablet {
+        animation: scroll-brands-tablet 20s linear infinite;
+        gap: 4rem;
+    }
+
+    .brands-track-mobile {
+        animation: scroll-brands-mobile 15s linear infinite;
+        gap: 2rem;
+    }
+
+    .brand-logo {
+        flex-shrink: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+
+    .brand-logo:hover {
+        transform: scale(1.05);
+    }
+
+    .brand-logo div {
+        filter: grayscale(100%);
+        opacity: 0.7;
+        transition: all 0.3s ease;
+    }
+
+    .brand-logo:hover div {
+        filter: grayscale(0%);
+        opacity: 1;
+    }
+
+    /* Pause animation on hover */
+    .brands-track:hover {
+        animation-play-state: paused;
+    }
+
+    /* Desktop - 5 logos */
+    @keyframes scroll-brands {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(calc(-1280px - 20rem)); /* 5 * (192px + 64px) = 1280px + gaps */
+        }
+    }
+
+    /* Tablet - 3 logos */
+    @keyframes scroll-brands-tablet {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(calc(-768px - 12rem)); /* 3 * (192px + 64px) = 768px + gaps */
+        }
+    }
+
+    /* Mobile - 2 logos */
+    @keyframes scroll-brands-mobile {
+        0% {
+            transform: translateX(0);
+        }
+        100% {
+            transform: translateX(calc(-320px - 4rem)); /* 2 * (160px) = 320px + gaps */
+        }
+    }
+
+    /* Fade effect on edges */
+    .brands-carousel::before,
+    .brands-carousel::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100px;
+        z-index: 10;
+        pointer-events: none;
+    }
+
+    .brands-carousel::before {
+        left: 0;
+        background: linear-gradient(to right, white, transparent);
+    }
+
+    .brands-carousel::after {
+        right: 0;
+        background: linear-gradient(to left, white, transparent);
+    }
+
+    @media (max-width: 768px) {
+        .brands-carousel::before,
+        .brands-carousel::after {
+            width: 50px;
+        }
     }
 </style>
 
