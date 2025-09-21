@@ -5,17 +5,17 @@
 @section('content')
 <section class="hero-section relative overflow-hidden">
     <div class="absolute inset-0 z-0">
-        <div class="absolute inset-0 bg-gradient-to-br from-orange-400 via-orange-500 to-orange-600"></div>
+        <div class="absolute inset-0" style="background-color: rgba(47, 37, 35, 0.1);"></div>
     </div>
 
     <!-- Hero Content -->
     <div class="relative z-10 container mx-auto px-4 py-20 lg:py-32">
         <div class="max-w-4xl">
-            <h1 class="hero-title font-poppins font-bold text-white mb-6 leading-tight">
+            <h1 class="hero-title font-poppins font-bold text-black mb-6 leading-tight">
                 Innovation, Unity, and Growth
             </h1>
             
-            <p class="hero-description font-inter text-white/90 max-w-2xl mb-8 leading-relaxed">
+            <p class="hero-description font-inter text-black-75 max-w-2xl mb-8 leading-relaxed">
                 At Max Holdings, we unite diverse industries under one vision, driving 
                 innovation, collaboration, and sustainable growth beyond boundaries.
             </p>
@@ -607,8 +607,6 @@
 <style>
     .hero-section {
         min-height: 100vh;
-        background-size: cover;
-        background-position: center;
     }
     
     @media (max-width: 768px) {
