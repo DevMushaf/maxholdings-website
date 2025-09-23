@@ -21,12 +21,14 @@
             </p>
             
             <div class="flex flex-col sm:flex-row gap-4 items-start">
+              <a href="#services">
                 <button class="btn-primary inline-flex items-center gap-2 text-base font-medium transition-all duration-300 hover:shadow-lg hover:scale-105">
                     Explore our services
                     <svg class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
                     </svg>
                 </button>
+              </a>
             </div>
         </div>
     </div>
@@ -34,7 +36,7 @@
 </section>
 
 <!-- What We Offer Section -->
-<section class="py-20 bg-white">
+<section class="py-24 bg-white">
     <div class="container mx-auto px-4">
         <!-- Section Header -->
         <div class="text-center">
@@ -50,7 +52,7 @@
 </section>
 
 <!-- Services Section -->
-<section class="py-20" style="background-color: rgba(47, 37, 35, 0.1);">
+<section id="services" class="py-24" style="background-color: rgba(47, 37, 35, 0.1);">
     <div class="container mx-auto px-4">
         <!-- Services Grid -->
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
@@ -130,7 +132,7 @@
 </section>
 
 <!-- Company Overview Section -->
-<section class="py-20 bg-white">
+<section class="py-24 bg-white">
     <div class="container mx-auto px-4">
         <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
             <!-- Image -->
@@ -175,7 +177,7 @@
 </section>
 
 <!-- Our Companies Section -->
-<section class="py-20" style="background-color: rgba(47, 37, 35, 0.1);">
+<section class="py-24" style="background-color: rgba(47, 37, 35, 0.1);">
     <div class="container mx-auto px-4">
         <!-- Section Header -->
         <div class="text-center mb-16">
@@ -306,7 +308,7 @@
 </section>
 
 <!-- Brands We Work With Section -->
-<section class="py-20 bg-white overflow-hidden">
+<section class="py-24 bg-white overflow-hidden">
     <div class="container mx-auto px-4">
         <!-- Section Header -->
         <div class="text-center mb-16">
@@ -454,7 +456,7 @@
 </section>
 
 <!-- Message From CEO Section -->
-<section class="py-20" style="background-color: rgba(47, 37, 35, 0.1);">
+<section class="py-24">
     <div class="container mx-auto px-4">
         <!-- Desktop View -->
         <div class="hidden lg:block">
@@ -470,9 +472,11 @@
                 
                 <!-- Message Content -->
                 <div class="w-3/5">
-                    <h2 class="text-4xl lg:text-5xl font-poppins font-bold text-black mb-8">
+                  <div class="max-w-4xl mx-auto text-center">
+                    <h2 class="font-poppins font-normal text-[36px] text-[#55403F] mb-16">
                         Message From CEO
                     </h2>
+                  </div>
                     
                     <div class="relative">
                         <!-- Opening Quote -->
@@ -517,9 +521,11 @@
                 
                 <!-- Message Content -->
                 <div>
-                    <h2 class="text-4xl font-poppins font-bold text-black mb-12">
+                  <div class="max-w-4xl mx-auto text-center">
+                    <h2 class="font-poppins font-normal text-[36px] text-[#55403F] mb-16">
                         Message From CEO
                     </h2>
+                  </div>
                     
                     <div class="relative mb-12">
                         <!-- Opening Quote -->
@@ -564,9 +570,11 @@
                 
                 <!-- Message Content -->
                 <div>
-                    <h2 class="text-3xl font-poppins font-bold text-black mb-8">
+                  <div class="max-w-4xl mx-auto text-center">
+                    <h2 class="font-poppins font-normal text-[36px] text-[#55403F] mb-16">
                         Message From CEO
                     </h2>
+                  </div>
                     
                     <div class="relative mb-8">
                         <!-- Opening Quote -->
