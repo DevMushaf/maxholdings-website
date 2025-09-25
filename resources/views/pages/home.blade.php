@@ -3,133 +3,130 @@
 @section('title', 'Innovation, Unity, and Growth - Max Holdings')
 
 @section('content')
-<section class="hero-section relative overflow-hidden">
-    <div class="absolute inset-0 z-0">
-        <div class="absolute inset-0" style="background-color: rgba(47, 37, 35, 0.1);"></div>
-    </div>
+<section class="hero-section relative overflow-hidden" 
+         style="background-image: url('{{ asset('images/aboutheroimage.webp') }}'); 
+                background-size: cover; 
+                background-position: center; 
+                background-repeat: no-repeat;">
+
+    <!-- Optional overlay for better text readability -->
+    <div class="absolute inset-0 bg-black/20 z-0"></div>
 
     <!-- Hero Content -->
     <div class="relative z-10 container mx-auto px-4 py-20 lg:py-32">
         <div class="max-w-4xl">
-            <h1 class="hero-title font-poppins font-bold text-black mb-6 leading-tight">
+            <h1 class="hero-title font-poppins font-bold text-white mb-6 leading-tight">
                 Innovation, Unity, and Growth
             </h1>
             
-            <p class="hero-description font-inter text-black-75 max-w-2xl mb-8 leading-relaxed">
+            <p class="hero-description font-inter text-white/90 max-w-2xl mb-8 leading-relaxed">
                 At Max Holdings, we unite diverse industries under one vision, driving 
                 innovation, collaboration, and sustainable growth beyond boundaries.
             </p>
             
             <div class="flex flex-col sm:flex-row gap-4 items-start">
-              <a href="#services">
-                <button class="btn-primary inline-flex items-center gap-2 text-base font-medium transition-all duration-300 hover:shadow-lg hover:scale-105">
-                    Explore our services
-                    <svg class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
-                    </svg>
-                </button>
-              </a>
+                <a href="#services">
+                    <button class="btn-primary inline-flex items-center gap-2 text-base font-medium transition-all duration-300 hover:shadow-lg hover:scale-105">
+                        Explore our services
+                        <svg class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg>
+                    </button>
+                </a>
             </div>
         </div>
     </div>
     
 </section>
 
-<!-- What We Offer Section -->
-<section class="py-24 bg-white">
-    <div class="container mx-auto px-4">
+<!-- Modern Staggered Services Section -->
+<section class="relative py-24 bg-gradient-to-b from-gray-50 to-white overflow-hidden">
+    <div class="container mx-auto px-4 relative z-10">
         <!-- Section Header -->
-        <div class="text-center">
-            <h2 class="text-4xl lg:text-5xl font-poppins font-bold text-black mb-6">
-                What we offer
+        <div class="text-center mb-24">
+            <h2 class="text-4xl lg:text-5xl font-poppins font-bold text-gray-900 mb-6">
+                What We Offer
             </h2>
-            <p class="text-lg lg:text-xl text-black-75 max-w-4xl mx-auto leading-relaxed">
-                At Max Holdings, we provide reliable solutions across industries from engineering and 
-                manpower to tourism and events designed to add value and convenience for every client.
+            <p class="text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+                At Max Holdings, we provide reliable solutions across industries from engineering and manpower to tourism and events designed to add value and convenience for every client.
             </p>
         </div>
-    </div>
-</section>
 
-<!-- Services Section -->
-<section id="services" class="py-24" style="background-color: rgba(47, 37, 35, 0.1);">
-    <div class="container mx-auto px-4">
-        <!-- Services Grid -->
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
-            <!-- Passenger Lifts -->
-            <div class="bg-white rounded-2xl shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
-                <div class="aspect-video overflow-hidden">
-                    <img src="{{ asset('images/passenger-lifts.jpg') }}" 
-                         alt="Modern passenger lift interior with red lighting" 
-                         class="w-full h-full object-cover transition-transform duration-300 hover:scale-110">
+        <!-- Staggered Services Grid -->
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-10">
+            <!-- Card 1 -->
+            <div class="bg-white rounded-3xl shadow-2xl overflow-hidden transform transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:-translate-y-3 relative z-10">
+                <div class="relative aspect-video overflow-hidden">
+                    <img src="{{ asset('images/passengerlifts.png') }}" 
+                         alt="Modern passenger lift interior with red lighting"
+                         class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
                 </div>
                 <div class="p-8">
-                    <h3 class="text-2xl font-poppins font-semibold text-black mb-4">
+                    <h3 class="text-2xl font-poppins font-semibold text-gray-900 mb-4">
                         Passenger Lifts
                     </h3>
-                    <p class="text-black-75 leading-relaxed">
-                        Safe, comfortable, and cost-effective lift solutions designed for everyday 
-                        use in residential and commercial buildings.
+                    <p class="text-gray-600 leading-relaxed">
+                        Safe, comfortable, and cost-effective lift solutions designed for everyday use in residential and commercial buildings.
                     </p>
                 </div>
             </div>
 
-            <!-- Manpower Supply -->
-            <div class="bg-white rounded-2xl shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
-                <div class="aspect-video overflow-hidden">
-                    <img src="{{ asset('images/manpower-supply.jpg') }}" 
-                         alt="Professional worker in checkered shirt and overalls" 
-                         class="w-full h-full object-cover transition-transform duration-300 hover:scale-110">
+            <!-- Card 2 (staggered down) -->
+            <div class="bg-white rounded-3xl shadow-2xl overflow-hidden transform transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:-translate-y-3 relative -mt-12 z-20">
+                <div class="relative aspect-video overflow-hidden">
+                    <img src="{{ asset('images/manpowersupply.png') }}" 
+                         alt="Professional worker in checkered shirt and overalls"
+                         class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
                 </div>
                 <div class="p-8">
-                    <h3 class="text-2xl font-poppins font-semibold text-black mb-4">
+                    <h3 class="text-2xl font-poppins font-semibold text-gray-900 mb-4">
                         Manpower Supply
                     </h3>
-                    <p class="text-black-75 leading-relaxed">
-                        Providing skilled and unskilled general workers to meet the day-to-day 
-                        operational needs of multiple industries.
+                    <p class="text-gray-600 leading-relaxed">
+                        Providing skilled and unskilled general workers to meet the day-to-day operational needs of multiple industries.
                     </p>
                 </div>
             </div>
 
-            <!-- Accessibility Solutions -->
-            <div class="bg-white rounded-2xl shadow-lg overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-xl">
-                <div class="aspect-video overflow-hidden">
-                    <img src="{{ asset('images/passenger-lifts.jpg') }}" 
-                         alt="Hand using accessible stair lift controls" 
-                         class="w-full h-full object-cover transition-transform duration-300 hover:scale-110">
+            <!-- Card 3 (staggered up) -->
+            <div class="bg-white rounded-3xl shadow-2xl overflow-hidden transform transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:-translate-y-3 relative -mt-6 z-30">
+                <div class="relative aspect-video overflow-hidden">
+                    <img src="{{ asset('images/accessibility.png') }}" 
+                         alt="Hand using accessible stair lift controls"
+                         class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
                 </div>
                 <div class="p-8">
-                    <h3 class="text-2xl font-poppins font-semibold text-black mb-4">
+                    <h3 class="text-2xl font-poppins font-semibold text-gray-900 mb-4">
                         Accessibility Solutions
                     </h3>
-                    <p class="text-black-75 leading-relaxed">
-                        Custom stairway installations that ensure maximum safety, minimal 
-                        space usage, and low-maintenance accessibility.
+                    <p class="text-gray-600 leading-relaxed">
+                        Custom stairway installations that ensure maximum safety, minimal space usage, and low-maintenance accessibility.
                     </p>
                 </div>
             </div>
         </div>
 
-        <!-- Call to Action Button -->
-        <div class="text-center">
-            <a href="{{ route('services') }}" 
-               class="btn-primary inline-flex items-center gap-3 text-base font-medium transition-all duration-300 hover:shadow-lg hover:scale-105">
+        <!-- CTA Button -->
+        <div class="text-center mt-20">
+            <a href="{{ route('services') }}"
+               class="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-medium rounded-full shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300">
                 View all our services
-                <svg class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" 
-                     fill="none" 
-                     stroke="currentColor" 
-                     viewBox="0 0 24 24">
-                    <path stroke-linecap="round" 
-                          stroke-linejoin="round" 
-                          stroke-width="2" 
-                          d="M17 8l4 4m0 0l-4 4m4-4H3">
-                    </path>
+                <svg class="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
                 </svg>
             </a>
         </div>
     </div>
+
+    <!-- Decorative Shapes -->
+    <div class="absolute -top-20 -left-20 w-72 h-72 bg-blue-100 rounded-full opacity-30 blur-3xl"></div>
+    <div class="absolute -bottom-20 -right-20 w-96 h-96 bg-indigo-100 rounded-full opacity-30 blur-3xl"></div>
 </section>
+
+
 
 <!-- Company Overview Section -->
 <section class="py-24 bg-white">
@@ -138,7 +135,7 @@
             <!-- Image -->
             <div class="w-full lg:w-2/5">
                 <div class="aspect-[4/3] overflow-hidden rounded-2xl">
-                    <img src="{{ asset('images/company-overview.jpg') }}" 
+                    <img src="{{ asset('images/companyoverview.png') }}" 
                          alt="Industrial manufacturing facility with precision machinery" 
                          class="w-full h-full object-cover">
                 </div>
@@ -177,7 +174,7 @@
 </section>
 
 <!-- Our Companies Section -->
-<section class="py-24" style="background-color: rgba(47, 37, 35, 0.1);">
+<section class="py-24 bg-gray-50">
     <div class="container mx-auto px-4">
         <!-- Section Header -->
         <div class="text-center mb-16">
