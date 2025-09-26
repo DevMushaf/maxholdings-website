@@ -74,9 +74,10 @@
         
         <!-- Max Engineering -->
         <div class="flex flex-col lg:flex-row items-center gap-8 lg:gap-24 mb-12 lg:mb-16">
-            <!-- Image Placeholder -->
             <div class="w-full lg:w-5/12 max-w-sm lg:max-w-none flex-shrink-0">
-                <div class="bg-gray-300 aspect-[4/3] rounded-lg"></div>
+                <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
+                    alt="Max Engineering Logo" 
+                    class="rounded-lg w-80 mx-auto lg:mx-0">
             </div>
             
             <!-- Content -->
@@ -92,9 +93,10 @@
         
         <!-- Max Manpower -->
         <div class="flex flex-col lg:flex-row-reverse items-center gap-8 lg:gap-24 mb-12 lg:mb-16">
-            <!-- Image Placeholder -->
             <div class="w-full lg:w-5/12 max-w-sm lg:max-w-none flex-shrink-0">
-                <div class="bg-gray-300 aspect-[4/3] rounded-lg"></div>
+                <img src="{{ asset('images/maxholdingsmclogo.png') }}" 
+                    alt="Max Engineering Logo" 
+                    class="rounded-lg">
             </div>
             
             <!-- Content -->
@@ -110,9 +112,10 @@
         
         <!-- Max Tourism -->
         <div class="flex flex-col lg:flex-row items-center gap-8 lg:gap-24">
-            <!-- Image Placeholder -->
             <div class="w-full lg:w-5/12 max-w-sm lg:max-w-none flex-shrink-0">
-                <div class="bg-gray-300 aspect-[4/3] rounded-lg"></div>
+                <img src="{{ asset('images/maxholdingslogo1.png') }}" 
+                    alt="Max Engineering Logo" 
+                    class="rounded-lg">
             </div>
             
             <!-- Content -->

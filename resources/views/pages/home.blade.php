@@ -212,7 +212,7 @@
                 <!-- Engineering -->
                 <div id="engineering-content" class="company-content bg-white rounded-2xl shadow-lg p-12 items-center gap-12" style="display: flex;">
                     <div class="w-2/5">
-                        <img src="{{ asset('images/max-engineering-logo.png') }}" 
+                        <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
                              alt="Max Engineering Logo" 
                              class="w-full max-w-xs mx-auto">
                     </div>
@@ -227,7 +227,7 @@
                 <!-- Manpower -->
                 <div id="manpower-content" class="company-content bg-white rounded-2xl shadow-lg p-12 items-center gap-12" style="display: none;">
                     <div class="w-2/5">
-                        <img src="{{ asset('images/max-manpower-logo.png') }}" 
+                        <img src="{{ asset('images/maxholdingsmclogo.png') }}" 
                              alt="Max Manpower & Consultancy Logo" 
                              class="w-full max-w-xs mx-auto">
                     </div>
@@ -243,7 +243,7 @@
                 <!-- Tourism -->
                 <div id="tourism-content" class="company-content bg-white rounded-2xl shadow-lg p-12 items-center gap-12" style="display: none;">
                     <div class="w-2/5">
-                        <img src="{{ asset('images/max-tourism-logo.png') }}" 
+                        <img src="{{ asset('images/maxholdingslogo1.png') }}" 
                              alt="Max Tourism Logo" 
                              class="w-full max-w-xs mx-auto">
                     </div>
@@ -263,7 +263,7 @@
             <!-- Engineering -->
             <div class="bg-white rounded-2xl shadow-lg p-8 text-center">
                 <div class="mb-6">
-                    <img src="{{ asset('images/max-engineering-logo.png') }}" 
+                    <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
                          alt="Max Engineering Logo" 
                          class="w-full max-w-xs mx-auto">
                 </div>
@@ -276,7 +276,7 @@
             <!-- Manpower -->
             <div class="bg-white rounded-2xl shadow-lg p-8 text-center">
                 <div class="mb-6">
-                    <img src="{{ asset('images/max-manpower-logo.png') }}" 
+                    <img src="{{ asset('images/maxholdingsmclogo.png') }}" 
                          alt="Max Manpower & Consultancy Logo" 
                          class="w-full max-w-xs mx-auto">
                 </div>
@@ -290,7 +290,7 @@
             <!-- Tourism -->
             <div class="bg-white rounded-2xl shadow-lg p-8 text-center">
                 <div class="mb-6">
-                    <img src="{{ asset('images/max-tourism-logo.png') }}" 
+                    <img src="{{ asset('images/maxholdingslogo1.png') }}" 
                          alt="Max Tourism Logo" 
                          class="w-full max-w-xs mx-auto">
                 </div>
@@ -325,54 +325,74 @@
                     <div class="brands-track">
                         <!-- First set of logos -->
                         <div class="brand-logo">
-                            <div class="w-48 h-24 bg-gray-200 rounded-lg flex items-center justify-center">
-                                <span class="text-gray-500 font-medium">Brand Logo 1</span>
+                            <div class="w-48 h-24 rounded-lg flex items-center justify-center">
+                                <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
+                                    alt="Brand 1 Logo" 
+                                    class="w-full max-w-xs mx-auto" />
                             </div>
                         </div>
                         <div class="brand-logo">
-                            <div class="w-48 h-24 bg-gray-200 rounded-lg flex items-center justify-center">
-                                <span class="text-gray-500 font-medium">Brand Logo 2</span>
+                            <div class="w-48 h-24 rounded-lg flex items-center justify-center">
+                                <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
+                                    alt="Brand 2 Logo" 
+                                    class="w-full max-w-xs mx-auto" />
                             </div>
                         </div>
                         <div class="brand-logo">
-                            <div class="w-48 h-24 bg-gray-200 rounded-lg flex items-center justify-center">
-                                <span class="text-gray-500 font-medium">Brand Logo 3</span>
+                            <div class="w-48 h-24 rounded-lg flex items-center justify-center">
+                                <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
+                                    alt="Brand 3 Logo" 
+                                    class="w-full max-w-xs mx-auto" />
                             </div>
                         </div>
                         <div class="brand-logo">
-                            <div class="w-48 h-24 bg-gray-200 rounded-lg flex items-center justify-center">
-                                <span class="text-gray-500 font-medium">Brand Logo 4</span>
+                            <div class="w-48 h-24 rounded-lg flex items-center justify-center">
+                                <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
+                                    alt="Brand 4 Logo" 
+                                    class="w-full max-w-xs mx-auto" />
                             </div>
                         </div>
                         <div class="brand-logo">
-                            <div class="w-48 h-24 bg-gray-200 rounded-lg flex items-center justify-center">
-                                <span class="text-gray-500 font-medium">Brand Logo 5</span>
+                            <div class="w-48 h-24 rounded-lg flex items-center justify-center">
+                                <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
+                                    alt="Brand 5 Logo" 
+                                    class="w-full max-w-xs mx-auto" />
                             </div>
                         </div>
                         <!-- Duplicate set for seamless loop -->
                         <div class="brand-logo">
-                            <div class="w-48 h-24 bg-gray-200 rounded-lg flex items-center justify-center">
-                                <span class="text-gray-500 font-medium">Brand Logo 1</span>
+                            <div class="w-48 h-24 rounded-lg flex items-center justify-center">
+                                <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
+                                    alt="Brand 1 Logo" 
+                                    class="w-full max-w-xs mx-auto" />
                             </div>
                         </div>
                         <div class="brand-logo">
-                            <div class="w-48 h-24 bg-gray-200 rounded-lg flex items-center justify-center">
-                                <span class="text-gray-500 font-medium">Brand Logo 2</span>
+                            <div class="w-48 h-24 rounded-lg flex items-center justify-center">
+                                <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
+                                    alt="Brand 2 Logo" 
+                                    class="w-full max-w-xs mx-auto" />
                             </div>
                         </div>
                         <div class="brand-logo">
-                            <div class="w-48 h-24 bg-gray-200 rounded-lg flex items-center justify-center">
-                                <span class="text-gray-500 font-medium">Brand Logo 3</span>
+                            <div class="w-48 h-24 rounded-lg flex items-center justify-center">
+                                <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
+                                    alt="Brand 3 Logo" 
+                                    class="w-full max-w-xs mx-auto" />
                             </div>
                         </div>
                         <div class="brand-logo">
-                            <div class="w-48 h-24 bg-gray-200 rounded-lg flex items-center justify-center">
-                                <span class="text-gray-500 font-medium">Brand Logo 4</span>
+                            <div class="w-48 h-24 rounded-lg flex items-center justify-center">
+                                <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
+                                    alt="Brand 4 Logo" 
+                                    class="w-full max-w-xs mx-auto" />
                             </div>
                         </div>
                         <div class="brand-logo">
-                            <div class="w-48 h-24 bg-gray-200 rounded-lg flex items-center justify-center">
-                                <span class="text-gray-500 font-medium">Brand Logo 5</span>
+                            <div class="w-48 h-24 rounded-lg flex items-center justify-center">
+                                <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
+                                    alt="Brand 5 Logo" 
+                                    class="w-full max-w-xs mx-auto" />
                             </div>
                         </div>
                     </div>
@@ -385,34 +405,46 @@
                     <div class="brands-track brands-track-tablet">
                         <!-- First set of logos -->
                         <div class="brand-logo">
-                            <div class="w-48 h-24 bg-gray-200 rounded-lg flex items-center justify-center">
-                                <span class="text-gray-500 font-medium">Brand Logo 1</span>
+                            <div class="w-48 h-24 rounded-lg flex items-center justify-center">
+                                <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
+                                    alt="Brand 1 Logo" 
+                                    class="w-full max-w-xs mx-auto" />
                             </div>
                         </div>
                         <div class="brand-logo">
-                            <div class="w-48 h-24 bg-gray-200 rounded-lg flex items-center justify-center">
-                                <span class="text-gray-500 font-medium">Brand Logo 2</span>
+                            <div class="w-48 h-24 rounded-lg flex items-center justify-center">
+                                <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
+                                    alt="Brand 2 Logo" 
+                                    class="w-full max-w-xs mx-auto" />
                             </div>
                         </div>
                         <div class="brand-logo">
-                            <div class="w-48 h-24 bg-gray-200 rounded-lg flex items-center justify-center">
-                                <span class="text-gray-500 font-medium">Brand Logo 3</span>
+                            <div class="w-48 h-24 rounded-lg flex items-center justify-center">
+                                <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
+                                    alt="Brand 3 Logo" 
+                                    class="w-full max-w-xs mx-auto" />
                             </div>
                         </div>
                         <!-- Duplicate set for seamless loop -->
                         <div class="brand-logo">
-                            <div class="w-48 h-24 bg-gray-200 rounded-lg flex items-center justify-center">
-                                <span class="text-gray-500 font-medium">Brand Logo 1</span>
+                            <div class="w-48 h-24 rounded-lg flex items-center justify-center">
+                                <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
+                                    alt="Brand 1 Logo" 
+                                    class="w-full max-w-xs mx-auto" />
                             </div>
                         </div>
                         <div class="brand-logo">
-                            <div class="w-48 h-24 bg-gray-200 rounded-lg flex items-center justify-center">
-                                <span class="text-gray-500 font-medium">Brand Logo 2</span>
+                            <div class="w-48 h-24 rounded-lg flex items-center justify-center">
+                                <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
+                                    alt="Brand 2 Logo" 
+                                    class="w-full max-w-xs mx-auto" />
                             </div>
                         </div>
                         <div class="brand-logo">
-                            <div class="w-48 h-24 bg-gray-200 rounded-lg flex items-center justify-center">
-                                <span class="text-gray-500 font-medium">Brand Logo 3</span>
+                            <div class="w-48 h-24 rounded-lg flex items-center justify-center">
+                                <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
+                                    alt="Brand 3 Logo" 
+                                    class="w-full max-w-xs mx-auto" />
                             </div>
                         </div>
                     </div>
@@ -425,24 +457,32 @@
                     <div class="brands-track brands-track-mobile">
                         <!-- First set of logos -->
                         <div class="brand-logo">
-                            <div class="w-40 h-20 bg-gray-200 rounded-lg flex items-center justify-center">
-                                <span class="text-gray-500 font-medium text-sm">Brand Logo 1</span>
+                            <div class="w-40 h-20 rounded-lg flex items-center justify-center">
+                                <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
+                                    alt="Brand 1 Logo" 
+                                    class="w-full max-w-xs mx-auto" />
                             </div>
                         </div>
                         <div class="brand-logo">
-                            <div class="w-40 h-20 bg-gray-200 rounded-lg flex items-center justify-center">
-                                <span class="text-gray-500 font-medium text-sm">Brand Logo 2</span>
+                            <div class="w-40 h-20 rounded-lg flex items-center justify-center">
+                                <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
+                                    alt="Brand 2 Logo" 
+                                    class="w-full max-w-xs mx-auto" />
                             </div>
                         </div>
                         <!-- Duplicate set for seamless loop -->
                         <div class="brand-logo">
-                            <div class="w-40 h-20 bg-gray-200 rounded-lg flex items-center justify-center">
-                                <span class="text-gray-500 font-medium text-sm">Brand Logo 1</span>
+                            <div class="w-40 h-20 rounded-lg flex items-center justify-center">
+                                <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
+                                    alt="Brand 1 Logo" 
+                                    class="w-full max-w-xs mx-auto" />
                             </div>
                         </div>
                         <div class="brand-logo">
-                            <div class="w-40 h-20 bg-gray-200 rounded-lg flex items-center justify-center">
-                                <span class="text-gray-500 font-medium text-sm">Brand Logo 2</span>
+                            <div class="w-40 h-24 rounded-lg flex items-center justify-center">
+                                <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
+                                    alt="Brand 2 Logo" 
+                                    class="w-full max-w-xs mx-auto" />
                             </div>
                         </div>
                     </div>
@@ -461,7 +501,7 @@
                 <!-- CEO Image -->
                 <div class="w-2/5 flex-shrink-0">
                     <div class="relative">
-                        <img src="{{ asset('images/ceopicture.jpeg') }}" 
+                        <img src="{{ asset('images/ceopicture.jpg') }}" 
                              alt="Shiraq Shaleel - Founder / CEO" 
                              class="w-full max-w-md mx-auto rounded-full aspect-square object-cover shadow-2xl">
                     </div>
@@ -511,7 +551,7 @@
             <div class="max-w-4xl mx-auto text-center">
                 <!-- CEO Image -->
                 <div class="mb-12">
-                    <img src="{{ asset('images/ceo-photo.jpg') }}" 
+                    <img src="{{ asset('images/ceopicture.jpg') }}" 
                          alt="Shiraq Shaleel - Founder / CEO" 
                          class="w-48 h-48 mx-auto rounded-full object-cover shadow-2xl">
                 </div>
@@ -560,7 +600,7 @@
             <div class="max-w-sm mx-auto text-center">
                 <!-- CEO Image -->
                 <div class="mb-8">
-                    <img src="{{ asset('images/ceo-photo.jpg') }}" 
+                    <img src="{{ asset('images/ceopicture.jpg') }}" 
                          alt="Shiraq Shaleel - Founder / CEO" 
                          class="w-32 h-32 mx-auto rounded-full object-cover shadow-2xl">
                 </div>
