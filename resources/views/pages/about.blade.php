@@ -4,16 +4,20 @@
 
 @section('content')
 <!-- About Us Hero Section -->
-<section class="bg-[#D9D9D9] py-16 md:py-24 lg:py-32">
+<section class="relative py-16 md:py-24 lg:py-32 bg-center bg-cover bg-no-repeat" 
+         style="background-image: url('{{ asset('images/abouthero.webp') }}');">
+
+    <div class="absolute inset-0 bg-gradient-to-r from-black/60 via-black/40 to-black/20 z-0"></div>
+
     <div class="container mx-auto px-4">
         <div class="text-center text-white">
             <!-- About Us Title -->
-            <h1 class="font-poppins font-bold text-2xl md:text-4xl lg:text-5xl mb-4 lg:mb-6">
+            <h1 class="font-poppins font-bold text-2xl md:text-4xl lg:text-5xl mb-4 lg:mb-6 drop-shadow-lg">
                 About Us
             </h1>
             
             <!-- Subtitle -->
-            <p class="font-poppins italic text-base md:text-xl lg:text-2xl max-w-2xl mx-auto">
+            <p class="font-poppins italic text-base md:text-xl lg:text-2xl max-w-2xl mx-auto drop-shadow-md">
                 One Vision. Many Ventures. Shared Success
             </p>
         </div>
@@ -21,152 +25,192 @@
 </section>
 
 <!-- Company Information Section -->
-<section class="py-16 md:py-20 lg:py-24 bg-white">
-    <div class="container mx-auto px-4">
-        <div class="flex flex-col lg:flex-row gap-8 lg:gap-16 items-start">
-            <!-- Left Content - 70% -->
-            <div class="w-full lg:w-[70%] space-y-6">
-                <p class="font-inter text-base leading-[30px] text-[#2F2523] text-opacity-75">
-                    Founded in 2021 and proudly Sri Lankan-owned, Max Holdings Pvt Ltd is more than a diversified business group; we are a catalyst for growth, innovation, and global collaboration. Headquartered in Minuwangoda, we operate through our subsidiaries, Max Engineering, Max Manpower & Consultancy, and Max Tourism delivering tailored solutions across industries while empowering businesses and brands both locally and internationally.
-                </p>
-                
-                <p class="font-inter text-base leading-[30px] text-[#2F2523] text-opacity-75">
-                    Over the years, we have helped numerous companies and brands thrive, connecting ideas to execution and transforming challenges into opportunities. From engineering precision and workforce solutions to immersive travel experiences, our approach is always holistic, adaptive, and forward-thinking.
-                </p>
-                
-                <p class="font-inter text-base leading-[30px] text-[#2F2523] text-opacity-75">
-                    At Max Holdings, we don't just provide services we create legacies. Driven by integrity, excellence, and innovation, we unite diverse sectors under one vision to redefine what's possible for our clients, inspire growth across industries, and leave a lasting impact on every community we serve.
-                </p>
+<section class="py-20 lg:py-28 bg-gradient-to-b from-white to-gray-50">
+  <div class="container mx-auto px-4">
+    <div class="flex flex-col lg:flex-row gap-12 lg:gap-20 items-start">
+      
+      <!-- Left Content -->
+      <div class="w-full lg:w-2/3 space-y-6">
+        <p class="font-inter text-lg leading-relaxed text-gray-700">
+          Founded in 2021 and proudly Sri Lankan-owned, Max Holdings Pvt Ltd is more than a diversified business group; we are a catalyst for growth, innovation, and global collaboration. Headquartered in Minuwangoda, we operate through our subsidiaries, Max Engineering, Max Manpower & Consultancy, and Max Tourism delivering tailored solutions across industries while empowering businesses and brands both locally and internationally.
+        </p>
+        
+        <p class="font-inter text-lg leading-relaxed text-gray-700">
+          Over the years, we have helped numerous companies and brands thrive, connecting ideas to execution and transforming challenges into opportunities. From engineering precision and workforce solutions to immersive travel experiences, our approach is always holistic, adaptive, and forward-thinking.
+        </p>
+        
+        <p class="font-inter text-lg leading-relaxed text-gray-700">
+          At Max Holdings, we don't just provide services—we create legacies. Driven by integrity, excellence, and innovation, we unite diverse sectors under one vision to redefine what's possible for our clients, inspire growth across industries, and leave a lasting impact on every community we serve.
+        </p>
+      </div>
+      
+      <!-- Right Content -->
+      <div class="w-full lg:w-1/3 flex flex-col items-center lg:items-start">
+        <div class="grid gap-6 w-full max-w-sm">
+          
+          <!-- Founded Card -->
+          <div class="bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+            <div class="flex items-center gap-4">
+              <div class="bg-gradient-to-tr from-red-500 to-orange-500 text-white p-3 rounded-xl shadow-md">
+                <i class="fas fa-calendar-alt text-2xl"></i>
+              </div>
+              <div>
+                <p class="font-inter text-sm text-gray-500 uppercase tracking-wide">Founded</p>
+                <p class="font-poppins font-bold text-2xl text-gray-900">2021</p>
+              </div>
             </div>
-            
-            <!-- Right Content - 30% -->
-            <div class="w-full lg:w-[30%] flex flex-col items-center lg:items-start">
-                <div class="space-y-4 lg:space-y-6 w-full max-w-[360px]">
-                <!-- Founded Card -->
-                <div class="bg-[#FF2212] rounded-lg p-6 shadow-lg">
-                    <p class="font-inter font-medium text-xl text-white mb-4">Founded</p>
-                    <p class="font-poppins font-semibold text-xl text-white">2021</p>
-                </div>
-                
-                <!-- Headquarters Card -->
-                <div class="bg-[#FF2212] rounded-lg p-6 shadow-lg">
-                    <p class="font-inter font-medium text-xl text-white mb-4">Headquarters</p>
-                    <p class="font-poppins font-semibold text-xl text-white">Minuwangoda, Sri Lanka</p>
-                </div>
-                
-                <!-- Subsidiaries Card -->
-                <div class="bg-[#FF2212] rounded-lg p-6 shadow-lg">
-                    <p class="font-inter font-medium text-xl text-white mb-4">Subsidiaries</p>
-                    <p class="font-poppins font-semibold text-xl text-white">3 Specialized companies</p>
-                </div>
+          </div>
+
+          <!-- Headquarters Card -->
+          <div class="bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+            <div class="flex items-center gap-4">
+              <div class="bg-gradient-to-tr from-red-500 to-orange-500 text-white p-3 rounded-xl shadow-md">
+                <i class="fas fa-map-marker-alt text-2xl"></i>
+              </div>
+              <div>
+                <p class="font-inter text-sm text-gray-500 uppercase tracking-wide">Headquarters</p>
+                <p class="font-poppins font-bold text-xl text-gray-900">Minuwangoda, Sri Lanka</p>
+              </div>
             </div>
+          </div>
+
+          <!-- Subsidiaries Card -->
+          <div class="bg-white border border-gray-200 rounded-2xl p-6 shadow-md hover:shadow-xl transition duration-300 transform hover:-translate-y-1">
+            <div class="flex items-center gap-4">
+              <div class="bg-gradient-to-tr from-red-500 to-orange-500 text-white p-3 rounded-xl shadow-md">
+                <i class="fas fa-building text-2xl"></i>
+              </div>
+              <div>
+                <p class="font-inter text-sm text-gray-500 uppercase tracking-wide">Subsidiaries</p>
+                <p class="font-poppins font-bold text-xl text-gray-900">3 Specialized companies</p>
+              </div>
+            </div>
+          </div>
+          
         </div>
+      </div>
+      
     </div>
+  </div>
 </section>
+
 
 <!-- Our Subsidiaries Section -->
 <section class="py-16 md:py-20 lg:py-24 bg-gray-50">
-    <div class="container mx-auto px-4">
-        <!-- Section Title -->
-        <h2 class="font-poppins font-bold text-3xl md:text-4xl text-[#2F2523] text-center mb-16 md:mb-20 lg:mb-24">
-            Our Subsidiaries
-        </h2>
-        
-        <!-- Max Engineering -->
-        <div class="flex flex-col lg:flex-row items-center gap-8 lg:gap-24 mb-12 lg:mb-16">
-            <div class="w-full lg:w-5/12 max-w-sm lg:max-w-none flex-shrink-0">
-                <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
-                    alt="Max Engineering Logo" 
-                    class="rounded-lg w-80 mx-auto lg:mx-0">
-            </div>
-            
-            <!-- Content -->
-            <div class="w-full lg:w-7/12 text-center lg:text-left">
-                <h3 class="font-poppins font-bold text-2xl md:text-2xl text-[#2F2523] mb-6">
-                    Max Engineering
-                </h3>
-                <p class="font-inter text-base leading-[30px] text-[#2F2523] text-opacity-75">
-                    At Max Engineering, we design and deliver advanced lift solutions that redefine safety, comfort, and efficiency. From residential complexes to commercial hubs and large-scale industrial projects, our focus is on creating reliable, future-ready systems that ensure accessibility and sustainable growth throughout Sri Lanka.
-                </p>
-            </div>
+  <div class="container mx-auto px-4">
+    <!-- Section Title -->
+    <h2 class="font-poppins font-bold text-3xl md:text-4xl text-[#2F2523] text-center mb-16">
+      Our Subsidiaries
+    </h2>
+
+    <div class="space-y-12">
+      <!-- Max Engineering -->
+      <div class="flex flex-col lg:flex-row items-center overflow-hidden rounded-2xl shadow-lg">
+        <!-- Image -->
+        <div class="w-full lg:w-5/12 bg-[#E6F0FF] flex items-center justify-center p-8">
+          <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
+               alt="Max Engineering Logo" 
+               class="rounded-lg w-56 md:w-64">
         </div>
-        
-        <!-- Max Manpower -->
-        <div class="flex flex-col lg:flex-row-reverse items-center gap-8 lg:gap-24 mb-12 lg:mb-16">
-            <div class="w-full lg:w-5/12 max-w-sm lg:max-w-none flex-shrink-0">
-                <img src="{{ asset('images/maxholdingsmclogo.png') }}" 
-                    alt="Max Engineering Logo" 
-                    class="rounded-lg">
-            </div>
-            
-            <!-- Content -->
-            <div class="w-full lg:w-7/12 text-center lg:text-left">
-                <h3 class="font-poppins font-bold text-2xl md:text-2xl text-[#2F2523] mb-6">
-                    Max Manpower
-                </h3>
-                <p class="font-inter text-base leading-[30px] text-[#2F2523] text-opacity-75">
-                    Max Manpower is your trusted partner for workforce excellence. We provide skilled and dependable staffing solutions, seamlessly connecting businesses with the right talent in construction, manufacturing, and FMCG industries. Our mission is to enhance operational efficiency, foster growth, and empower both employers and employees to achieve success.
-                </p>
-            </div>
+        <!-- Content -->
+        <div class="w-full lg:w-7/12 bg-white p-8 md:p-12">
+          <h3 class="font-poppins font-bold text-2xl text-[#2F2523] mb-4">
+            Max Engineering
+          </h3>
+          <p class="font-inter text-base leading-relaxed text-[#2F2523]/75">
+            At Max Engineering, we design and deliver advanced lift solutions that redefine safety, comfort, and efficiency. From residential complexes to commercial hubs and large-scale industrial projects, our focus is on creating reliable, future-ready systems that ensure accessibility and sustainable growth throughout Sri Lanka.
+          </p>
         </div>
-        
-        <!-- Max Tourism -->
-        <div class="flex flex-col lg:flex-row items-center gap-8 lg:gap-24">
-            <div class="w-full lg:w-5/12 max-w-sm lg:max-w-none flex-shrink-0">
-                <img src="{{ asset('images/maxholdingslogo1.png') }}" 
-                    alt="Max Engineering Logo" 
-                    class="rounded-lg">
-            </div>
-            
-            <!-- Content -->
-            <div class="w-full lg:w-7/12 text-center lg:text-left">
-                <h3 class="font-poppins font-bold text-2xl md:text-2xl text-[#2F2523] mb-6">
-                    Max Tourism
-                </h3>
-                <p class="font-inter text-base leading-[30px] text-[#2F2523] text-opacity-75">
-                    Max Tourism opens the gateway to Sri Lanka's wonders through meaningful and responsible travel. We craft experiences that highlight the island's natural beauty and cultural richness, while uplifting local communities. With us, every journey becomes more than a trip it transforms into a lasting memory for global explorers.
-                </p>
-            </div>
+      </div>
+
+      <!-- Max Manpower -->
+      <div class="flex flex-col lg:flex-row-reverse items-center overflow-hidden rounded-2xl shadow-lg">
+        <!-- Image -->
+        <div class="w-full lg:w-5/12 bg-[#FFF2E6] flex items-center justify-center p-8">
+          <img src="{{ asset('images/maxholdingsmclogo.png') }}" 
+               alt="Max Manpower Logo" 
+               class="rounded-lg w-56 md:w-64">
         </div>
+        <!-- Content -->
+        <div class="w-full lg:w-7/12 bg-white p-8 md:p-12">
+          <h3 class="font-poppins font-bold text-2xl text-[#2F2523] mb-4">
+            Max Manpower
+          </h3>
+          <p class="font-inter text-base leading-relaxed text-[#2F2523]/75">
+            Max Manpower is your trusted partner for workforce excellence. We provide skilled and dependable staffing solutions, seamlessly connecting businesses with the right talent in construction, manufacturing, and FMCG industries. Our mission is to enhance operational efficiency, foster growth, and empower both employers and employees to achieve success.
+          </p>
+        </div>
+      </div>
+
+      <!-- Max Tourism -->
+      <div class="flex flex-col lg:flex-row items-center overflow-hidden rounded-2xl shadow-lg">
+        <!-- Image -->
+        <div class="w-full lg:w-5/12 bg-[#E6F0FF] flex items-center justify-center p-8">
+          <img src="{{ asset('images/maxholdingslogo1.png') }}" 
+               alt="Max Tourism Logo" 
+               class="rounded-lg w-56 md:w-64">
+        </div>
+        <!-- Content -->
+        <div class="w-full lg:w-7/12 bg-white p-8 md:p-12">
+          <h3 class="font-poppins font-bold text-2xl text-[#2F2523] mb-4">
+            Max Tourism
+          </h3>
+          <p class="font-inter text-base leading-relaxed text-[#2F2523]/75">
+            Max Tourism opens the gateway to Sri Lanka's wonders through meaningful and responsible travel. We craft experiences that highlight the island's natural beauty and cultural richness, while uplifting local communities. With us, every journey becomes more than a trip—it transforms into a lasting memory for global explorers.
+          </p>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
 
-<!-- Vision and Mission Section -->
-<section class="py-16 md:py-20 lg:py-24 bg-white">
+<section class="py-16 md:py-20 lg:py-24 bg-gray-50">
     <div class="container mx-auto px-4">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16">
-            <!-- Vision -->
-            <div class="text-center">
-                <!-- Vision Icon Placeholder -->
-                <div class="w-20 h-20 mx-auto mb-8">
-                    <!-- Insert your Vision SVG icon here -->
+            <!-- Vision Card -->
+            <div 
+                data-aos="fade-up"
+                data-aos-delay="100"
+                class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-500 text-center">
+                <!-- Vision Icon -->
+                <div class="w-28 h-28 mx-auto mb-6 rounded-full bg-gradient-to-tr from-red-400 to-red-600 flex items-center justify-center shadow-lg transform transition-transform duration-500 hover:scale-110">
+                    <img src="{{ asset('images/vision.png') }}" alt="Vision Icon" class="w-16 h-16 object-contain">
                 </div>
                 
-                <h3 class="font-poppins font-bold text-3xl md:text-4xl text-[#2F2523] mb-6">
+                <h3 class="font-poppins font-extrabold text-3xl md:text-4xl text-gray-800 mb-4 relative inline-block">
                     Vision
+                    <span class="block w-12 h-1 bg-red-500 mt-2 mx-auto rounded-full"></span>
                 </h3>
-                <p class="font-inter text-base leading-[30px] text-[#2F2523] text-opacity-75 max-w-md mx-auto">
+                
+                <p class="font-inter text-gray-700 leading-7 max-w-md mx-auto">
                     To be the leading provider of innovative and reliable manpower solutions, empowering organizations and individuals to achieve sustainable growth and success globally.
                 </p>
             </div>
             
-            <!-- Mission -->
-            <div class="text-center">
-                <!-- Mission Icon Placeholder -->
-                <div class="w-20 h-20 mx-auto mb-8">
-                    <!-- Insert your Mission SVG icon here -->
+            <!-- Mission Card -->
+            <div 
+                data-aos="fade-up"
+                data-aos-delay="200"
+                class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-500 text-center">
+                <!-- Mission Icon -->
+                <div class="w-28 h-28 mx-auto mb-6 rounded-full bg-gradient-to-tr from-blue-400 to-blue-600 flex items-center justify-center shadow-lg transform transition-transform duration-500 hover:scale-110">
+                    <img src="{{ asset('images/mission.png') }}" alt="Mission Icon" class="w-16 h-16 object-contain">
                 </div>
                 
-                <h3 class="font-poppins font-bold text-3xl md:text-4xl text-[#2F2523] mb-6">
+                <h3 class="font-poppins font-extrabold text-3xl md:text-4xl text-gray-800 mb-4 relative inline-block">
                     Mission
+                    <span class="block w-12 h-1 bg-blue-500 mt-2 mx-auto rounded-full"></span>
                 </h3>
-                <p class="font-inter text-base leading-[30px] text-[#2F2523] text-opacity-75 max-w-md mx-auto">
+                
+                <p class="font-inter text-gray-700 leading-7 max-w-md mx-auto">
                     To connect businesses with skilled and dedicated professionals, ensuring the right talent for the right opportunities. To foster trust and long-term partnerships through exceptional service, integrity, and professionalism. To support employees in achieving their career aspirations while contributing to organizational success. To deliver customized and efficient manpower solutions that align with client needs and industry demands.
                 </p>
             </div>
         </div>
     </div>
 </section>
+
+
 
 <!-- Our Values Section -->
 <section class="py-16 md:py-20 lg:py-24 bg-gray-50">
@@ -180,10 +224,8 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 lg:gap-8">
             <!-- Integrity -->
             <div class="bg-[#55403F] rounded-lg p-6 text-center text-white">
-                <!-- Icon Placeholder -->
-                <div class="w-16 h-16 bg-gray-300 rounded-full mx-auto mb-4">
-                    <!-- Replace with Integrity SVG icon -->
-                </div>
+                <img src="{{ asset('images/integrity.png') }}" alt="Integrity" class="w-16 h-16 mx-auto mb-4">
+
                 <h3 class="font-poppins font-medium text-xl mb-4">Integrity</h3>
                 <p class="font-inter text-base leading-[30px]">
                     Acting with honesty and transparency in all endeavors.
@@ -192,10 +234,8 @@
             
             <!-- Excellence -->
             <div class="bg-[#55403F] rounded-lg p-6 text-center text-white">
-                <!-- Icon Placeholder -->
-                <div class="w-16 h-16 bg-gray-300 rounded-full mx-auto mb-4">
-                    <!-- Replace with Excellence SVG icon -->
-                </div>
+                <img src="{{ asset('images/excellence.png') }}" alt="Excellence" class="w-16 h-16 mx-auto mb-4">
+                
                 <h3 class="font-poppins font-medium text-xl mb-4">Excellence</h3>
                 <p class="font-inter text-base leading-[30px]">
                     Striving for the highest standards in every solution and service.
@@ -204,10 +244,8 @@
             
             <!-- Innovation -->
             <div class="bg-[#55403F] rounded-lg p-6 text-center text-white">
-                <!-- Icon Placeholder -->
-                <div class="w-16 h-16 bg-gray-300 rounded-full mx-auto mb-4">
-                    <!-- Replace with Innovation SVG icon -->
-                </div>
+                <img src="{{ asset('images/innovation.png') }}" alt="Innovation" class="w-16 h-16 mx-auto mb-4">
+                
                 <h3 class="font-poppins font-medium text-xl mb-4">Innovation</h3>
                 <p class="font-inter text-base leading-[30px]">
                     Adopting creative and forward-thinking approaches to challenges.
@@ -216,10 +254,8 @@
             
             <!-- Commitment -->
             <div class="bg-[#55403F] rounded-lg p-6 text-center text-white">
-                <!-- Icon Placeholder -->
-                <div class="w-16 h-16 bg-gray-300 rounded-full mx-auto mb-4">
-                    <!-- Replace with Commitment SVG icon -->
-                </div>
+                <img src="{{ asset('images/commitment.png') }}" alt="Commitment" class="w-16 h-16 mx-auto mb-4">
+                
                 <h3 class="font-poppins font-medium text-xl mb-4">Commitment</h3>
                 <p class="font-inter text-base leading-[30px]">
                     Dedication to client success and long-term partnerships.
@@ -228,10 +264,8 @@
             
             <!-- Empowerment -->
             <div class="bg-[#55403F] rounded-lg p-6 text-center text-white">
-                <!-- Icon Placeholder -->
-                <div class="w-16 h-16 bg-gray-300 rounded-full mx-auto mb-4">
-                    <!-- Replace with Empowerment SVG icon -->
-                </div>
+                <img src="{{ asset('images/empowerment.png') }}" alt="Empowerment" class="w-16 h-16 mx-auto mb-4">
+                
                 <h3 class="font-poppins font-medium text-xl mb-4">Empowerment</h3>
                 <p class="font-inter text-base leading-[30px]">
                     Enabling employees and clients to reach their full potential.
@@ -240,10 +274,8 @@
             
             <!-- Reliability -->
             <div class="bg-[#55403F] rounded-lg p-6 text-center text-white">
-                <!-- Icon Placeholder -->
-                <div class="w-16 h-16 bg-gray-300 rounded-full mx-auto mb-4">
-                    <!-- Replace with Reliability SVG icon -->
-                </div>
+                <img src="{{ asset('images/reliability.png') }}" alt="Reliability" class="w-16 h-16 mx-auto mb-4">
+                
                 <h3 class="font-poppins font-medium text-xl mb-4">Reliability</h3>
                 <p class="font-inter text-base leading-[30px]">
                     Providing dependable and consistent solutions across sectors.
@@ -252,10 +284,8 @@
             
             <!-- Collaboration -->
             <div class="bg-[#55403F] rounded-lg p-6 text-center text-white">
-                <!-- Icon Placeholder -->
-                <div class="w-16 h-16 bg-gray-300 rounded-full mx-auto mb-4">
-                    <!-- Replace with Collaboration SVG icon -->
-                </div>
+                <img src="{{ asset('images/collaboration.png') }}" alt="Collaboration" class="w-16 h-16 mx-auto mb-4">
+
                 <h3 class="font-poppins font-medium text-xl mb-4">Collaboration</h3>
                 <p class="font-inter text-base leading-[30px]">
                     Fostering teamwork and strong relationships for shared success.
@@ -264,10 +294,8 @@
             
             <!-- Sustainability -->
             <div class="bg-[#55403F] rounded-lg p-6 text-center text-white">
-                <!-- Icon Placeholder -->
-                <div class="w-16 h-16 bg-gray-300 rounded-full mx-auto mb-4">
-                    <!-- Replace with Sustainability SVG icon -->
-                </div>
+                <img src="{{ asset('images/sustainability.png') }}" alt="Sustainability" class="w-16 h-16 mx-auto mb-4">
+
                 <h3 class="font-poppins font-medium text-xl mb-4">Sustainability</h3>
                 <p class="font-inter text-base leading-[30px]">
                     Delivering solutions that support long-term growth and responsible practices.

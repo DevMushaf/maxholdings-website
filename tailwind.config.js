@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+module.exports = {
   content: [
     './resources/**/*.blade.php',
     './resources/**/*.js',
@@ -23,17 +23,17 @@ export default {
       transparent: 'transparent',
     },
     fontFamily: {
-      'inter': ['Inter', 'sans-serif'],
-      'poppins': ['Poppins', 'sans-serif'],
-      'sans': ['Inter', 'sans-serif'],
+      inter: ['Inter', 'sans-serif'],
+      poppins: ['Poppins', 'sans-serif'],
+      sans: ['Inter', 'sans-serif'],
     },
     fontSize: {
-      'hero': 'clamp(2.5rem, 5vw, 4rem)',
-      'xs': '0.75rem',
-      'sm': '0.875rem',
-      'base': '1rem',
-      'lg': '1.125rem',
-      'xl': '1.25rem',
+      hero: 'clamp(2.5rem, 5vw, 4rem)',
+      xs: '0.75rem',
+      sm: '0.875rem',
+      base: '1rem',
+      lg: '1.125rem',
+      xl: '1.25rem',
       '2xl': '1.5rem',
       '3xl': '1.875rem',
       '4xl': '2.25rem',
@@ -49,4 +49,7 @@ export default {
       },
     },
   },
+  plugins: [
+    require('tailwindcss-animate'),
+  ],
 }

@@ -4,7 +4,7 @@
 
 @section('content')
 <section class="hero-section relative overflow-hidden" 
-         style="background-image: url('{{ asset('images/aboutheroimage.webp') }}'); 
+         style="background-image: url('{{ asset('images/homeheroimage.webp') }}'); 
                 background-size: cover; 
                 background-position: center; 
                 background-repeat: no-repeat;">
