@@ -418,67 +418,67 @@
                 <div class="brands-track-enhanced flex items-center gap-16 animate-scroll-brands">
                     <!-- Brand Cards -->
                     <div class="brand-card flex-shrink-0">
-                        <div class="w-48 h-24 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center group hover:-translate-y-1">
+                        <div class="w-48 h-28 bg-white rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 flex items-center justify-center group hover:-translate-y-1 border border-gray-200">
                             <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
                                 alt="Partner Brand" 
-                                class="max-w-[80%] max-h-[60%] object-contain opacity-60 group-hover:opacity-100 transition-opacity duration-300">
+                                class="w-full h-full object-contain p-4 transition-transform duration-300 group-hover:scale-105">
                         </div>
                     </div>
                     
                     <div class="brand-card flex-shrink-0">
-                        <div class="w-48 h-24 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center group hover:-translate-y-1">
-                            <img src="{{ asset('images/maxholdingsmclogo.png') }}" 
+                        <div class="w-48 h-28 bg-white rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 flex items-center justify-center group hover:-translate-y-1 border border-gray-200">
+                            <img src="{{ asset('images/maxholdingsmclogowhitebg.png') }}" 
                                 alt="Partner Brand" 
-                                class="max-w-[80%] max-h-[60%] object-contain opacity-60 group-hover:opacity-100 transition-opacity duration-300">
+                                class="w-full h-full object-contain p-4 transition-transform duration-300 group-hover:scale-105">
                         </div>
                     </div>
                     
                     <div class="brand-card flex-shrink-0">
-                        <div class="w-48 h-24 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center group hover:-translate-y-1">
+                        <div class="w-48 h-28 bg-white rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 flex items-center justify-center group hover:-translate-y-1 border border-gray-200">
                             <img src="{{ asset('images/maxholdingslogo1.png') }}" 
                                 alt="Partner Brand" 
-                                class="max-w-[80%] max-h-[60%] object-contain opacity-60 group-hover:opacity-100 transition-opacity duration-300">
+                                class="w-full h-full object-contain p-4 transition-transform duration-300 group-hover:scale-105">
                         </div>
                     </div>
                     
                     <div class="brand-card flex-shrink-0">
-                        <div class="w-48 h-24 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center group hover:-translate-y-1">
+                        <div class="w-48 h-28 bg-white rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 flex items-center justify-center group hover:-translate-y-1 border border-gray-200">
                             <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
                                 alt="Partner Brand" 
-                                class="max-w-[80%] max-h-[60%] object-contain opacity-60 group-hover:opacity-100 transition-opacity duration-300">
+                                class="w-full h-full object-contain p-4 transition-transform duration-300 group-hover:scale-105">
                         </div>
                     </div>
                     
                     <div class="brand-card flex-shrink-0">
-                        <div class="w-48 h-24 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center group hover:-translate-y-1">
+                        <div class="w-48 h-28 bg-white rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 flex items-center justify-center group hover:-translate-y-1 border border-gray-200">
                             <img src="{{ asset('images/maxholdingsmclogo.png') }}" 
                                 alt="Partner Brand" 
-                                class="max-w-[80%] max-h-[60%] object-contain opacity-60 group-hover:opacity-100 transition-opacity duration-300">
+                                class="w-full h-full object-contain p-4 transition-transform duration-300 group-hover:scale-105">
                         </div>
                     </div>
                     
                     <!-- Duplicate for seamless loop -->
                     <div class="brand-card flex-shrink-0">
-                        <div class="w-48 h-24 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center group hover:-translate-y-1">
+                        <div class="w-48 h-28 bg-white rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 flex items-center justify-center group hover:-translate-y-1 border border-gray-200">
                             <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
                                 alt="Partner Brand" 
-                                class="max-w-[80%] max-h-[60%] object-contain opacity-60 group-hover:opacity-100 transition-opacity duration-300">
+                                class="w-full h-full object-contain p-4 transition-transform duration-300 group-hover:scale-105">
                         </div>
                     </div>
                     
                     <div class="brand-card flex-shrink-0">
-                        <div class="w-48 h-24 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center group hover:-translate-y-1">
+                        <div class="w-48 h-28 bg-white rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 flex items-center justify-center group hover:-translate-y-1 border border-gray-200">
                             <img src="{{ asset('images/maxholdingsmclogo.png') }}" 
                                 alt="Partner Brand" 
-                                class="max-w-[80%] max-h-[60%] object-contain opacity-60 group-hover:opacity-100 transition-opacity duration-300">
+                                class="w-full h-full object-contain p-4 transition-transform duration-300 group-hover:scale-105">
                         </div>
                     </div>
                     
                     <div class="brand-card flex-shrink-0">
-                        <div class="w-48 h-24 bg-white rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center group hover:-translate-y-1">
+                        <div class="w-48 h-28 bg-white rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 flex items-center justify-center group hover:-translate-y-1 border border-gray-200">
                             <img src="{{ asset('images/maxholdingslogo1.png') }}" 
                                 alt="Partner Brand" 
-                                class="max-w-[80%] max-h-[60%] object-contain opacity-60 group-hover:opacity-100 transition-opacity duration-300">
+                                class="w-full h-full object-contain p-4 transition-transform duration-300 group-hover:scale-105">
                         </div>
                     </div>
                 </div>
@@ -488,7 +488,7 @@
         <!-- Partnership CTA -->
         <div class="text-center mt-16">
             <p class="font-inter text-lg text-gray-600 mb-8">Interested in partnering with us?</p>
-            <a href="#contact" class="group inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700 text-white font-semibold rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
+            <a href="{{ route('contact') }}" class="group inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700 text-white font-semibold rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
                 <span>Let's Collaborate</span>
                 <svg class="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
@@ -662,7 +662,7 @@
 
     @keyframes scroll-brands {
         0% { transform: translateX(0); }
-        100% { transform: translateX(calc(-100% - 4rem)); }
+        100% { transform: translateX(-50%); }
     }
 
     @keyframes float {
