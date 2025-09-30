@@ -2,6 +2,92 @@
 
 @section('title', 'Innovation, Unity, and Growth - Max Holdings')
 
+@php
+    $services = [
+        [
+            'title' => 'Passenger Lifts',
+            'desc'  => 'Safe, comfortable, and cost-effective lift solutions designed for everyday use in residential and commercial buildings.',
+            'img'   => 'images/passengerlifts.png',
+            'badge' => 'Engineering',
+            'badgeColor' => 'text-red-700',
+            'hoverColor' => 'group-hover:text-red-700',
+            'borderColor'=> 'hover:border-red-200',
+            'gradient'   => 'from-red-500/5',
+        ],
+        [
+            'title' => 'Manpower Supply',
+            'desc'  => 'Providing skilled and unskilled general workers to meet the day-to-day operational needs of multiple industries.',
+            'img'   => 'images/manpowersupply.png',
+            'badge' => 'Consultancy',
+            'badgeColor' => 'text-orange-700',
+            'hoverColor' => 'group-hover:text-orange-700',
+            'borderColor'=> 'hover:border-orange-200',
+            'gradient'   => 'from-orange-500/5',
+        ],
+        [
+            'title' => 'Accessibility Solutions',
+            'desc'  => 'Custom stairway installations that ensure maximum safety, minimal space usage, and low-maintenance accessibility.',
+            'img'   => 'images/accessibility.png',
+            'badge' => 'Solutions',
+            'badgeColor' => 'text-green-700',
+            'hoverColor' => 'group-hover:text-green-700',
+            'borderColor'=> 'hover:border-green-200',
+            'gradient'   => 'from-green-500/5',
+        ],
+        [
+            'title' => 'Escalators',
+            'desc'  => 'Smooth and efficient escalator systems with low noise, energy-saving technology, and flexible indoor/outdoor designs.',
+            'img'   => 'images/escalators.png',
+            'badge' => 'Engineering',
+            'badgeColor' => 'text-green-700',
+            'hoverColor' => 'group-hover:text-green-700',
+            'borderColor'=> 'hover:border-green-200',
+            'gradient'   => 'from-green-500/5',
+        ],
+        [
+            'title' => 'Home Lifts',
+            'desc'  => 'Convenient and innovative lift solutions that enhance accessibility for seniors and differently-abled individuals.',
+            'img'   => 'images/homelifts.png',
+            'badge' => 'Accessibility',
+            'badgeColor' => 'text-green-700',
+            'hoverColor' => 'group-hover:text-green-700',
+            'borderColor'=> 'hover:border-green-200',
+            'gradient'   => 'from-green-500/5',
+        ],
+        [
+            'title' => 'Tourism',
+            'desc'  => 'Personalized and customizable tour packages designed to create unforgettable travel experiences.',
+            'img'   => 'images/tourism.png',
+            'badge' => 'Travel',
+            'badgeColor' => 'text-green-700',
+            'hoverColor' => 'group-hover:text-green-700',
+            'borderColor'=> 'hover:border-green-200',
+            'gradient'   => 'from-green-500/5',
+        ],
+        [
+            'title' => 'Event Management',
+            'desc'  => 'End-to-end event planning and execution corporate events, private functions, and large-scale gatherings managed with excellence.',
+            'img'   => 'images/eventmanagement.png',
+            'badge' => 'Events',
+            'badgeColor' => 'text-green-700',
+            'hoverColor' => 'group-hover:text-green-700',
+            'borderColor'=> 'hover:border-green-200',
+            'gradient'   => 'from-green-500/5',
+        ],
+        [
+            'title' => 'Event Item Supply',
+            'desc'  => 'Providing complete event essentials including sound, lighting, stage setups, and décor to make every occasion seamless and impactful.',
+            'img'   => 'images/eventitemsupply.png',
+            'badge' => 'Support',
+            'badgeColor' => 'text-green-700',
+            'hoverColor' => 'group-hover:text-green-700',
+            'borderColor'=> 'hover:border-green-200',
+            'gradient'   => 'from-green-500/5',
+        ],
+    ];
+@endphp
+
+
 @section('content')
 <!-- Modern Hero Section with Parallax Effect -->
 <section class="hero-section relative overflow-hidden min-h-screen flex items-center" 
@@ -84,111 +170,50 @@
         </div>
 
         <!-- Modern Services Grid -->
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
-            <!-- Service Card 1 -->
-            <div class="group relative bg-white border border-gray-100 rounded-3xl overflow-hidden shadow-md hover:shadow-lg transform transition-all duration-500 hover:scale-[1.02] hover:-translate-y-2 hover:border-red-200">
-                <div class="absolute inset-0 bg-gradient-to-br from-red-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                
-                <div class="relative aspect-[4/3] overflow-hidden">
-                    <img src="{{ asset('images/passengerlifts.png') }}" 
-                         alt="Modern passenger lift interior"
-                         class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
-                    
-                    <!-- Floating Badge -->
-                    <div class="absolute top-6 left-6">
-                        <div class="bg-white/90 backdrop-blur-sm rounded-full px-3 py-1">
-                            <span class="text-red-700 text-sm font-semibold">Engineering</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="p-8 relative">
-                    <h3 class="font-poppins font-bold text-2xl lg:text-3xl text-gray-900 mb-4 group-hover:text-red-700 transition-colors duration-300">
-                        Passenger Lifts
-                    </h3>
-                    <p class="font-inter text-gray-600 leading-relaxed mb-6">
-                        Safe, comfortable, and cost-effective lift solutions designed for everyday use in residential and commercial buildings.
-                    </p>
-                    
-                    <a href="{{ route('services') }}" class="flex items-center gap-2 text-red-600 font-medium group-hover:gap-3 transition-all duration-300">
-                        <span>Learn more</span>
-                        <svg class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                        </svg>
-                    </a>
-                </div>
-            </div>
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12 items-stretch">
+            @foreach($services as $service)
+                <div class="group relative bg-white border border-gray-100 rounded-3xl overflow-hidden shadow-md 
+                            hover:shadow-lg transform transition-all duration-500 hover:scale-[1.02] hover:-translate-y-2 
+                            {{ $service['borderColor'] }} h-full flex flex-col">
 
-            <!-- Service Card 2 -->
-            <div class="group relative bg-white border border-gray-100 rounded-3xl overflow-hidden shadow-md hover:shadow-lg transform transition-all duration-500 hover:scale-[1.02] hover:-translate-y-2 lg:mt-12 hover:border-orange-200">
-                <div class="absolute inset-0 bg-gradient-to-br from-orange-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                
-                <div class="relative aspect-[4/3] overflow-hidden">
-                    <img src="{{ asset('images/manpowersupply.png') }}" 
-                         alt="Professional skilled worker"
-                         class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
-                    
-                    <!-- Floating Badge -->
-                    <div class="absolute top-6 left-6">
-                        <div class="bg-white/90 backdrop-blur-sm rounded-full px-3 py-1">
-                            <span class="text-orange-700 text-sm font-semibold">Consultancy</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="p-8 relative">
-                    <h3 class="font-poppins font-bold text-2xl lg:text-3xl text-gray-900 mb-4 group-hover:text-orange-700 transition-colors duration-300">
-                        Manpower Supply
-                    </h3>
-                    <p class="font-inter text-gray-600 leading-relaxed mb-6">
-                        Providing skilled and unskilled general workers to meet the day-to-day operational needs of multiple industries.
-                    </p>
-                    
-                    <a href="{{ route('services') }}" class="flex items-center gap-2 text-red-600 font-medium group-hover:gap-3 transition-all duration-300">
-                        <span>Learn more</span>
-                        <svg class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                        </svg>
-                    </a>
-                </div>
-            </div>
+                    <!-- Gradient Hover Background -->
+                    <div class="absolute inset-0 bg-gradient-to-br {{ $service['gradient'] }} to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
 
-            <!-- Service Card 3 -->
-            <div class="group relative bg-white border border-gray-100 rounded-3xl overflow-hidden shadow-md hover:shadow-lg transform transition-all duration-500 hover:scale-[1.02] hover:-translate-y-2 lg:mt-6 hover:border-green-200">
-                <div class="absolute inset-0 bg-gradient-to-br from-green-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                
-                <div class="relative aspect-[4/3] overflow-hidden">
-                    <img src="{{ asset('images/accessibility.png') }}" 
-                         alt="Accessibility solutions"
-                         class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
-                    <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
-                    
-                    <!-- Floating Badge -->
-                    <div class="absolute top-6 left-6">
-                        <div class="bg-white/90 backdrop-blur-sm rounded-full px-3 py-1">
-                            <span class="text-green-700 text-sm font-semibold">Solutions</span>
+                    <!-- Image -->
+                    <div class="relative aspect-[4/3] overflow-hidden">
+                        <img src="{{ asset($service['img']) }}" 
+                            alt="{{ $service['title'] }}" 
+                            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent"></div>
+
+                        <!-- Floating Badge -->
+                        <div class="absolute top-6 left-6">
+                            <div class="bg-white/90 backdrop-blur-sm rounded-full px-3 py-1">
+                                <span class="{{ $service['badgeColor'] }} text-sm font-semibold">{{ $service['badge'] }}</span>
+                            </div>
                         </div>
                     </div>
+
+                    <!-- Content -->
+                    <div class="p-8 relative flex flex-col flex-grow">
+                        <h3 class="font-poppins font-bold text-2xl lg:text-3xl text-gray-900 mb-4 {{ $service['hoverColor'] }} transition-colors duration-300">
+                            {{ $service['title'] }}
+                        </h3>
+                        <p class="font-inter text-gray-600 leading-relaxed mb-6 flex-grow">
+                            {{ $service['desc'] }}
+                        </p>
+                        
+                        <a href="{{ route('services') }}" 
+                        class="flex items-center gap-2 text-red-600 font-medium group-hover:gap-3 transition-all duration-300 mt-auto">
+                            <span>Learn more</span>
+                            <svg class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                                    d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                            </svg>
+                        </a>
+                    </div>
                 </div>
-                
-                <div class="p-8 relative">
-                    <h3 class="font-poppins font-bold text-2xl lg:text-3xl text-gray-900 mb-4 group-hover:text-green-700 transition-colors duration-300">
-                        Accessibility Solutions
-                    </h3>
-                    <p class="font-inter text-gray-600 leading-relaxed mb-6">
-                        Custom stairway installations that ensure maximum safety, minimal space usage, and low-maintenance accessibility.
-                    </p>
-                    
-                    <a href="{{ route('services') }}" class="flex items-center gap-2 text-red-600 font-medium group-hover:gap-3 transition-all duration-300">
-                        <span>Learn more</span>
-                        <svg class="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
-                        </svg>
-                    </a>
-                </div>
-            </div>
+            @endforeach
         </div>
 
         <!-- Enhanced CTA -->
@@ -206,6 +231,7 @@
         </div>
     </div>
 </section>
+
 
 <!-- Company Overview Section with Consistent Styling -->
 <section class="py-24 lg:py-32 bg-white relative overflow-hidden">
@@ -296,12 +322,12 @@
         </div>
 
         <!-- Interactive Company Cards -->
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16 items-stretch">
             <!-- Max Engineering -->
-            <div class="group relative bg-white/5 backdrop-blur-lg border border-white/10 rounded-3xl overflow-hidden hover:bg-white/10 transition-all duration-500 hover:scale-105 hover:-translate-y-2">
+            <div class="group relative bg-white/5 backdrop-blur-lg border border-white/10 rounded-3xl overflow-hidden hover:bg-white/10 transition-all duration-500 hover:scale-105 hover:-translate-y-2 h-full flex flex-col">
                 <div class="absolute inset-0 bg-gradient-to-br from-red-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 
-                <div class="p-8 text-center">
+                <div class="p-8 text-center flex-1 flex flex-col justify-between">
                     <div class="relative mb-8">
                         <img src="{{ asset('images/maxholdingsmclogowhitebg.png') }}" 
                              alt="Max Manpower & Consultancy Logo" 
@@ -318,10 +344,10 @@
             </div>
 
             <!-- Max Manpower & Consultancy -->
-            <div class="group relative bg-white/5 backdrop-blur-lg border border-white/10 rounded-3xl overflow-hidden hover:bg-white/10 transition-all duration-500 hover:scale-105 hover:-translate-y-2 lg:mt-8">
+            <div class="group relative bg-white/5 backdrop-blur-lg border border-white/10 rounded-3xl overflow-hidden hover:bg-white/10 transition-all duration-500 hover:scale-105 hover:-translate-y-2 h-full flex flex-col">
                 <div class="absolute inset-0 bg-gradient-to-br from-orange-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 
-                <div class="p-8 text-center">
+                <div class="p-8 text-center flex-1 flex flex-col justify-between">
                     <div class="relative mb-8">
                         <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
                              alt="Max Engineering Logo" 
@@ -338,10 +364,10 @@
             </div>
 
             <!-- Max Tourism -->
-            <div class="group relative bg-white/5 backdrop-blur-lg border border-white/10 rounded-3xl overflow-hidden hover:bg-white/10 transition-all duration-500 hover:scale-105 hover:-translate-y-2 lg:mt-4">
+            <div class="group relative bg-white/5 backdrop-blur-lg border border-white/10 rounded-3xl overflow-hidden hover:bg-white/10 transition-all duration-500 hover:scale-105 hover:-translate-y-2 h-full flex flex-col">
                 <div class="absolute inset-0 bg-gradient-to-br from-green-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 
-                <div class="p-8 text-center">
+                <div class="p-8 text-center flex-1 flex flex-col justify-between">
                     <div class="relative mb-8">
                         <img src="{{ asset('images/maxholdingslogowhitebg.png') }}" 
                              alt="Max Tourism Logo" 
