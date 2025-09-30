@@ -225,14 +225,6 @@
                         <div class="absolute inset-0 bg-gradient-to-tr from-red-600/10 to-transparent"></div>
                     </div>
                     
-                    <!-- Floating Stats -->
-                    <div class="absolute -bottom-6 -right-6 bg-white rounded-2xl shadow-xl p-6 transform transition-all duration-500 hover:scale-105">
-                        <div class="text-center">
-                            <div class="text-3xl font-bold text-red-600 mb-1">2021</div>
-                            <div class="text-sm text-gray-600 font-medium">Established</div>
-                        </div>
-                    </div>
-                    
                     <!-- Decorative Element -->
                     <div class="absolute -top-4 -left-4 w-20 h-20 bg-gradient-to-br from-red-500/20 to-orange-500/20 rounded-full blur-xl"></div>
                 </div>
@@ -249,7 +241,7 @@
                     Company <span class="text-red-500">Overview</span>
                 </h2>
                 
-                <div class="space-y-8">
+                <div class="space-y-4">
                     <p class="font-inter text-l text-gray-700 leading-relaxed">
                         Max Holdings Pvt Ltd is a fully Sri Lankan-owned and managed company, headquartered in 
                         Minuwangoda, Sri Lanka, and established in 2021. As a diversified business group, Max Holdings 
@@ -311,16 +303,16 @@
                 
                 <div class="p-8 text-center">
                     <div class="relative mb-8">
-                        <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
-                             alt="Max Engineering Logo" 
+                        <img src="{{ asset('images/maxholdingsmclogowhitebg.png') }}" 
+                             alt="Max Manpower & Consultancy Logo" 
                              class="w-32 h-16 object-contain mx-auto opacity-80 group-hover:opacity-100 transition-opacity duration-300">
                     </div>
                     
                     <h3 class="font-poppins font-bold text-2xl text-white mb-4 group-hover:text-red-300 transition-colors duration-300">
-                        Max Engineering
+                        Max Manpower & Consultancy
                     </h3>
                     <p class="font-inter text-white/70 leading-relaxed group-hover:text-white/90 transition-colors duration-300">
-                        Innovative engineering solutions tailored to meet the diverse needs of modern industries with precision and excellence.
+                        Comprehensive staffing services including temporary, permanent, and specialized recruitment for skilled professionals.
                     </p>
                 </div>
             </div>
@@ -331,16 +323,16 @@
                 
                 <div class="p-8 text-center">
                     <div class="relative mb-8">
-                        <img src="{{ asset('images/maxholdingsmclogowhitebg.png') }}" 
-                             alt="Max Manpower & Consultancy Logo" 
+                        <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
+                             alt="Max Engineering Logo" 
                              class="w-32 h-16 object-contain mx-auto opacity-80 group-hover:opacity-100 transition-opacity duration-300">
                     </div>
                     
                     <h3 class="font-poppins font-bold text-2xl text-white mb-4 group-hover:text-orange-300 transition-colors duration-300">
-                        Max Manpower & Consultancy
+                        Max Engineering
                     </h3>
                     <p class="font-inter text-white/70 leading-relaxed group-hover:text-white/90 transition-colors duration-300">
-                        Comprehensive staffing services including temporary, permanent, and specialized recruitment for skilled professionals.
+                        Innovative engineering solutions tailored to meet the diverse needs of modern industries with precision and excellence.
                     </p>
                 </div>
             </div>
@@ -388,7 +380,9 @@
 <section class="py-24 lg:py-32 bg-gradient-to-b from-gray-50 to-white overflow-hidden relative">
     <!-- Background Pattern -->
     <div class="absolute inset-0 opacity-5">
-        <div class="absolute inset-0" style="background-image: radial-gradient(circle at 1px 1px, #333 1px, transparent 0); background-size: 40px 40px;"></div>
+        <div class="absolute inset-0" 
+             style="background-image: radial-gradient(circle at 1px 1px, #333 1px, transparent 0); background-size: 40px 40px;">
+        </div>
     </div>
     
     <div class="container mx-auto px-4 relative z-10">
@@ -416,71 +410,39 @@
             <!-- Infinite Scroll Container -->
             <div class="brands-showcase overflow-hidden">
                 <div class="brands-track-enhanced flex items-center gap-16 animate-scroll-brands">
-                    <!-- Brand Cards -->
-                    <div class="brand-card flex-shrink-0">
-                        <div class="w-48 h-28 bg-white rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 flex items-center justify-center group hover:-translate-y-1 border border-gray-200">
-                            <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
-                                alt="Partner Brand" 
-                                class="w-full h-full object-contain p-4 transition-transform duration-300 group-hover:scale-105">
+                    <!-- Loop of 10 Logos -->
+                    @foreach ([
+                        'bairaha.png', 'mas.png', 'burgerhut.png', 'brandix.png', 
+                        'breadtalk.png', 'navaloka.png', 'cargills.png', 
+                        'cinnamongrand.png', 'fujitec.png', 'wijitha.png'
+                    ] as $logo)
+                        <div class="brand-card flex-shrink-0">
+                            <div class="w-48 h-28 bg-white rounded-2xl shadow-md hover:shadow-2xl 
+                                        transition-all duration-300 flex items-center justify-center 
+                                        group hover:-translate-y-1 border border-gray-200">
+                                <img src="{{ asset('images/' . $logo) }}" 
+                                    alt="Partner Brand" 
+                                    class="w-full h-full object-contain p-4 transition-transform duration-300 group-hover:scale-105">
+                            </div>
                         </div>
-                    </div>
-                    
-                    <div class="brand-card flex-shrink-0">
-                        <div class="w-48 h-28 bg-white rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 flex items-center justify-center group hover:-translate-y-1 border border-gray-200">
-                            <img src="{{ asset('images/maxholdingsmclogowhitebg.png') }}" 
-                                alt="Partner Brand" 
-                                class="w-full h-full object-contain p-4 transition-transform duration-300 group-hover:scale-105">
-                        </div>
-                    </div>
-                    
-                    <div class="brand-card flex-shrink-0">
-                        <div class="w-48 h-28 bg-white rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 flex items-center justify-center group hover:-translate-y-1 border border-gray-200">
-                            <img src="{{ asset('images/maxholdingslogo1.png') }}" 
-                                alt="Partner Brand" 
-                                class="w-full h-full object-contain p-4 transition-transform duration-300 group-hover:scale-105">
-                        </div>
-                    </div>
-                    
-                    <div class="brand-card flex-shrink-0">
-                        <div class="w-48 h-28 bg-white rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 flex items-center justify-center group hover:-translate-y-1 border border-gray-200">
-                            <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
-                                alt="Partner Brand" 
-                                class="w-full h-full object-contain p-4 transition-transform duration-300 group-hover:scale-105">
-                        </div>
-                    </div>
-                    
-                    <div class="brand-card flex-shrink-0">
-                        <div class="w-48 h-28 bg-white rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 flex items-center justify-center group hover:-translate-y-1 border border-gray-200">
-                            <img src="{{ asset('images/maxholdingsmclogo.png') }}" 
-                                alt="Partner Brand" 
-                                class="w-full h-full object-contain p-4 transition-transform duration-300 group-hover:scale-105">
-                        </div>
-                    </div>
-                    
+                    @endforeach
+
                     <!-- Duplicate for seamless loop -->
-                    <div class="brand-card flex-shrink-0">
-                        <div class="w-48 h-28 bg-white rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 flex items-center justify-center group hover:-translate-y-1 border border-gray-200">
-                            <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
-                                alt="Partner Brand" 
-                                class="w-full h-full object-contain p-4 transition-transform duration-300 group-hover:scale-105">
+                    @foreach ([
+                        'bairaha.png', 'mas.png', 'burgerhut.png', 'brandix.png', 
+                        'breadtalk.png', 'navaloka.png', 'cargills.png', 
+                        'cinnamongrand.png', 'fujitec.png', 'wijitha.png'
+                    ] as $logo)
+                        <div class="brand-card flex-shrink-0">
+                            <div class="w-48 h-28 bg-white rounded-2xl shadow-md hover:shadow-2xl 
+                                        transition-all duration-300 flex items-center justify-center 
+                                        group hover:-translate-y-1 border border-gray-200">
+                                <img src="{{ asset('images/' . $logo) }}" 
+                                    alt="Partner Brand" 
+                                    class="w-full h-full object-contain p-4 transition-transform duration-300 group-hover:scale-105">
+                            </div>
                         </div>
-                    </div>
-                    
-                    <div class="brand-card flex-shrink-0">
-                        <div class="w-48 h-28 bg-white rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 flex items-center justify-center group hover:-translate-y-1 border border-gray-200">
-                            <img src="{{ asset('images/maxholdingsmclogo.png') }}" 
-                                alt="Partner Brand" 
-                                class="w-full h-full object-contain p-4 transition-transform duration-300 group-hover:scale-105">
-                        </div>
-                    </div>
-                    
-                    <div class="brand-card flex-shrink-0">
-                        <div class="w-48 h-28 bg-white rounded-2xl shadow-md hover:shadow-2xl transition-all duration-300 flex items-center justify-center group hover:-translate-y-1 border border-gray-200">
-                            <img src="{{ asset('images/maxholdingslogo1.png') }}" 
-                                alt="Partner Brand" 
-                                class="w-full h-full object-contain p-4 transition-transform duration-300 group-hover:scale-105">
-                        </div>
-                    </div>
+                    @endforeach
                 </div>
             </div>
         </div>
@@ -488,17 +450,22 @@
         <!-- Partnership CTA -->
         <div class="text-center mt-16">
             <p class="font-inter text-lg text-gray-600 mb-8">Interested in partnering with us?</p>
-            <a href="{{ route('contact') }}" class="group inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700 text-white font-semibold rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
+            <a href="{{ route('contact') }}" 
+               class="group inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-red-600 to-orange-600 
+                      hover:from-red-700 hover:to-orange-700 text-white font-semibold rounded-full shadow-lg 
+                      hover:shadow-xl transform hover:scale-105 transition-all duration-300">
                 <span>Let's Collaborate</span>
-                <svg class="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                <svg class="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" 
+                     fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                          d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
                 </svg>
             </a>
         </div>
     </div>
 </section>
 
-<!-- Premium CEO Message Section with Consistent Styling -->
+<!--CEO Message Section -->
 <section class="py-24 lg:py-32 bg-white relative overflow-hidden">
     <!-- Background Elements -->
     <div class="absolute top-0 left-0 w-full h-64 bg-gradient-to-b from-red-50/50 to-transparent"></div>
@@ -552,14 +519,20 @@
                         <!-- Stylized Quote -->
                         <div class="absolute -top-8 -left-4 text-8xl font-bold text-red-600/10 leading-none select-none">"</div>
                         
-                        <div class="relative bg-white border border-gray-100 rounded-3xl p-8 shadow-lg">
-                            <p class="font-inter text-xl text-gray-700 leading-relaxed mb-6">
-                                At Max Holdings, we believe that true success comes from the perfect harmony of 
-                                innovation, collaboration, and sustainable growth. Our journey began with a simple yet 
-                                powerful vision: to create value that transcends traditional business boundaries. Through 
-                                our three specialized companies, we're not just serving clients-we're building 
-                                lasting partnerships that drive Sri Lanka's economic growth and innovation forward. Every project, 
-                                every solution, every service reflects our unwavering commitment to excellence.
+                        <div class="relative bg-white border border-gray-100 rounded-3xl p-10 shadow-lg">
+                            <p class="font-inter italic text-[16px] leading-[30px] text-gray-700 mb-6">
+                                At Max Holdings, our vision has always been simple yet powerful to build opportunities 
+                                that create real impact. Whether through engineering innovation, empowering manpower, 
+                                or redefining tourism experiences, we are driven by a passion to deliver excellence that 
+                                goes beyond expectations.
+
+                                We believe that success is built on trust, collaboration, and a commitment to continuous 
+                                growth. Every project we undertake is more than just a business endeavor; it is a promise 
+                                to our clients, our people, and the communities we serve.
+
+                                As we continue to expand across industries and borders, our focus remains on shaping a 
+                                sustainable future, where progress and responsibility walk hand in hand. Together, let's 
+                                keep moving forward stronger, smarter, and with purpose.
                             </p>
                         </div>
                         
@@ -570,7 +543,7 @@
                     <div class="mt-8 flex items-center gap-4">
                         <div>
                             <h3 class="font-poppins font-bold text-2xl text-gray-900">
-                                Shiraq Shaleel
+                                Shiraaj Shaleeh
                             </h3>
                             <p class="font-inter text-lg text-gray-600">
                                 Founder & Chief Executive Officer
@@ -615,15 +588,19 @@
                     <div class="relative bg-white border border-gray-100 rounded-3xl p-6 md:p-8 shadow-lg mb-8">
                         <div class="absolute -top-4 left-4 text-6xl font-bold text-red-600/10 leading-none select-none">"</div>
                         
-                        <p class="font-inter text-lg md:text-xl text-gray-700 leading-relaxed mb-4 relative z-10">
-                            At Max Holdings, we believe that true success comes from the perfect harmony of 
-                            innovation, collaboration, and sustainable growth. Our journey began with a powerful 
-                            vision: to create value that transcends traditional business boundaries.
-                        </p>
-                        
-                        <p class="font-inter text-base md:text-lg text-gray-600 leading-relaxed relative z-10">
-                            Through our three specialized companies, we're building lasting partnerships that 
-                            drive Sri Lanka's economic growth forward.
+                        <p class="font-inter italic text-[16px] leading-[30px] text-gray-700 mb-4 relative z-10">
+                            At Max Holdings, our vision has always been simple yet powerful to build opportunities 
+                            that create real impact. Whether through engineering innovation, empowering manpower, 
+                            or redefining tourism experiences, we are driven by a passion to deliver excellence that 
+                            goes beyond expectations.
+
+                            We believe that success is built on trust, collaboration, and a commitment to continuous 
+                            growth. Every project we undertake is more than just a business endeavor; it is a promise 
+                            to our clients, our people, and the communities we serve.
+
+                            As we continue to expand across industries and borders, our focus remains on shaping a 
+                            sustainable future, where progress and responsibility walk hand in hand. Together, let's 
+                            keep moving forward stronger, smarter, and with purpose.
                         </p>
                         
                         <div class="absolute -bottom-2 right-4 text-4xl font-bold text-red-600/10 leading-none select-none">"</div>
@@ -632,7 +609,7 @@
                     <!-- CEO Details -->
                     <div>
                         <h3 class="font-poppins font-bold text-2xl md:text-3xl text-gray-900 mb-2">
-                            Shiraaj Shaleel
+                            Shiraaj Shaleeh
                         </h3>
                         <p class="font-inter text-lg md:text-xl text-gray-600">
                             Founder & Chief Executive Officer
@@ -680,6 +657,10 @@
 
     .animate-float {
         animation: float 6s ease-in-out infinite;
+    }
+
+    .brands-track-enhanced {
+    width: max-content;
     }
 
     /* Animation Delays */
