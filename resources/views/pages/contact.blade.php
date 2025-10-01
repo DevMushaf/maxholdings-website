@@ -330,36 +330,6 @@
     </div>
 </section>
 
-<!-- Additional Contact Info Section -->
-<section class="py-24 bg-gradient-to-br from-gray-900 via-gray-800 to-red-900 relative overflow-hidden">
-    <!-- Background Elements -->
-    <div class="absolute inset-0">
-        <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-red-500/10 rounded-full blur-3xl animate-pulse"></div>
-        <div class="absolute bottom-1/4 right-1/4 w-80 h-80 bg-orange-500/10 rounded-full blur-3xl animate-pulse" style="animation-delay: 2s;"></div>
-    </div>
-
-    <div class="container mx-auto px-4 relative z-10">
-        <div class="text-center text-white max-w-4xl mx-auto">
-            <h2 class="font-poppins font-bold text-3xl lg:text-4xl mb-6">
-                Ready to Start Your Journey?
-            </h2>
-            <p class="font-inter text-lg text-gray-300 mb-8 leading-relaxed">
-                Whether you're looking for engineering solutions, workforce excellence, or travel experiences, we're here to help you succeed.
-            </p>
-            <div class="flex flex-wrap justify-center gap-4">
-                <a href="tel:0777623864" class="inline-flex items-center gap-2 bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700 text-white font-poppins font-semibold px-8 py-4 rounded-full shadow-2xl hover:shadow-red-500/25 transform hover:scale-105 transition-all duration-300">
-                    <i class="fas fa-phone"></i>
-                    <span>Call Now</span>
-                </a>
-                <a href="mailto:inquiries@maxholdingsl.com" class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md text-white font-poppins font-semibold px-8 py-4 rounded-full border border-white/20 hover:bg-white/20 hover:shadow-2xl transform hover:scale-105 transition-all duration-300">
-                    <i class="fas fa-envelope"></i>
-                    <span>Email Us</span>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-
 <!-- Enhanced JavaScript for Interactions -->
 <script>
 document.addEventListener('DOMContentLoaded', () => {
@@ -526,24 +496,6 @@ document.addEventListener('DOMContentLoaded', () => {
         .animate-gradient {
             background-size: 200% 200%;
             animation: gradient-shift 3s ease infinite;
-        }
-        
-        /* Custom scrollbar */
-        ::-webkit-scrollbar {
-            width: 12px;
-        }
-        
-        ::-webkit-scrollbar-track {
-            background: #f1f1f1;
-        }
-        
-        ::-webkit-scrollbar-thumb {
-            background: linear-gradient(to bottom, #ef4444, #f97316);
-            border-radius: 6px;
-        }
-        
-        ::-webkit-scrollbar-thumb:hover {
-            background: linear-gradient(to bottom, #dc2626, #ea580c);
         }
     `;
     document.head.appendChild(style);
