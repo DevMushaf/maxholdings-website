@@ -490,19 +490,9 @@
                         
                         <!-- Main Image -->
                         <div class="relative z-10">
-                            <img src="{{ asset('images/ceopicture.jpg') }}" 
+                            <img src="{{ asset('images/ceopicture.png') }}" 
                                  alt="Shiraq Shaleel - Founder / CEO" 
                                  class="w-full max-w-md mx-auto rounded-3xl aspect-square object-cover shadow-2xl hover:shadow-3xl transition-shadow duration-500">
-                            
-                            <!-- Floating Badge -->
-                            <div class="absolute -bottom-4 left-1/2 transform -translate-x-1/2">
-                                <div class="bg-white rounded-2xl shadow-xl px-6 py-3 border border-gray-100">
-                                    <div class="text-center">
-                                        <div class="text-2xl font-bold text-gray-900">CEO</div>
-                                        <div class="text-sm text-gray-600">& Founder</div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>

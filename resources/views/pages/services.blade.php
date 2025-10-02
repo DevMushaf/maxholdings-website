@@ -79,7 +79,7 @@
     <div class="absolute top-20 right-20 w-64 h-64 bg-red-100 rounded-full opacity-20 blur-3xl"></div>
     <div class="absolute bottom-20 left-20 w-80 h-80 bg-orange-100 rounded-full opacity-20 blur-3xl"></div>
     
-    <div class="container mx-auto px-4 relative z-10">
+    <div class="container mx-auto px-4 relative z-10 max-w-6xl">
         <!-- Section Header -->
         <div class="text-center mb-8 lg:mb-12">
             <h2 class="font-poppins font-bold text-4xl lg:text-5xl text-gray-900 mb-6">
@@ -87,85 +87,57 @@
             </h2>
         </div>
 
-        <!-- Content Grid -->
-        <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
-            
-            <div class="lg:col-span-5">
-                <div class="relative group">
-                    <!-- Decorative Element -->
-                    <div class="absolute -inset-4 bg-gradient-to-r from-red-100 to-orange-100 rounded-3xl blur-2xl opacity-30 
-                                group-hover:opacity-50 transition-opacity duration-500">
-                    </div>
-                    
-                    <!-- Main Image -->
-                    <div class="relative rounded-3xl overflow-hidden shadow-2xl">
-                        <img src="{{ asset('images/marketfocus.png') }}" 
-                             alt="Target Market" 
-                             class="w-full h-auto object-cover transform group-hover:scale-105 transition-transform duration-700">
-                        
-                        <!-- Overlay Gradient -->
-                        <div class="absolute inset-0 bg-gradient-to-t from-black/20 to-transparent opacity-0 
-                                    group-hover:opacity-100 transition-opacity duration-500">
-                        </div>
-                    </div>
-                </div>
+        <!-- Description -->
+        <p class="font-inter text-lg leading-relaxed text-gray-700 mb-12 text-justify">
+            At Max Holdings Pvt Ltd, we work closely with diverse industries to 
+            deliver solutions that add value, improve efficiency, and support 
+            long-term growth. Our focus is on understanding the unique challenges 
+            of each sector and providing services that help businesses operate 
+            with confidence and consistency.
+        </p>
+
+        <!-- Industries Grid -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-6">
+            <!-- Industry Item -->
+            <div class="flex items-center gap-3">
+                <div class="w-4 h-4 bg-red-500 rounded-full flex-shrink-0"></div>
+                <span class="font-inter font-medium text-gray-900">Garment and Apparel Industry</span>
             </div>
 
-            <!-- Right: Content -->
-            <div class="lg:col-span-7">
-                <!-- Description -->
-                <p class="font-inter text-lg leading-relaxed text-gray-700 mb-10">
-                    At Max Holdings Pvt Ltd, we work closely with diverse industries to 
-                    deliver solutions that add value, improve efficiency, and support 
-                    long-term growth. Our focus is on understanding the unique challenges 
-                    of each sector and providing services that help businesses operate 
-                    with confidence and consistency.
-                </p>
+            <div class="flex items-center gap-3">
+                <div class="w-4 h-4 bg-red-500 rounded-full flex-shrink-0"></div>
+                <span class="font-inter font-medium text-gray-900">Manufacturing Industry</span>
+            </div>
 
-                <!-- Industries Grid -->
-                <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-                    <!-- Industry Item -->
-                    <div class="flex items-center gap-3">
-                        <div class="w-4 h-4 bg-red-500 rounded-full flex-shrink-0"></div>
-                        <span class="font-inter font-medium text-gray-900">Garment and Apparel Industry</span>
-                    </div>
+            <div class="flex items-center gap-3">
+                <div class="w-4 h-4 bg-red-500 rounded-full flex-shrink-0"></div>
+                <span class="font-inter font-medium text-gray-900">Cleaning Services</span>
+            </div>
 
-                    <div class="flex items-center gap-3">
-                        <div class="w-4 h-4 bg-red-500 rounded-full flex-shrink-0"></div>
-                        <span class="font-inter font-medium text-gray-900">Manufacturing Industry</span>
-                    </div>
+            <div class="flex items-center gap-3">
+                <div class="w-4 h-4 bg-red-500 rounded-full flex-shrink-0"></div>
+                <span class="font-inter font-medium text-gray-900">Maintenance</span>
+            </div>
 
-                    <div class="flex items-center gap-3">
-                        <div class="w-4 h-4 bg-red-500 rounded-full flex-shrink-0"></div>
-                        <span class="font-inter font-medium text-gray-900">Cleaning Services</span>
-                    </div>
+            <div class="flex items-center gap-3">
+                <div class="w-4 h-4 bg-red-500 rounded-full flex-shrink-0"></div>
+                <span class="font-inter font-medium text-gray-900">Construction Industry</span>
+            </div>
 
-                    <div class="flex items-center gap-3">
-                        <div class="w-4 h-4 bg-red-500 rounded-full flex-shrink-0"></div>
-                        <span class="font-inter font-medium text-gray-900">Maintenance</span>
-                    </div>
+            <div class="flex items-center gap-3">
+                <div class="w-4 h-4 bg-red-500 rounded-full flex-shrink-0"></div>
+                <span class="font-inter font-medium text-gray-900">Engineering Industry</span>
+            </div>
 
-                    <div class="flex items-center gap-3">
-                        <div class="w-4 h-4 bg-red-500 rounded-full flex-shrink-0"></div>
-                        <span class="font-inter font-medium text-gray-900">Construction Industry</span>
-                    </div>
+            <div class="flex items-center gap-3">
+                <div class="w-4 h-4 bg-red-500 rounded-full flex-shrink-0"></div>
+                <span class="font-inter font-medium text-gray-900">Packaging & Printing Industry</span>
+            </div>
 
-                    <div class="flex items-center gap-3">
-                        <div class="w-4 h-4 bg-red-500 rounded-full flex-shrink-0"></div>
-                        <span class="font-inter font-medium text-gray-900">Engineering Industry</span>
-                    </div>
-
-                    <div class="flex items-center gap-3">
-                        <div class="w-4 h-4 bg-red-500 rounded-full flex-shrink-0"></div>
-                        <span class="font-inter font-medium text-gray-900">Packaging & Printing Industry</span>
-                    </div>
-
-                    <div class="flex items-center gap-3">
-                        <div class="w-4 h-4 bg-red-500 rounded-full flex-shrink-0"></div>
-                        <span class="font-inter font-medium text-gray-900">FMCG Industry</span>
-                    </div>
-                </div>
-            </div>                
+            <div class="flex items-center gap-3">
+                <div class="w-4 h-4 bg-red-500 rounded-full flex-shrink-0"></div>
+                <span class="font-inter font-medium text-gray-900">FMCG Industry</span>
+            </div>
         </div>
     </div>
 </section>
@@ -175,14 +147,10 @@
     <div class="container mx-auto px-4 relative z-10">
         <!-- Section Header -->
         <div class="text-center mb-20">
-            <div class="inline-flex items-center gap-2 bg-blue-50 text-blue-600 rounded-full px-6 py-2 mb-6 font-medium text-sm">
-                <div class="w-2 h-2 bg-blue-500 rounded-full"></div>
-                Engineering Excellence
-            </div>
             <h2 class="font-poppins font-bold text-4xl lg:text-5xl text-gray-900 mb-6">
                 Max <span class="text-blue-600">Engineering</span> Services
             </h2>
-            <p class="font-inter text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            <p class="font-inter text-lg text-gray-600 mx-auto leading-relaxed max-w-[1000px] text-justify">
                 Max Engineering specializes in designing and delivering advanced solutions for 
                 traction and hydraulic lifts, with or without machine rooms. Our products are 
                 engineered for reliability, safety, and efficiency, serving residential, commercial, and 
@@ -298,14 +266,10 @@
     <div class="container mx-auto px-4 relative z-10">
         <!-- Section Header -->
         <div class="text-center mb-20">
-            <div class="inline-flex items-center gap-2 bg-orange-50 text-orange-600 rounded-full px-6 py-2 mb-6 font-medium text-sm">
-                <div class="w-2 h-2 bg-orange-500 rounded-full"></div>
-                Workforce Solutions
-            </div>
             <h2 class="font-poppins font-bold text-4xl lg:text-5xl text-gray-900 mb-6">
                 Max <span class="text-orange-600">Manpower</span> Services
             </h2>
-            <p class="font-inter text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            <p class="font-inter text-lg text-gray-600 mx-auto leading-relaxed max-w-[1000px] text-justify"">
                 Max Manpower provides reliable workforce solutions across diverse industries, 
                 ensuring businesses have the talent and support needed to operate efficiently. 
                 From skilled professionals to general workforce, we tailor our services to meet the 
@@ -460,14 +424,10 @@
     <div class="container mx-auto px-4 relative z-10">
         <!-- Section Header -->
         <div class="text-center mb-20">
-            <div class="inline-flex items-center gap-2 bg-green-50 text-green-600 rounded-full px-6 py-2 mb-6 font-medium text-sm">
-                <div class="w-2 h-2 bg-green-500 rounded-full"></div>
-                Travel Experiences
-            </div>
             <h2 class="font-poppins font-bold text-4xl lg:text-5xl text-gray-900 mb-6">
                 Max <span class="text-green-600">Tourism</span> Services
             </h2>
-            <p class="font-inter text-lg text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            <p class="font-inter text-lg text-gray-600 mx-auto leading-relaxed max-w-[1100px] text-justify"">
                 Max Tourism is dedicated to delivering exceptional travel and hospitality experiences 
                 with professionalism and care. We combine reliability, comfort, and cultural insight to 
                 ensure every journey whether for leisure or business is seamless and memorable. Our services 
@@ -570,22 +530,6 @@
                 </h3>
                 <p class="font-inter text-gray-700 leading-relaxed text-sm">
                     End-to-end support with visa processing, documentation, and travel formalities to ensure hassle-free journeys.
-                </p>
-                <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-green-500 to-emerald-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
-            </div>
-
-            <!-- Event & Destination Management -->
-            <div class="group relative bg-gradient-to-br from-green-50 to-emerald-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-green-100 hover:border-green-300">
-                <div class="mb-6">
-                    <div class="bg-gradient-to-br from-green-500 to-emerald-600 w-14 h-14 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-md">
-                        <i class="fas fa-calendar-check text-white text-xl"></i>
-                    </div>
-                </div>
-                <h3 class="font-poppins font-bold text-xl text-gray-900 mb-3 group-hover:text-green-600 transition-colors duration-300">
-                    Event & Destination Management
-                </h3>
-                <p class="font-inter text-gray-700 leading-relaxed text-sm">
-                    Professional planning and execution of events, weddings, and group experiences at iconic destinations.
                 </p>
                 <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-green-500 to-emerald-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
             </div>

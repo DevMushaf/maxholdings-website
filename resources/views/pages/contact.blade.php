@@ -53,12 +53,8 @@
     <div class="container mx-auto px-4 relative z-10">
         <!-- Section Header -->
         <div class="text-center mb-16">
-            <div class="inline-flex items-center gap-2 bg-red-50 text-red-600 rounded-full px-6 py-2 mb-6 font-medium text-sm">
-                <div class="w-2 h-2 bg-red-500 rounded-full"></div>
-                Business Information
-            </div>
             <h2 class="font-poppins font-bold text-4xl lg:text-5xl text-gray-900 mb-6">
-                Contact Us <span class="text-red-500">Now</span>
+                Our Contact <span class="text-red-500">Details</span>
             </h2>
             <p class="font-inter text-lg leading-relaxed text-gray-600 max-w-3xl mx-auto">
                 We aim to create integrated growth and success for the company and its employees by respecting the needs of the industry and providing quality human resources services.
@@ -178,10 +174,6 @@
     <div class="container mx-auto px-4 relative z-10">
         <!-- Section Header -->
         <div class="text-center mb-16">
-            <div class="inline-flex items-center gap-2 bg-red-50 text-red-600 rounded-full px-6 py-2 mb-6 font-medium text-sm">
-                <div class="w-2 h-2 bg-red-500 rounded-full"></div>
-                Send Us A Message
-            </div>
             <h2 class="font-poppins font-bold text-4xl lg:text-5xl text-gray-900 mb-6">
                 Get In <span class="text-red-500">Touch</span>
             </h2>
