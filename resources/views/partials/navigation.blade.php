@@ -6,7 +6,7 @@
                 <a href="{{ route('home') }}" class="flex items-center">
                     <img src="{{ asset('images/maxholdingslogo1.png') }}" 
                          alt="Max Holdings Logo" 
-                         style="height: 150px; width: auto;">
+                         style="height: 200px; width: auto;">
                 </a>
             </div>
 

@@ -112,16 +112,16 @@
     <div class="relative z-10 container mx-auto px-4 py-20">
         <div class="max-w-5xl hero-content transition-transform duration-500 ease-out">
           
-            <h1 class="hero-title font-poppins font-bold text-white mb-8 leading-tight animate-fade-in-up animation-delay-300 text-3xl md:text-5xl lg:text-6xl xl:text-7xl">
+            <h1 class="hero-title font-poppins font-bold text-white mb-8 leading-tight animate-fade-in-up text-3xl md:text-5xl lg:text-6xl xl:text-7xl">
                 Innovation, Unity, and Growth
             </h1>
             
-            <p class="font-inter text-base md:text-lg lg:text-xl text-white/80 max-w-3xl mb-12 leading-relaxed animate-fade-in-up animation-delay-700">
+            <p class="font-inter text-base md:text-lg lg:text-xl text-white/80 max-w-3xl mb-12 leading-relaxed animate-fade-in-up text-justify">
                 At Max Holdings, we unite diverse industries under one vision, driving 
                 innovation, collaboration, and sustainable growth beyond boundaries.
             </p>
             
-            <div class="flex flex-col sm:flex-row gap-6 items-center sm:items-start animate-fade-in-up animation-delay-900">
+            <div class="flex flex-col sm:flex-row gap-6 items-center sm:items-start animate-fade-in-up">
                 <a href="#services" class="group">
                     <button class="btn-primary inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-semibold rounded-full shadow-2xl hover:shadow-red-500/25 transform hover:scale-105 transition-all duration-300">
                         <span>Explore Our Services</span>
@@ -155,15 +155,11 @@
     <div class="container mx-auto px-4 relative z-10">
         <!-- Section Header -->
         <div class="text-center mb-20">
-            <div class="inline-flex items-center gap-2 bg-red-50 text-red-600 rounded-full px-6 py-2 mb-6 font-medium text-sm">
-                <div class="w-2 h-2 bg-red-500 rounded-full"></div>
-                <span class="font-inter font-semibold tracking-wide">OUR SERVICES</span>
-            </div>
             
             <h2 class="font-poppins font-bold text-4xl lg:text-5xl text-gray-900 mb-6 leading-tight">
                 What We <span class="text-red-500">Offer</span>
             </h2>
-            <p class="font-inter text-xl lg:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+            <p class="font-inter text-base leading-[30px] text-gray-600 max-w-3xl mx-auto text-justify md:text-center">
                 Reliable solutions across industries from engineering and manpower to tourism and events, 
                 designed to add exceptional value and convenience for every client.
             </p>
@@ -172,7 +168,7 @@
         <!-- Modern Services Grid -->
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12 items-stretch">
             @foreach($services as $service)
-                <div class="group relative bg-white border border-gray-100 rounded-3xl overflow-hidden shadow-md 
+                <div class="group relative bg-white border border-gray-100 rounded-3xl overflow-hidden shadow-md
                             hover:shadow-lg transform transition-all duration-500 hover:scale-[1.02] hover:-translate-y-2 
                             {{ $service['borderColor'] }} h-full flex flex-col">
 
@@ -196,7 +192,7 @@
 
                     <!-- Content -->
                     <div class="p-8 relative flex flex-col flex-grow">
-                        <h3 class="font-poppins font-bold text-2xl lg:text-3xl text-gray-900 mb-4 {{ $service['hoverColor'] }} transition-colors duration-300">
+                        <h3 class="font-poppins font-bold text-xl lg:text-2xl text-gray-900 mb-4 {{ $service['hoverColor'] }} transition-colors duration-300">
                             {{ $service['title'] }}
                         </h3>
                         <p class="font-inter text-gray-600 leading-relaxed mb-6 flex-grow">
@@ -239,12 +235,12 @@
     <div class="absolute top-0 left-0 w-full h-64 bg-gradient-to-b from-red-50/50 to-transparent"></div>
     
     <div class="container mx-auto px-4 relative z-10">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20 items-center">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20 items-stretch">
             <!-- Enhanced Image -->
-            <div class="order-2 lg:order-1 relative">
-                <div class="relative group">
+            <div class="order-2 lg:order-1 flex justify-center lg:justify-start self-center">
+                <div class="relative group w-full">
                     <!-- Main Image -->
-                    <div class="aspect-[4/3] overflow-hidden rounded-3xl shadow-2xl transform transition-transform duration-700 group-hover:scale-[1.02]">
+                    <div class="aspect-[4/3] overflow-hidden rounded-xl transform transition-transform duration-700 group-hover:scale-[1.02]">
                         <img src="{{ asset('images/companyoverview.png') }}" 
                              alt="Industrial manufacturing facility" 
                              class="w-full h-full object-cover">
@@ -257,31 +253,27 @@
             </div>
             
             <!-- Enhanced Content -->
-            <div class="order-1 lg:order-2">
-                <div class="inline-flex items-center gap-2 bg-red-50 text-red-600 rounded-full px-6 py-2 mb-8 font-medium text-sm">
-                    <div class="w-2 h-2 bg-red-500 rounded-full"></div>
-                    <span class="font-inter font-semibold tracking-wide">ABOUT US</span>
-                </div>
+            <div class="order-1 lg:order-2 flex flex-col justify-center">
                 
                 <h2 class="font-poppins font-bold text-4xl lg:text-5xl text-gray-900 mb-8 leading-tight">
                     Company <span class="text-red-500">Overview</span>
                 </h2>
                 
                 <div class="space-y-4">
-                    <p class="font-inter text-l text-gray-700 leading-relaxed">
+                    <p class="font-inter text-base leading-[30px] text-gray-600 text-justify">
                         Max Holdings Pvt Ltd is a fully Sri Lankan-owned and managed company, headquartered in 
                         Minuwangoda, Sri Lanka, and established in 2021. As a diversified business group, Max Holdings 
                         operates through its subsidiaries delivering excellence across multiple sectors.
                     </p>
                     
-                    <p class="font-inter text-l text-gray-700 leading-relaxed">
+                    <p class="font-inter text-base leading-[30px] text-gray-600 text-justify">
                         Our subsidiaries specialize in delivering high-quality services tailored to the needs of 
                         businesses and clients across Sri Lanka. Max Engineering focuses on engineering solutions, Max Manpower 
                         & Consultancy offers temporary and permanent staffing along with specialized recruitment for skilled and 
                         unskilled labor, and Max Tourism provides comprehensive travel and hospitality services.
                     </p>
                     
-                    <p class="font-inter text-l text-gray-700 leading-relaxed">
+                    <p class="font-inter text-base leading-[30px] text-gray-600 text-justify">
                         At Max Holdings, we are committed to excellence, efficiency, and creating value for every client, 
                         ensuring that each service and solution aligns perfectly with specific business needs.
                     </p>
@@ -291,7 +283,7 @@
     </div>
 </section>
 
-<!-- Our Companies Section with Consistent Dark Theme -->
+<!-- Our Companies Section -->
 <section id="companies" class="py-24 lg:py-32 bg-gradient-to-br from-gray-900 via-gray-800 to-red-900 text-white relative overflow-hidden">
     <!-- Animated Background -->
     <div class="absolute inset-0">
@@ -307,15 +299,11 @@
     <div class="container mx-auto px-4 relative z-10">
         <!-- Section Header -->
         <div class="text-center mb-20">
-            <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md text-white rounded-full px-6 py-2 mb-8 font-medium text-sm border border-white/20">
-                <div class="w-2 h-2 bg-red-500 rounded-full animate-pulse"></div>
-                <span class="font-inter font-semibold tracking-wide">OUR ECOSYSTEM</span>
-            </div>
             
             <h2 class="font-poppins font-bold text-4xl lg:text-6xl text-white mb-8 leading-tight">
                 Our <span class="bg-gradient-to-r from-red-400 to-orange-500 bg-clip-text text-transparent">Companies</span>
             </h2>
-            <p class="font-inter text-xl lg:text-2xl text-white/80 max-w-4xl mx-auto leading-relaxed">
+            <p class="font-inter text-base md:text-lg leading-[28px] text-white/80 max-w-3xl mx-auto text-justify md:text-center">
                 Three specialized companies working in perfect harmony to deliver comprehensive solutions 
                 across engineering, manpower, and tourism sectors.
             </p>
@@ -323,7 +311,7 @@
 
         <!-- Interactive Company Cards -->
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16 items-stretch">
-            <!-- Max Engineering -->
+            <!-- Max Manpower -->
             <div class="group relative bg-white/5 backdrop-blur-lg border border-white/10 rounded-3xl overflow-hidden hover:bg-white/10 transition-all duration-500 hover:scale-105 hover:-translate-y-2 h-full flex flex-col">
                 <div class="absolute inset-0 bg-gradient-to-br from-red-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 
@@ -333,33 +321,35 @@
                              alt="Max Manpower & Consultancy Logo" 
                              class="w-32 h-16 object-contain mx-auto opacity-80 group-hover:opacity-100 transition-opacity duration-300">
                     </div>
-                    
-                    <h3 class="font-poppins font-bold text-2xl text-white mb-4 group-hover:text-red-300 transition-colors duration-300">
+
+                    <h3 class="font-poppins font-bold text-lg text-white mb-4 group-hover:text-red-300 transition-colors duration-300">
                         Max Manpower & Consultancy
                     </h3>
                     <p class="font-inter text-white/70 leading-relaxed group-hover:text-white/90 transition-colors duration-300">
                         Comprehensive staffing services including temporary, permanent, and specialized recruitment for skilled professionals.
                     </p>
+
                 </div>
             </div>
 
-            <!-- Max Manpower & Consultancy -->
+            <!-- Max Engineering -->
             <div class="group relative bg-white/5 backdrop-blur-lg border border-white/10 rounded-3xl overflow-hidden hover:bg-white/10 transition-all duration-500 hover:scale-105 hover:-translate-y-2 h-full flex flex-col">
                 <div class="absolute inset-0 bg-gradient-to-br from-orange-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 
-                <div class="p-8 text-center flex-1 flex flex-col justify-between">
+                <div class="p-8 text-center flex-1 flex flex-col">
                     <div class="relative mb-8">
                         <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
                              alt="Max Engineering Logo" 
                              class="w-32 h-16 object-contain mx-auto opacity-80 group-hover:opacity-100 transition-opacity duration-300">
                     </div>
-                    
-                    <h3 class="font-poppins font-bold text-2xl text-white mb-4 group-hover:text-orange-300 transition-colors duration-300">
+
+                    <h3 class="font-poppins font-bold text-lg text-white mb-4 group-hover:text-orange-300 transition-colors duration-300">
                         Max Engineering
                     </h3>
                     <p class="font-inter text-white/70 leading-relaxed group-hover:text-white/90 transition-colors duration-300">
                         Innovative engineering solutions tailored to meet the diverse needs of modern industries with precision and excellence.
                     </p>
+
                 </div>
             </div>
 
@@ -367,19 +357,20 @@
             <div class="group relative bg-white/5 backdrop-blur-lg border border-white/10 rounded-3xl overflow-hidden hover:bg-white/10 transition-all duration-500 hover:scale-105 hover:-translate-y-2 h-full flex flex-col">
                 <div class="absolute inset-0 bg-gradient-to-br from-green-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                 
-                <div class="p-8 text-center flex-1 flex flex-col justify-between">
+                <div class="p-8 text-center flex-1 flex flex-col">
                     <div class="relative mb-8">
                         <img src="{{ asset('images/maxholdingslogowhitebg.png') }}" 
                              alt="Max Tourism Logo" 
                              class="w-32 h-16 object-contain mx-auto opacity-80 group-hover:opacity-100 transition-opacity duration-300">
                     </div>
-                    
-                    <h3 class="font-poppins font-bold text-2xl text-white mb-4 group-hover:text-green-300 transition-colors duration-300">
+
+                    <h3 class="font-poppins font-bold text-lg text-white mb-4 group-hover:text-green-300 transition-colors duration-300">
                         Max Tourism
                     </h3>
                     <p class="font-inter text-white/70 leading-relaxed group-hover:text-white/90 transition-colors duration-300">
                         Comprehensive travel and hospitality services creating unforgettable experiences for clients worldwide.
                     </p>
+
                 </div>
             </div>
         </div>
@@ -402,7 +393,7 @@
     </div>
 </section>
 
-<!-- Enhanced Brands Section with Consistent Styling -->
+<!-- Brands Section -->
 <section class="py-24 lg:py-32 bg-gradient-to-b from-gray-50 to-white overflow-hidden relative">
     <!-- Background Pattern -->
     <div class="absolute inset-0 opacity-5">
@@ -414,20 +405,15 @@
     <div class="container mx-auto px-4 relative z-10">
         <!-- Section Header -->
         <div class="text-center mb-20">
-            <div class="inline-flex items-center gap-2 bg-red-50 text-red-600 rounded-full px-6 py-2 mb-8 font-medium text-sm">
-                <div class="w-2 h-2 bg-red-500 rounded-full"></div>
-                <span class="font-inter font-semibold tracking-wide">OUR PARTNERS</span>
-            </div>
-            
             <h2 class="font-poppins font-bold text-4xl lg:text-5xl text-gray-900 mb-6 leading-tight">
                 Brands We <span class="text-red-500">Work With</span>
             </h2>
-            <p class="font-inter text-xl lg:text-2xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
+            <p class="font-inter text-base md:text-lg leading-[28px] text-gray-600 max-w-3xl mx-auto text-justify md:text-center">
                 Building lasting partnerships with industry leaders through trust, innovation, and unwavering commitment to excellence.
             </p>
         </div>
 
-        <!-- Enhanced Logo Showcase -->
+        <!-- Clean Logo Showcase -->
         <div class="relative">
             <!-- Gradient Overlays -->
             <div class="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-gray-50 to-transparent z-10"></div>
@@ -436,20 +422,15 @@
             <!-- Infinite Scroll Container -->
             <div class="brands-showcase overflow-hidden">
                 <div class="brands-track-enhanced flex items-center gap-16 animate-scroll-brands">
-                    <!-- Loop of 10 Logos -->
                     @foreach ([
                         'bairaha.png', 'mas.png', 'burgerhut.png', 'brandix.png', 
                         'breadtalk.png', 'navaloka.png', 'cargills.png', 
                         'cinnamongrand.png', 'fujitec.png', 'wijitha.png'
                     ] as $logo)
-                        <div class="brand-card flex-shrink-0">
-                            <div class="w-48 h-28 bg-white rounded-2xl shadow-md hover:shadow-2xl 
-                                        transition-all duration-300 flex items-center justify-center 
-                                        group hover:-translate-y-1 border border-gray-200">
-                                <img src="{{ asset('images/' . $logo) }}" 
-                                    alt="Partner Brand" 
-                                    class="w-full h-full object-contain p-4 transition-transform duration-300 group-hover:scale-105">
-                            </div>
+                        <div class="flex-shrink-0">
+                            <img src="{{ asset('images/' . $logo) }}" 
+                                 alt="Partner Brand" 
+                                 class="h-28 object-contain transition-transform duration-300 hover:scale-105">
                         </div>
                     @endforeach
 
@@ -459,14 +440,10 @@
                         'breadtalk.png', 'navaloka.png', 'cargills.png', 
                         'cinnamongrand.png', 'fujitec.png', 'wijitha.png'
                     ] as $logo)
-                        <div class="brand-card flex-shrink-0">
-                            <div class="w-48 h-28 bg-white rounded-2xl shadow-md hover:shadow-2xl 
-                                        transition-all duration-300 flex items-center justify-center 
-                                        group hover:-translate-y-1 border border-gray-200">
-                                <img src="{{ asset('images/' . $logo) }}" 
-                                    alt="Partner Brand" 
-                                    class="w-full h-full object-contain p-4 transition-transform duration-300 group-hover:scale-105">
-                            </div>
+                        <div class="flex-shrink-0">
+                            <img src="{{ asset('images/' . $logo) }}" 
+                                 alt="Partner Brand" 
+                                 class="h-28 object-contain transition-transform duration-300 hover:scale-105">
                         </div>
                     @endforeach
                 </div>
@@ -475,7 +452,6 @@
 
         <!-- Partnership CTA -->
         <div class="text-center mt-16">
-            <p class="font-inter text-lg text-gray-600 mb-8">Interested in partnering with us?</p>
             <a href="{{ route('contact') }}" 
                class="group inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-red-600 to-orange-600 
                       hover:from-red-700 hover:to-orange-700 text-white font-semibold rounded-full shadow-lg 
@@ -490,6 +466,7 @@
         </div>
     </div>
 </section>
+
 
 <!--CEO Message Section -->
 <section class="py-24 lg:py-32 bg-white relative overflow-hidden">
@@ -532,10 +509,6 @@
                 
                 <!-- Message Content -->
                 <div class="lg:col-span-3">
-                    <div class="inline-flex items-center gap-2 bg-red-50 text-red-600 rounded-full px-6 py-2 mb-8 font-medium text-sm">
-                        <div class="w-2 h-2 bg-red-500 rounded-full"></div>
-                        <span class="font-inter font-semibold tracking-wide">LEADERSHIP MESSAGE</span>
-                    </div>
                     
                     <h2 class="font-poppins font-bold text-4xl lg:text-5xl text-gray-900 mb-12 leading-tight">
                         Message From Our <span class="text-red-500">CEO</span>
@@ -546,7 +519,7 @@
                         <div class="absolute -top-8 -left-4 text-8xl font-bold text-red-600/10 leading-none select-none">"</div>
                         
                         <div class="relative bg-white border border-gray-100 rounded-3xl p-10 shadow-lg">
-                            <p class="font-inter italic text-[16px] leading-[30px] text-gray-700 mb-6">
+                            <p class="font-inter italic text-[16px] leading-[30px] text-gray-700 mb-6 text-justify">
                                 At Max Holdings, our vision has always been simple yet powerful to build opportunities 
                                 that create real impact. Whether through engineering innovation, empowering manpower, 
                                 or redefining tourism experiences, we are driven by a passion to deliver excellence that 

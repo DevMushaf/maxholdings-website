@@ -71,16 +71,12 @@
     <!-- Hero Content -->
     <div class="relative z-10 container mx-auto px-4 py-20">
         <div class="max-w-4xl mx-auto text-center">
-            <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md text-white rounded-full px-6 py-2 mb-8 font-medium text-sm border border-white/20">
-                <div class="w-2 h-2 bg-red-500 rounded-full animate-pulse"></div>
-                <span class="font-inter font-semibold tracking-wide">OUR BLOG</span>
-            </div>
             
-            <h1 class="font-poppins font-bold text-white mb-6 leading-tight animate-fade-in-up text-4xl md:text-5xl lg:text-6xl">
+            <h1 class="hero-title font-poppins font-bold text-white mb-8 leading-tight animate-fade-in-up text-3xl md:text-5xl lg:text-6xl xl:text-7xl">
                 Insights & <span class="text-red-500">Stories</span>
             </h1>
             
-            <p class="font-inter text-lg md:text-xl text-white/90 max-w-3xl mx-auto leading-relaxed animate-fade-in-up animation-delay-300">
+            <p class="font-inter text-base md:text-lg lg:text-xl text-white/80 max-w-3xl mb-12 leading-relaxed text-center mx-auto animate-fade-in-up">
                 Explore the latest updates, industry insights, and success stories from Max Holdings and our subsidiaries.
             </p>
         </div>
@@ -97,10 +93,6 @@
     <div class="container mx-auto px-4 relative z-10">
         <!-- Section Header -->
         <div class="text-center mb-20">
-            <div class="inline-flex items-center gap-2 bg-red-50 text-red-600 rounded-full px-6 py-2 mb-6 font-medium text-sm">
-                <div class="w-2 h-2 bg-red-500 rounded-full"></div>
-                <span class="font-inter font-semibold tracking-wide">LATEST ARTICLES</span>
-            </div>
             
             <h2 class="font-poppins font-bold text-4xl lg:text-5xl text-gray-900 mb-6 leading-tight">
                 Featured <span class="text-red-500">Posts</span>

@@ -18,19 +18,14 @@
 
     <div class="container mx-auto px-4 z-10 relative">
         <div class="text-center text-white max-w-5xl mx-auto">
-            <!-- Animated Badge -->
-            <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md rounded-full px-6 py-3 mb-8 border border-white/20">
-                <div class="w-2 h-2 bg-red-500 rounded-full animate-pulse"></div>
-                <span class="font-inter text-sm font-medium tracking-wide">Get in Touch</span>
-            </div>
             
             <!-- Enhanced Title with Animation -->
-            <h1 class="font-poppins font-bold text-4xl md:text-6xl lg:text-7xl mb-6 lg:mb-8 drop-shadow-2xl leading-tight">
+            <h1 class="hero-title font-poppins font-bold text-white mb-8 leading-tight animate-fade-in-up text-3xl md:text-5xl lg:text-6xl xl:text-7xl">
                 Contact <span class="bg-gradient-to-r from-red-400 to-orange-500 bg-clip-text text-transparent">Us</span>
             </h1>
             
             <!-- Enhanced Subtitle -->
-            <p class="font-poppins text-xl md:text-2xl lg:text-3xl max-w-3xl mx-auto drop-shadow-lg mb-12 leading-relaxed">
+            <p class="font-inter text-base md:text-lg lg:text-xl text-white/80 max-w-3xl mb-12 leading-relaxed text-center mx-auto animate-fade-in-up">
                 Let's Create Success Together
             </p>
             
@@ -329,6 +324,25 @@
         </div>
     </div>
 </section>
+
+@push('styles')
+<style>
+  @keyframes fade-in-up {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .animate-fade-in-up {
+        animation: fade-in-up 0.8s ease-out forwards;
+    }
+</style>
+@endpush
 
 <!-- Enhanced JavaScript for Interactions -->
 <script>

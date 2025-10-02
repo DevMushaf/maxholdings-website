@@ -19,24 +19,19 @@
 
     <div class="container mx-auto px-4 z-10 relative">
         <div class="text-center text-white max-w-5xl mx-auto">
-            <!-- Animated Badge -->
-            <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md rounded-full px-6 py-3 mb-8 border border-white/20">
-                <div class="w-2 h-2 bg-red-500 rounded-full animate-pulse"></div>
-                <span class="font-inter text-sm font-medium tracking-wide">WHAT WE OFFER</span>
-            </div>
             
             <!-- Enhanced Title with Animation -->
-            <h1 class="font-poppins font-bold text-4xl md:text-6xl lg:text-7xl mb-6 lg:mb-8 drop-shadow-2xl leading-tight">
-                Max Holdings <span class="bg-gradient-to-r from-red-400 to-orange-500 bg-clip-text text-transparent">Services</span>
+            <h1 class="hero-title font-poppins font-bold text-white mb-8 leading-tight animate-fade-in-up text-3xl md:text-5xl lg:text-6xl xl:text-7xl">
+                Our <span class="bg-gradient-to-r from-red-400 to-orange-500 bg-clip-text text-transparent">Services</span>
             </h1>
             
             <!-- Enhanced Subtitle -->
-            <p class="font-poppins text-xl md:text-2xl lg:text-3xl max-w-3xl mx-auto drop-shadow-lg mb-8 leading-relaxed">
+            <p class="font-inter text-base md:text-lg lg:text-xl text-white max-w-3xl mb-12 leading-relaxed text-center mx-auto animate-fade-in-up">
                 Comprehensive Solutions Across Multiple Industries
             </p>
             
             <!-- Service Categories Pills -->
-            <div class="flex flex-wrap justify-center gap-3 mt-12">
+            <div class="flex flex-wrap justify-center gap-3 mt-12 animate-fade-in-up">
                 <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-full px-6 py-3 hover:bg-white/20 transition-all duration-300 cursor-pointer group">
                     <div class="flex items-center gap-2">
                         <i class="fas fa-cogs text-red-400 group-hover:scale-110 transition-transform duration-300"></i>
@@ -87,10 +82,6 @@
     <div class="container mx-auto px-4 relative z-10">
         <!-- Section Header -->
         <div class="text-center mb-8 lg:mb-12">
-            <div class="inline-flex items-center gap-2 bg-red-50 text-red-600 rounded-full px-6 py-2 mb-6 font-medium text-sm">
-                <div class="w-2 h-2 bg-red-500 rounded-full"></div>
-                Industries We Serve
-            </div>
             <h2 class="font-poppins font-bold text-4xl lg:text-5xl text-gray-900 mb-6">
                 Our <span class="text-red-500">Market Focus</span>
             </h2>
@@ -602,6 +593,25 @@
         </div>
     </div>
 </section>
+
+@push('styles')
+<style>
+  @keyframes fade-in-up {
+        from {
+            opacity: 0;
+            transform: translateY(30px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .animate-fade-in-up {
+        animation: fade-in-up 0.8s ease-out forwards;
+    }
+</style>
+@endpush
 
 <!-- Parallax JavaScript -->
 <script>

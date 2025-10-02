@@ -25,12 +25,6 @@
                 </svg>
                 <span class="text-white">{{ $blog['category'] }}</span>
             </nav>
-
-            <!-- Category Badge -->
-            <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-md rounded-full px-6 py-2 mb-6 font-medium text-sm border border-white/20">
-                <div class="w-2 h-2 bg-red-500 rounded-full animate-pulse"></div>
-                <span class="font-inter font-semibold tracking-wide">{{ strtoupper($blog['category']) }}</span>
-            </div>
             
             <!-- Title -->
             <h1 class="font-poppins font-bold text-4xl md:text-5xl lg:text-6xl mb-8 leading-tight">
@@ -66,7 +60,7 @@
 <section class="py-12 bg-white">
     <div class="container mx-auto px-4">
         <div class="max-w-5xl mx-auto">
-            <div class="aspect-[16/9] rounded-3xl overflow-hidden shadow-2xl">
+            <div class="aspect-[16/9] rounded-3xl overflow-hidden">
                 <img src="{{ asset('images/' . $blog['image']) }}" 
                      alt="{{ $blog['title'] }}" 
                      class="w-full h-full object-cover">
@@ -88,7 +82,7 @@
                             <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
                         </svg>
                     </button>
-                    <button class="w-10 h-10 rounded-full bg-gray-100 hover:bg-blue-400 hover:text-white text-gray-600 flex items-center justify-center transition-all duration-300 transform hover:scale-110">
+                    <button class="w-10 h-10 rounded-full bg-gray-100 hover:bg-blue-600 hover:text-white text-gray-600 flex items-center justify-center transition-all duration-300 transform hover:scale-110">
                         <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                             <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"/>
                         </svg>
@@ -103,8 +97,8 @@
 
             <!-- Article Content -->
             <article class="prose prose-lg max-w-none">
-                <div class="font-inter text-gray-700 leading-relaxed space-y-6">
-                    {!! nl2br(e($blog['content'])) !!}
+                <div class="blog-content font-inter text-gray-700 leading-relaxed">
+                    {!! $blog['content'] !!}
                 </div>
             </article>
 
@@ -268,8 +262,8 @@
 
     .prose h2 {
         font-family: 'Poppins', sans-serif;
-        font-weight: 700;
-        font-size: 2rem;
+        font-weight: 600;
+        font-size: 1.5rem;
         color: #111827;
         margin-top: 3rem;
         margin-bottom: 1.5rem;
@@ -278,7 +272,7 @@
     .prose h3 {
         font-family: 'Poppins', sans-serif;
         font-weight: 600;
-        font-size: 1.5rem;
+        font-size: 1.0rem;
         color: #1f2937;
         margin-top: 2.5rem;
         margin-bottom: 1rem;
