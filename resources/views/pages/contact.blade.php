@@ -61,103 +61,82 @@
             </p>
         </div>
         
-        <!-- Contact Cards Grid - Updated with Consistent Colors -->
+        <!-- Contact Cards Grid - Simplified Design -->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             
             <!-- Phone Contact Card -->
-            <div class="group relative bg-white border border-gray-100 rounded-3xl overflow-hidden shadow-md hover:shadow-lg transform transition-all duration-500 hover:scale-[1.02] hover:-translate-y-2 hover:border-red-200 h-full flex flex-col">
-                <div class="absolute inset-0 bg-gradient-to-br from-red-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <div class="group relative bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transform transition-all duration-300 hover:-translate-y-1 h-full flex flex-col">
                 
                 <div class="p-8 text-center flex-1 flex flex-col justify-between relative">
                     <!-- Icon -->
-                    <div class="w-20 h-20 bg-gradient-to-br from-red-500 to-orange-500 rounded-2xl flex items-center justify-center mb-6 mx-auto transform group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg">
-                        <i class="fas fa-phone-alt text-white text-3xl"></i>
+                    <div class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mb-6 mx-auto group-hover:bg-gray-200 transition-colors duration-300">
+                        <i class="fas fa-phone-alt text-gray-600 text-2xl"></i>
                     </div>
                     
-                    <!-- Phone Numbers -->
-                    <div class="mb-6 flex-grow">
-                        <h3 class="font-poppins font-bold text-2xl text-gray-900 mb-4 group-hover:text-red-700 transition-colors duration-300">
+                    <!-- Content -->
+                    <div class="flex-grow">
+                        <h3 class="font-poppins font-bold text-2xl text-gray-900 mb-4">
                             Call Us
                         </h3>
                         <div class="space-y-2">
-                            <a href="tel:0777623864" class="block font-inter text-lg text-gray-700 hover:text-red-500 transition-colors duration-300">
-                                0777623864
+                            <a href="tel:0777623864" class="block font-inter text-base text-gray-600 hover:text-red-500 transition-colors duration-300">
+                                0777 623 864
                             </a>
-                            <a href="tel:0772415915" class="block font-inter text-lg text-gray-700 hover:text-red-500 transition-colors duration-300">
-                                0772415915
+                            <a href="tel:0772415915" class="block font-inter text-base text-gray-600 hover:text-red-500 transition-colors duration-300">
+                                0772 415 915
                             </a>
-                            <a href="tel:0777893778" class="block font-inter text-lg text-gray-700 hover:text-red-500 transition-colors duration-300">
-                                0777893778
+                            <a href="tel:0777893778" class="block font-inter text-base text-gray-600 hover:text-red-500 transition-colors duration-300">
+                                0777 893 778
                             </a>
                         </div>
                         <p class="font-inter text-sm text-gray-500 mt-4">Support 24/7</p>
                     </div>
-                    
-                    <!-- CTA Button -->
-                    <a href="tel:0777623864" class="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700 text-white font-poppins font-semibold px-6 py-3 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
-                        <i class="fas fa-phone text-sm"></i>
-                        <span>CALL US NOW</span>
-                    </a>
                 </div>
             </div>
 
             <!-- Email Contact Card -->
-            <div class="group relative bg-white border border-gray-100 rounded-3xl overflow-hidden shadow-md hover:shadow-lg transform transition-all duration-500 hover:scale-[1.02] hover:-translate-y-2 hover:border-red-200 h-full flex flex-col">
-                <div class="absolute inset-0 bg-gradient-to-br from-red-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <div class="group relative bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transform transition-all duration-300 hover:-translate-y-1 h-full flex flex-col">
                 
                 <div class="p-8 text-center flex-1 flex flex-col justify-between relative">
                     <!-- Icon -->
-                    <div class="w-20 h-20 bg-gradient-to-br from-red-500 to-orange-500 rounded-2xl flex items-center justify-center mb-6 mx-auto transform group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg">
-                        <i class="fas fa-envelope text-white text-3xl"></i>
+                    <div class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mb-6 mx-auto group-hover:bg-gray-200 transition-colors duration-300">
+                        <i class="fas fa-envelope text-gray-600 text-2xl"></i>
                     </div>
                     
-                    <!-- Email -->
-                    <div class="mb-6 flex-grow">
-                        <h3 class="font-poppins font-bold text-2xl text-gray-900 mb-4 group-hover:text-red-700 transition-colors duration-300">
+                    <!-- Content -->
+                    <div class="flex-grow">
+                        <h3 class="font-poppins font-bold text-2xl text-gray-900 mb-4">
                             Email Us
                         </h3>
-                        <a href="mailto:inquiries@maxholdingsl.com" class="font-inter text-lg text-gray-700 hover:text-red-500 transition-colors duration-300 break-all">
+                        <a href="mailto:inquiries@maxholdingsl.com" class="font-inter text-base text-gray-600 hover:text-red-500 transition-colors duration-300 break-all">
                             inquiries@maxholdingsl.com
                         </a>
                         <p class="font-inter text-sm text-gray-500 mt-4">Mon - Sat : 8.00-17.00</p>
                     </div>
-                    
-                    <!-- CTA Button -->
-                    <a href="mailto:inquiries@maxholdingsl.com" class="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700 text-white font-poppins font-semibold px-6 py-3 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
-                        <i class="fas fa-paper-plane text-sm"></i>
-                        <span>MAIL US NOW</span>
-                    </a>
                 </div>
             </div>
 
             <!-- Location Contact Card -->
-            <div class="group relative bg-white border border-gray-100 rounded-3xl overflow-hidden shadow-md hover:shadow-lg transform transition-all duration-500 hover:scale-[1.02] hover:-translate-y-2 hover:border-red-200 h-full flex flex-col">
-                <div class="absolute inset-0 bg-gradient-to-br from-red-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+            <div class="group relative bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transform transition-all duration-300 hover:-translate-y-1 h-full flex flex-col">
                 
                 <div class="p-8 text-center flex-1 flex flex-col justify-between relative">
                     <!-- Icon -->
-                    <div class="w-20 h-20 bg-gradient-to-br from-red-600 to-orange-600 rounded-2xl flex items-center justify-center mb-6 mx-auto transform group-hover:scale-110 group-hover:rotate-6 transition-all duration-500 shadow-lg">
-                        <i class="fas fa-map-marked-alt text-white text-3xl"></i>
+                    <div class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mb-6 mx-auto group-hover:bg-gray-200 transition-colors duration-300">
+                        <i class="fas fa-map-marker-alt text-gray-600 text-2xl"></i>
                     </div>
                     
-                    <!-- Locations -->
-                    <div class="mb-6 flex-grow">
-                        <h3 class="font-poppins font-bold text-2xl text-gray-900 mb-4 group-hover:text-red-700 transition-colors duration-300">
+                    <!-- Content -->
+                    <div class="flex-grow">
+                        <h3 class="font-poppins font-bold text-2xl text-gray-900 mb-4">
                             Visit Us
                         </h3>
-                        <div class="font-inter text-base text-gray-700 leading-relaxed space-y-1">
-                            <p>Minuwangoda,</p>
-                            <p>Kaduwela, Mawanella,</p>
-                            <p>Hatton, Norwood</p>
+                        <div class="font-inter text-base text-gray-600 leading-relaxed space-y-1">
+                            <p>Minuwangoda, Kaduwela,</p>
+                            <p>Mawanella, Hatton,</p>
+                            <p>Norwood</p>
                         </div>
                         <p class="font-inter text-sm text-gray-500 mt-4">Mon - Sat : 8.00-17.00</p>
                     </div>
-                    
-                    <!-- CTA Button -->
-                    <a href="#map-section" class="inline-flex items-center justify-center gap-2 bg-gradient-to-r from-red-600 to-orange-600 hover:from-red-700 hover:to-orange-700 text-white font-poppins font-semibold px-6 py-3 rounded-full shadow-lg hover:shadow-xl transform hover:scale-105 transition-all duration-300">
-                        <i class="fas fa-location-arrow text-sm"></i>
-                        <span>GET IN TOUCH</span>
-                    </a>
                 </div>
             </div>
 
@@ -243,13 +222,13 @@
                             ></textarea>
                         </div>
 
-                        <!-- Submit Button -->
+                        <!-- Submit Button - Consistent with Homepage -->
                         <button 
                             type="submit"
-                            class="w-full bg-gradient-to-r from-red-600 via-orange-500 to-red-600 hover:from-red-700 hover:via-orange-600 hover:to-red-700 text-white font-poppins font-bold text-lg px-8 py-4 rounded-xl shadow-lg hover:shadow-2xl transform hover:scale-105 transition-all duration-300 flex items-center justify-center gap-3 group"
+                            class="w-full bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-poppins font-bold text-lg px-8 py-4 rounded-full shadow-xl hover:shadow-red-500/25 transform hover:scale-105 transition-all duration-300 flex items-center justify-center gap-3 group"
                         >
-                            <span>SEND MESSAGE</span>
-                            <i class="fas fa-paper-plane transform group-hover:translate-x-1 transition-transform duration-300"></i>
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane transform group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300"></i>
                         </button>
 
                         <p class="text-center font-inter text-sm text-gray-500 mt-4">
@@ -267,7 +246,7 @@
                     <!-- Map Header -->
                     <div class="bg-gradient-to-r from-gray-900 to-gray-800 p-6 flex items-center justify-between">
                         <div class="flex items-center gap-3">
-                            <div class="w-10 h-10 bg-gradient-to-br from-red-500 to-orange-500 rounded-full flex items-center justify-center">
+                            <div class="w-10 h-10 bg-gradient-to-br from-red-600 to-red-700 rounded-full flex items-center justify-center">
                                 <i class="fas fa-map-marker-alt text-white"></i>
                             </div>
                             <div>
@@ -296,13 +275,13 @@
                         <!-- Map Overlay Info -->
                         <div class="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-sm rounded-xl p-4 shadow-lg border border-gray-200">
                             <div class="flex items-start gap-3">
-                                <div class="w-10 h-10 bg-gradient-to-br from-red-500 to-orange-500 rounded-lg flex items-center justify-center flex-shrink-0">
+                                <div class="w-10 h-10 bg-gradient-to-br from-red-600 to-red-700 rounded-lg flex items-center justify-center flex-shrink-0">
                                     <i class="fas fa-location-arrow text-white"></i>
                                 </div>
                                 <div>
                                     <p class="font-poppins font-bold text-gray-900 text-sm mb-1">Head Office</p>
                                     <p class="font-inter text-xs text-gray-600">Minuwangoda, Western Province, Sri Lanka</p>
-                                    <a href="https://maps.app.goo.gl/j3bDFPdAY4WMoe8a6" target="_blank" class="inline-flex items-center gap-1 text-red-500 text-xs font-semibold mt-2 hover:text-red-600 transition-colors duration-300">
+                                    <a href="https://maps.app.goo.gl/j3bDFPdAY4WMoe8a6" target="_blank" class="inline-flex items-center gap-1 text-red-600 text-xs font-semibold mt-2 hover:text-red-700 transition-colors duration-300">
                                         <span>Get Directions</span>
                                         <i class="fas fa-arrow-right text-xs"></i>
                                     </a>
