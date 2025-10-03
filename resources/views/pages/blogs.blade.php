@@ -146,12 +146,12 @@
                         </div>
 
                         <!-- Title -->
-                        <h3 class="font-poppins font-bold text-2xl text-gray-900 mb-4 leading-tight group-hover:text-red-600 transition-colors duration-300">
+                        <h3 class="font-poppins font-bold text-2xl text-gray-900 mb-4 leading-tight group-hover:text-red-600 transition-colors duration-300 min-h-[5.3rem]">
                             {{ $blog['title'] }}
                         </h3>
 
                         <!-- Excerpt -->
-                        <p class="font-inter text-gray-600 leading-relaxed mb-6">
+                        <p class="font-inter text-gray-600 leading-relaxed mb-6 min-h-[6.3rem]">
                             {{ $blog['excerpt'] }}
                         </p>
 

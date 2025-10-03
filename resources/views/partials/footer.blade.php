@@ -401,13 +401,15 @@
                     © 2024 Max Holdings. All rights reserved.
                 </p>
                 
-                <!-- Designed by Endevo Digital -->
+                <!-- Developed by Endevo Digital -->
                 <div class="order-1 md:order-2">
                     <p class="font-inter text-sm text-white/60 text-center">
-                        Designed by 
-                        <span class="font-poppins font-semibold text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-orange-400 to-red-500 hover:from-red-500 hover:via-orange-500 hover:to-red-600 transition-all duration-300 tracking-wide">
+                        Developed by 
+                        <a href="https://endevodigital.com/index" target="_blank" rel="noopener noreferrer"
+                            class="font-poppins font-semibold text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-orange-400 to-red-500 
+                                 hover:from-red-500 hover:via-orange-500 hover:to-red-600 transition-all duration-300 tracking-wide">
                             Endevo Digital
-                        </span>
+                        </a>
                     </p>
                 </div>
                 
