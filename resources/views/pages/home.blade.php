@@ -229,18 +229,18 @@
 </section>
 
 
-<!-- Company Overview Section with Consistent Styling -->
 <section class="py-24 lg:py-32 bg-white relative overflow-hidden">
     <!-- Background Elements -->
     <div class="absolute top-0 left-0 w-full h-64 bg-gradient-to-b from-red-50/50 to-transparent"></div>
     
     <div class="container mx-auto px-4 relative z-10">
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20 items-stretch">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20 items-center">
+            
             <!-- Enhanced Image -->
-            <div class="order-2 lg:order-1 flex justify-center lg:justify-start self-center">
-                <div class="relative group w-full">
+            <div class="order-2 lg:order-1 flex justify-center lg:justify-start h-full">
+                <div class="relative group w-full h-full flex">
                     <!-- Main Image -->
-                    <div class="aspect-[4/3] overflow-hidden rounded-xl transform transition-transform duration-700 group-hover:scale-[1.02]">
+                    <div class="aspect-[4/3] w-full h-auto overflow-hidden rounded-xl transform transition-transform duration-700 group-hover:scale-[1.02]">
                         <img src="{{ asset('images/companyoverview.png') }}" 
                              alt="Industrial manufacturing facility" 
                              class="w-full h-full object-cover">
@@ -253,8 +253,7 @@
             </div>
             
             <!-- Enhanced Content -->
-            <div class="order-1 lg:order-2 flex flex-col justify-center">
-                
+            <div class="order-1 lg:order-2 flex flex-col justify-center h-full">
                 <h2 class="font-poppins font-bold text-4xl lg:text-5xl text-gray-900 mb-8 leading-tight">
                     Company <span class="text-red-500">Overview</span>
                 </h2>
@@ -288,18 +287,14 @@
     <!-- Animated Background -->
     <div class="absolute inset-0">
         <div class="absolute inset-0 bg-gradient-to-r from-red-600/10 to-orange-600/10"></div>
-        <!-- Floating Particles -->
         <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-red-500/10 rounded-full blur-3xl animate-pulse"></div>
         <div class="absolute bottom-1/4 right-1/4 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl animate-pulse" style="animation-delay: 2s;"></div>
         <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-orange-500/10 rounded-full blur-3xl animate-pulse" style="animation-delay: 4s;"></div>
-        <div class="absolute top-1/3 right-1/3 w-1 h-1 bg-orange-400/40 rounded-full animate-ping animation-delay-1000"></div>
-        <div class="absolute bottom-1/4 left-1/3 w-3 h-3 bg-red-400/20 rounded-full animate-pulse animation-delay-2000"></div>
     </div>
     
     <div class="container mx-auto px-4 relative z-10">
         <!-- Section Header -->
         <div class="text-center mb-20">
-            
             <h2 class="font-poppins font-bold text-4xl lg:text-6xl text-white mb-8 leading-tight">
                 Our <span class="bg-gradient-to-r from-red-400 to-orange-500 bg-clip-text text-transparent">Companies</span>
             </h2>
@@ -309,86 +304,72 @@
             </p>
         </div>
 
-        <!-- Interactive Company Cards -->
+        <!-- Company Cards -->
         <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16 items-stretch">
+
             <!-- Max Manpower -->
-            <div class="group relative bg-white/5 backdrop-blur-lg border border-white/10 rounded-3xl overflow-hidden hover:bg-white/10 transition-all duration-500 hover:scale-105 hover:-translate-y-2 h-full flex flex-col">
+            <div class="group relative bg-white/5 backdrop-blur-lg border border-white/10 rounded-3xl overflow-hidden hover:bg-white/10 transition-all duration-500 hover:scale-105 hover:-translate-y-2 h-full flex flex-col p-8 text-center">
                 <div class="absolute inset-0 bg-gradient-to-br from-red-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                
-                <div class="p-8 text-center flex-1 flex flex-col justify-between">
-                    <div class="relative mb-8">
-                        <img src="{{ asset('images/maxholdingsmclogowhitebg.png') }}" 
-                             alt="Max Manpower & Consultancy Logo" 
-                             class="w-32 h-16 object-contain mx-auto opacity-80 group-hover:opacity-100 transition-opacity duration-300">
-                    </div>
 
-                    <h3 class="font-poppins font-bold text-lg text-white mb-4 group-hover:text-red-300 transition-colors duration-300">
-                        Max Manpower & Consultancy
-                    </h3>
-                    <p class="font-inter text-white/70 leading-relaxed group-hover:text-white/90 transition-colors duration-300">
-                        Comprehensive staffing services including temporary, permanent, and specialized recruitment for skilled professionals.
-                    </p>
-
+                <!-- Font Awesome Icon -->
+                <div class="mx-auto mb-4 w-12 h-12 rounded-full bg-red-500/20 flex items-center justify-center">
+                    <i class="fas fa-briefcase text-red-400 text-lg"></i>
                 </div>
+
+                <h3 class="font-poppins font-bold text-lg text-white mb-4 group-hover:text-red-300 transition-colors duration-300">
+                    Max Manpower & Consultancy
+                </h3>
+                <p class="font-inter text-white/70 leading-relaxed group-hover:text-white/90 transition-colors duration-300">
+                    Comprehensive staffing services including temporary, permanent, and specialized recruitment for skilled professionals.
+                </p>
+
+                <!-- Floating Abstract Shapes -->
+                <div class="absolute top-2 right-2 w-4 h-4 rounded-full bg-red-400/20 blur-lg animate-pulse"></div>
+                <div class="absolute bottom-4 left-4 w-3 h-3 rounded-full bg-red-300/30 blur-sm animate-pulse"></div>
             </div>
 
             <!-- Max Engineering -->
-            <div class="group relative bg-white/5 backdrop-blur-lg border border-white/10 rounded-3xl overflow-hidden hover:bg-white/10 transition-all duration-500 hover:scale-105 hover:-translate-y-2 h-full flex flex-col">
+            <div class="group relative bg-white/5 backdrop-blur-lg border border-white/10 rounded-3xl overflow-hidden hover:bg-white/10 transition-all duration-500 hover:scale-105 hover:-translate-y-2 h-full flex flex-col p-8 text-center">
                 <div class="absolute inset-0 bg-gradient-to-br from-orange-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                
-                <div class="p-8 text-center flex-1 flex flex-col">
-                    <div class="relative mb-8">
-                        <img src="{{ asset('images/maxholdingsenglogo.png') }}" 
-                             alt="Max Engineering Logo" 
-                             class="w-32 h-16 object-contain mx-auto opacity-80 group-hover:opacity-100 transition-opacity duration-300">
-                    </div>
 
-                    <h3 class="font-poppins font-bold text-lg text-white mb-4 group-hover:text-orange-300 transition-colors duration-300">
-                        Max Engineering
-                    </h3>
-                    <p class="font-inter text-white/70 leading-relaxed group-hover:text-white/90 transition-colors duration-300">
-                        Innovative engineering solutions tailored to meet the diverse needs of modern industries with precision and excellence.
-                    </p>
-
+                <!-- Font Awesome Icon -->
+                <div class="mx-auto mb-4 w-12 h-12 rounded-full bg-orange-500/20 flex items-center justify-center">
+                    <i class="fas fa-cogs text-orange-400 text-lg"></i>
                 </div>
+
+                <h3 class="font-poppins font-bold text-lg text-white mb-4 group-hover:text-orange-300 transition-colors duration-300">
+                    Max Engineering
+                </h3>
+                <p class="font-inter text-white/70 leading-relaxed group-hover:text-white/90 transition-colors duration-300">
+                    Innovative engineering solutions tailored to meet the diverse needs of modern industries with precision and excellence.
+                </p>
+
+                <!-- Floating Abstract Shapes -->
+                <div class="absolute top-2 left-2 w-4 h-4 rounded-full bg-orange-400/20 blur-lg animate-pulse"></div>
+                <div class="absolute bottom-4 right-4 w-3 h-3 rounded-full bg-orange-300/30 blur-sm animate-pulse"></div>
             </div>
 
             <!-- Max Tourism -->
-            <div class="group relative bg-white/5 backdrop-blur-lg border border-white/10 rounded-3xl overflow-hidden hover:bg-white/10 transition-all duration-500 hover:scale-105 hover:-translate-y-2 h-full flex flex-col">
+            <div class="group relative bg-white/5 backdrop-blur-lg border border-white/10 rounded-3xl overflow-hidden hover:bg-white/10 transition-all duration-500 hover:scale-105 hover:-translate-y-2 h-full flex flex-col p-8 text-center">
                 <div class="absolute inset-0 bg-gradient-to-br from-green-500/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
-                
-                <div class="p-8 text-center flex-1 flex flex-col">
-                    <div class="relative mb-8">
-                        <img src="{{ asset('images/maxholdingslogowhitebg.png') }}" 
-                             alt="Max Tourism Logo" 
-                             class="w-32 h-16 object-contain mx-auto opacity-80 group-hover:opacity-100 transition-opacity duration-300">
-                    </div>
 
-                    <h3 class="font-poppins font-bold text-lg text-white mb-4 group-hover:text-green-300 transition-colors duration-300">
-                        Max Tourism
-                    </h3>
-                    <p class="font-inter text-white/70 leading-relaxed group-hover:text-white/90 transition-colors duration-300">
-                        Comprehensive travel and hospitality services creating unforgettable experiences for clients worldwide.
-                    </p>
-
+                <!-- Font Awesome Icon -->
+                <div class="mx-auto mb-4 w-12 h-12 rounded-full bg-green-500/20 flex items-center justify-center">
+                    <i class="fas fa-globe-americas text-green-400 text-lg"></i>
                 </div>
-            </div>
-        </div>
 
-        <!-- Interactive Connection Lines (Desktop Only) -->
-        <div class="hidden lg:block relative">
-            <svg class="absolute inset-0 w-full h-full pointer-events-none" style="top: -50%;">
-                <defs>
-                    <linearGradient id="connectionGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-                        <stop offset="0%" style="stop-color:rgb(239, 68, 68);stop-opacity:0.3" />
-                        <stop offset="50%" style="stop-color:rgb(251, 146, 60);stop-opacity:0.3" />
-                        <stop offset="100%" style="stop-color:rgb(34, 197, 94);stop-opacity:0.3" />
-                    </linearGradient>
-                </defs>
-                <path d="M 200 100 Q 400 50 600 100 T 1000 100" stroke="url(#connectionGradient)" stroke-width="2" fill="none" opacity="0.5">
-                    <animate attributeName="stroke-dasharray" values="0,1000;1000,1000;0,1000" dur="4s" repeatCount="indefinite"/>
-                </path>
-            </svg>
+                <h3 class="font-poppins font-bold text-lg text-white mb-4 group-hover:text-green-300 transition-colors duration-300">
+                    Max Tourism
+                </h3>
+                <p class="font-inter text-white/70 leading-relaxed group-hover:text-white/90 transition-colors duration-300">
+                    Comprehensive travel and hospitality services creating unforgettable experiences for clients worldwide.
+                </p>
+
+                <!-- Floating Abstract Shapes -->
+                <div class="absolute top-2 right-3 w-4 h-4 rounded-full bg-green-400/20 blur-lg animate-pulse"></div>
+                <div class="absolute bottom-4 left-5 w-3 h-3 rounded-full bg-green-300/30 blur-sm animate-pulse"></div>
+            </div>
+
         </div>
     </div>
 </section>
