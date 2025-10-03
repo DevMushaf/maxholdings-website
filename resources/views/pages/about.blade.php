@@ -343,19 +343,19 @@
 </section>
 
 <!-- Enhanced Journey Section with Modern Stats -->
-<section class="py-24 lg:py-32 bg-gradient-to-br from-gray-900 via-gray-800 to-red-900 relative overflow-hidden">
+<section class="py-24 lg:py-32 bg-gradient-to-br from-gray-900 via-red-900/80 to-orange-900 relative overflow-hidden">
     <!-- Animated Background Elements -->
     <div class="absolute inset-0">
         <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-red-500/10 rounded-full blur-3xl animate-pulse"></div>
-        <div class="absolute bottom-1/4 right-1/4 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl animate-pulse" style="animation-delay: 2s;"></div>
-        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-orange-500/10 rounded-full blur-3xl animate-pulse" style="animation-delay: 4s;"></div>
+        <div class="absolute bottom-1/4 right-1/4 w-80 h-80 bg-orange-500/10 rounded-full blur-3xl animate-pulse" style="animation-delay: 2s;"></div>
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-yellow-500/10 rounded-full blur-3xl animate-pulse" style="animation-delay: 4s;"></div>
     </div>
     
     <!-- Particles Effect -->
     <div class="absolute inset-0 overflow-hidden">
         <div class="absolute top-20 left-20 w-2 h-2 bg-white/20 rounded-full animate-ping" style="animation-delay: 1s;"></div>
         <div class="absolute top-40 right-40 w-1 h-1 bg-red-400/30 rounded-full animate-ping" style="animation-delay: 3s;"></div>
-        <div class="absolute bottom-40 left-1/3 w-2 h-2 bg-blue-400/20 rounded-full animate-ping" style="animation-delay: 5s;"></div>
+        <div class="absolute bottom-40 left-1/3 w-2 h-2 bg-orange-400/20 rounded-full animate-ping" style="animation-delay: 5s;"></div>
     </div>
     
     <div class="container mx-auto px-4 relative z-10">

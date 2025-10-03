@@ -1,12 +1,12 @@
-<footer style="background-color: #2F2523;" class="py-16 relative overflow-hidden">
+<footer class="py-16 relative overflow-hidden bg-gradient-to-br from-gray-900 via-red-900/80 to-orange-900">
     <!-- Background Pattern -->
     <div class="absolute inset-0 opacity-5">
         <div class="absolute inset-0" style="background-image: radial-gradient(circle at 1px 1px, #fff 1px, transparent 0); background-size: 40px 40px;"></div>
     </div>
 
     <!-- Decorative Elements -->
-    <div class="absolute top-10 right-10 w-32 h-32 bg-red-500/10 rounded-full blur-3xl"></div>
-    <div class="absolute bottom-10 left-10 w-40 h-40 bg-orange-500/10 rounded-full blur-3xl"></div>
+    <div class="absolute top-10 right-10 w-32 h-32 bg-red-500/10 rounded-full blur-3xl animate-pulse"></div>
+    <div class="absolute bottom-10 left-10 w-40 h-40 bg-orange-500/10 rounded-full blur-3xl animate-pulse" style="animation-delay: 2s;"></div>
 
     <div class="container mx-auto px-4 relative z-10">
         <!-- Desktop View -->
@@ -19,25 +19,13 @@
                 </h3>
                 <div class="space-y-3">
                     <p class="font-inter font-normal text-base text-white/80 leading-[28px] hover:text-white transition-colors duration-300">
-                        <i class="fas fa-angle-right text-red-500 mr-2"></i>Minuwangoda
-                    </p>
-                    <p class="font-inter font-normal text-base text-white/80 leading-[28px] hover:text-white transition-colors duration-300">
-                        <i class="fas fa-angle-right text-red-500 mr-2"></i>Kaduwela
-                    </p>
-                    <p class="font-inter font-normal text-base text-white/80 leading-[28px] hover:text-white transition-colors duration-300">
-                        <i class="fas fa-angle-right text-red-500 mr-2"></i>Mawanella
-                    </p>
-                    <p class="font-inter font-normal text-base text-white/80 leading-[28px] hover:text-white transition-colors duration-300">
-                        <i class="fas fa-angle-right text-red-500 mr-2"></i>Hatton
-                    </p>
-                    <p class="font-inter font-normal text-base text-white/80 leading-[28px] hover:text-white transition-colors duration-300">
-                        <i class="fas fa-angle-right text-red-500 mr-2"></i>Norwood
-                    </p>
-                    <p class="font-inter font-normal text-base text-white/80 leading-[28px] hover:text-white transition-colors duration-300">
-                        <i class="fas fa-angle-right text-red-500 mr-2"></i>Maldives
+                        <i class="fas fa-angle-right text-red-500 mr-2"></i>Sri Lanka
                     </p>
                     <p class="font-inter font-normal text-base text-white/80 leading-[28px] hover:text-white transition-colors duration-300">
                         <i class="fas fa-angle-right text-red-500 mr-2"></i>Saudi Arabia
+                    </p>
+                    <p class="font-inter font-normal text-base text-white/80 leading-[28px] hover:text-white transition-colors duration-300">
+                        <i class="fas fa-angle-right text-red-500 mr-2"></i>Maldives
                     </p>
                 </div>
             </div>
@@ -49,22 +37,43 @@
                     Contact Us
                 </h3>
                 <div class="space-y-5">
-                    <a href="mailto:inquiries@maxholdingsl.com" class="flex items-start gap-3 group">
-                        <i class="fas fa-envelope text-red-500 mt-1 group-hover:scale-110 transition-transform duration-300"></i>
-                        <span class="font-inter font-normal text-base text-white/80 leading-[28px] group-hover:text-white transition-colors duration-300">
-                            inquiries@maxholdingsl.com
-                        </span>
-                    </a>
-                    <a href="tel:+94777893778" class="flex items-start gap-3 group">
-                        <i class="fas fa-phone text-red-500 mt-1 group-hover:scale-110 transition-transform duration-300"></i>
-                        <span class="font-inter font-normal text-base text-white/80 leading-[28px] group-hover:text-white transition-colors duration-300">
-                            +94 777 893 778
-                        </span>
-                    </a>
+                    <!-- General Inquiries -->
+                    <div>
+                        <p class="font-poppins text-xs text-red-400 mb-2 tracking-wide uppercase">General Inquiries</p>
+                        <a href="mailto:inquiries@maxholdingsl.com" class="flex items-start gap-3 group">
+                            <i class="fas fa-envelope text-red-500 mt-1 group-hover:scale-110 transition-transform duration-300"></i>
+                            <span class="font-inter font-normal text-sm text-white/80 leading-[24px] group-hover:text-white transition-colors duration-300">
+                                inquiries@maxholdingsl.com
+                            </span>
+                        </a>
+                        <a href="tel:+94777893778" class="flex items-start gap-3 group mt-2">
+                            <i class="fas fa-phone text-red-500 mt-1 group-hover:scale-110 transition-transform duration-300"></i>
+                            <span class="font-inter font-normal text-sm text-white/80 leading-[24px] group-hover:text-white transition-colors duration-300">
+                                +94 777 893 778
+                            </span>
+                        </a>
+                    </div>
+
+                    <!-- Career Opportunities -->
+                    <div>
+                        <p class="font-poppins text-xs text-orange-400 mb-2 tracking-wide uppercase">Career Opportunities</p>
+                        <a href="mailto:careers@maxholdingsl.com" class="flex items-start gap-3 group">
+                            <i class="fas fa-briefcase text-orange-500 mt-1 group-hover:scale-110 transition-transform duration-300"></i>
+                            <span class="font-inter font-normal text-sm text-white/80 leading-[24px] group-hover:text-white transition-colors duration-300">
+                                careers@maxholdingsl.com
+                            </span>
+                        </a>
+                        <a href="tel:+94777623864" class="flex items-start gap-3 group mt-2">
+                            <i class="fas fa-phone text-orange-500 mt-1 group-hover:scale-110 transition-transform duration-300"></i>
+                            <span class="font-inter font-normal text-sm text-white/80 leading-[24px] group-hover:text-white transition-colors duration-300">
+                                +94 777 623 864
+                            </span>
+                        </a>
+                    </div>
 
                     <!-- Social Media Icons -->
-                    <div class="pt-4">
-                        <p class="font-poppins font-medium text-lg text-white mb-4">Follow Us</p>
+                    <div class="pt-2">
+                        <p class="font-poppins font-medium text-base text-white mb-3">Follow Us</p>
                         <div class="flex gap-3">
                             <a href="#" class="w-10 h-10 bg-white/10 hover:bg-red-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 group">
                                 <i class="fab fa-facebook-f text-white text-sm"></i>
@@ -75,11 +84,8 @@
                             <a href="#" class="w-10 h-10 bg-white/10 hover:bg-green-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 group">
                                 <i class="fab fa-whatsapp text-white text-sm"></i>
                             </a>
-                            <a href="#" class="w-10 h-10 bg-white/10 hover:bg-black rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 group">
-                                <i class="fab fa-x-twitter text-white text-sm"></i>
-                            </a>
-                            <a href="#" class="w-10 h-10 bg-white/10 hover:bg-gray-900 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 group">
-                                <i class="fab fa-tiktok text-white text-sm"></i>
+                            <a href="#" class="w-10 h-10 bg-white/10 hover:bg-blue-600 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 group">
+                                <i class="fab fa-linkedin-in text-white text-sm"></i>
                             </a>
                         </div>
                     </div>
@@ -147,25 +153,13 @@
                     </h3>
                     <div class="space-y-2">
                         <p class="font-inter font-normal text-sm text-white/80 leading-6 hover:text-white transition-colors duration-300">
-                            <i class="fas fa-angle-right text-red-500 mr-2"></i>Minuwangoda
-                        </p>
-                        <p class="font-inter font-normal text-sm text-white/80 leading-6 hover:text-white transition-colors duration-300">
-                            <i class="fas fa-angle-right text-red-500 mr-2"></i>Kaduwela
-                        </p>
-                        <p class="font-inter font-normal text-sm text-white/80 leading-6 hover:text-white transition-colors duration-300">
-                            <i class="fas fa-angle-right text-red-500 mr-2"></i>Mawanella
-                        </p>
-                        <p class="font-inter font-normal text-sm text-white/80 leading-6 hover:text-white transition-colors duration-300">
-                            <i class="fas fa-angle-right text-red-500 mr-2"></i>Hatton
-                        </p>
-                        <p class="font-inter font-normal text-sm text-white/80 leading-6 hover:text-white transition-colors duration-300">
-                            <i class="fas fa-angle-right text-red-500 mr-2"></i>Norwood
-                        </p>
-                        <p class="font-inter font-normal text-sm text-white/80 leading-6 hover:text-white transition-colors duration-300">
-                            <i class="fas fa-angle-right text-red-500 mr-2"></i>Maldives
+                            <i class="fas fa-angle-right text-red-500 mr-2"></i>Sri Lanka
                         </p>
                         <p class="font-inter font-normal text-sm text-white/80 leading-6 hover:text-white transition-colors duration-300">
                             <i class="fas fa-angle-right text-red-500 mr-2"></i>Saudi Arabia
+                        </p>
+                        <p class="font-inter font-normal text-sm text-white/80 leading-6 hover:text-white transition-colors duration-300">
+                            <i class="fas fa-angle-right text-red-500 mr-2"></i>Maldives
                         </p>
                     </div>
                 </div>
@@ -177,37 +171,55 @@
                         Contact Us
                     </h3>
                     <div class="space-y-4">
-                        <a href="mailto:inquiries@maxholdingsl.com" class="flex items-start gap-3 group">
-                            <i class="fas fa-envelope text-red-500 mt-1 group-hover:scale-110 transition-transform duration-300"></i>
-                            <span class="font-inter font-normal text-sm text-white/80 leading-6 group-hover:text-white transition-colors duration-300">
-                                inquiries@maxholdingsl.com
-                            </span>
-                        </a>
-                        <a href="tel:+94777893778" class="flex items-start gap-3 group">
-                            <i class="fas fa-phone text-red-500 mt-1 group-hover:scale-110 transition-transform duration-300"></i>
-                            <span class="font-inter font-normal text-sm text-white/80 leading-6 group-hover:text-white transition-colors duration-300">
-                                +94 777 893 778
-                            </span>
-                        </a>
+                        <!-- General Inquiries -->
+                        <div>
+                            <p class="font-poppins text-xs text-red-400 mb-2 tracking-wide uppercase">General</p>
+                            <a href="mailto:inquiries@maxholdingsl.com" class="flex items-start gap-2 group">
+                                <i class="fas fa-envelope text-red-500 mt-1 text-xs group-hover:scale-110 transition-transform duration-300"></i>
+                                <span class="font-inter font-normal text-xs text-white/80 leading-5 group-hover:text-white transition-colors duration-300">
+                                    inquiries@maxholdingsl.com
+                                </span>
+                            </a>
+                            <a href="tel:+94777893778" class="flex items-start gap-2 group mt-1">
+                                <i class="fas fa-phone text-red-500 mt-1 text-xs group-hover:scale-110 transition-transform duration-300"></i>
+                                <span class="font-inter font-normal text-xs text-white/80 leading-5 group-hover:text-white transition-colors duration-300">
+                                    +94 777 893 778
+                                </span>
+                            </a>
+                        </div>
+
+                        <!-- Career Opportunities -->
+                        <div>
+                            <p class="font-poppins text-xs text-orange-400 mb-2 tracking-wide uppercase">Careers</p>
+                            <a href="mailto:careers@maxholdingsl.com" class="flex items-start gap-2 group">
+                                <i class="fas fa-briefcase text-orange-500 mt-1 text-xs group-hover:scale-110 transition-transform duration-300"></i>
+                                <span class="font-inter font-normal text-xs text-white/80 leading-5 group-hover:text-white transition-colors duration-300">
+                                    careers@maxholdingsl.com
+                                </span>
+                            </a>
+                            <a href="tel:+94777623864" class="flex items-start gap-2 group mt-1">
+                                <i class="fas fa-phone text-orange-500 mt-1 text-xs group-hover:scale-110 transition-transform duration-300"></i>
+                                <span class="font-inter font-normal text-xs text-white/80 leading-5 group-hover:text-white transition-colors duration-300">
+                                    +94 777 623 864
+                                </span>
+                            </a>
+                        </div>
 
                         <!-- Social Media Icons -->
-                        <div class="pt-3">
-                            <p class="font-poppins font-medium text-base text-white mb-3">Follow Us</p>
-                            <div class="flex gap-3">
-                                <a href="#" class="w-9 h-9 bg-white/10 hover:bg-red-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
+                        <div class="pt-2">
+                            <p class="font-poppins font-medium text-sm text-white mb-3">Follow Us</p>
+                            <div class="flex gap-2">
+                                <a href="#" class="w-8 h-8 bg-white/10 hover:bg-red-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
                                     <i class="fab fa-facebook-f text-white text-xs"></i>
                                 </a>
-                                <a href="#" class="w-9 h-9 bg-white/10 hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
+                                <a href="#" class="w-8 h-8 bg-white/10 hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
                                     <i class="fab fa-instagram text-white text-xs"></i>
                                 </a>
-                                <a href="#" class="w-9 h-9 bg-white/10 hover:bg-green-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
+                                <a href="#" class="w-8 h-8 bg-white/10 hover:bg-green-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
                                     <i class="fab fa-whatsapp text-white text-xs"></i>
                                 </a>
-                                <a href="#" class="w-9 h-9 bg-white/10 hover:bg-black rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
-                                    <i class="fab fa-x-twitter text-white text-xs"></i>
-                                </a>
-                                <a href="#" class="w-9 h-9 bg-white/10 hover:bg-gray-900 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
-                                    <i class="fab fa-tiktok text-white text-xs"></i>
+                                <a href="#" class="w-8 h-8 bg-white/10 hover:bg-blue-600 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
+                                    <i class="fab fa-linkedin-in text-white text-xs"></i>
                                 </a>
                             </div>
                         </div>
@@ -277,25 +289,13 @@
                     </h3>
                     <div class="space-y-2">
                         <p class="font-inter font-normal text-sm text-white/80 leading-6">
-                            <i class="fas fa-angle-right text-red-500 mr-2"></i>Minuwangoda
-                        </p>
-                        <p class="font-inter font-normal text-sm text-white/80 leading-6">
-                            <i class="fas fa-angle-right text-red-500 mr-2"></i>Kaduwela
-                        </p>
-                        <p class="font-inter font-normal text-sm text-white/80 leading-6">
-                            <i class="fas fa-angle-right text-red-500 mr-2"></i>Mawanella
-                        </p>
-                        <p class="font-inter font-normal text-sm text-white/80 leading-6">
-                            <i class="fas fa-angle-right text-red-500 mr-2"></i>Hatton
-                        </p>
-                        <p class="font-inter font-normal text-sm text-white/80 leading-6">
-                            <i class="fas fa-angle-right text-red-500 mr-2"></i>Norwood
-                        </p>
-                        <p class="font-inter font-normal text-sm text-white/80 leading-6">
-                            <i class="fas fa-angle-right text-red-500 mr-2"></i>Maldives
+                            <i class="fas fa-angle-right text-red-500 mr-2"></i>Sri Lanka
                         </p>
                         <p class="font-inter font-normal text-sm text-white/80 leading-6">
                             <i class="fas fa-angle-right text-red-500 mr-2"></i>Saudi Arabia
+                        </p>
+                        <p class="font-inter font-normal text-sm text-white/80 leading-6">
+                            <i class="fas fa-angle-right text-red-500 mr-2"></i>Maldives
                         </p>
                     </div>
                 </div>
@@ -307,21 +307,42 @@
                         Contact Us
                     </h3>
                     <div class="space-y-4">
-                        <a href="mailto:inquiries@maxholdingsl.com" class="flex items-center justify-center gap-2 group">
-                            <i class="fas fa-envelope text-red-500 group-hover:scale-110 transition-transform duration-300"></i>
-                            <span class="font-inter font-normal text-sm text-white/80 leading-6 group-hover:text-white transition-colors duration-300">
-                                inquiries@maxholdingsl.com
-                            </span>
-                        </a>
-                        <a href="tel:+94777893778" class="flex items-center justify-center gap-2 group">
-                            <i class="fas fa-phone text-red-500 group-hover:scale-110 transition-transform duration-300"></i>
-                            <span class="font-inter font-normal text-sm text-white/80 leading-6 group-hover:text-white transition-colors duration-300">
-                                +94 777 893 778
-                            </span>
-                        </a>
+                        <!-- General Inquiries -->
+                        <div>
+                            <p class="font-poppins text-xs text-red-400 mb-2 tracking-wide uppercase">General</p>
+                            <a href="mailto:inquiries@maxholdingsl.com" class="flex items-center justify-center gap-2 group">
+                                <i class="fas fa-envelope text-red-500 text-xs group-hover:scale-110 transition-transform duration-300"></i>
+                                <span class="font-inter font-normal text-xs text-white/80 leading-6 group-hover:text-white transition-colors duration-300">
+                                    inquiries@maxholdingsl.com
+                                </span>
+                            </a>
+                            <a href="tel:+94777893778" class="flex items-center justify-center gap-2 group mt-1">
+                                <i class="fas fa-phone text-red-500 text-xs group-hover:scale-110 transition-transform duration-300"></i>
+                                <span class="font-inter font-normal text-xs text-white/80 leading-6 group-hover:text-white transition-colors duration-300">
+                                    +94 777 893 778
+                                </span>
+                            </a>
+                        </div>
+
+                        <!-- Career Opportunities -->
+                        <div>
+                            <p class="font-poppins text-xs text-orange-400 mb-2 tracking-wide uppercase">Careers</p>
+                            <a href="mailto:careers@maxholdingsl.com" class="flex items-center justify-center gap-2 group">
+                                <i class="fas fa-briefcase text-orange-500 text-xs group-hover:scale-110 transition-transform duration-300"></i>
+                                <span class="font-inter font-normal text-xs text-white/80 leading-6 group-hover:text-white transition-colors duration-300">
+                                    careers@maxholdingsl.com
+                                </span>
+                            </a>
+                            <a href="tel:+94777623864" class="flex items-center justify-center gap-2 group mt-1">
+                                <i class="fas fa-phone text-orange-500 text-xs group-hover:scale-110 transition-transform duration-300"></i>
+                                <span class="font-inter font-normal text-xs text-white/80 leading-6 group-hover:text-white transition-colors duration-300">
+                                    +94 777 623 864
+                                </span>
+                            </a>
+                        </div>
 
                         <!-- Social Media Icons -->
-                        <div class="pt-3">
+                        <div class="pt-2">
                             <p class="font-poppins font-medium text-base text-white mb-3">Follow Us</p>
                             <div class="flex gap-3 justify-center">
                                 <a href="#" class="w-10 h-10 bg-white/10 hover:bg-red-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
@@ -333,11 +354,8 @@
                                 <a href="#" class="w-10 h-10 bg-white/10 hover:bg-green-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
                                     <i class="fab fa-whatsapp text-white text-sm"></i>
                                 </a>
-                                <a href="#" class="w-10 h-10 bg-white/10 hover:bg-black rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
-                                    <i class="fab fa-x-twitter text-white text-sm"></i>
-                                </a>
-                                <a href="#" class="w-10 h-10 bg-white/10 hover:bg-gray-900 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
-                                    <i class="fab fa-tiktok text-white text-sm"></i>
+                                <a href="#" class="w-10 h-10 bg-white/10 hover:bg-blue-600 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
+                                    <i class="fab fa-linkedin-in text-white text-sm"></i>
                                 </a>
                             </div>
                         </div>
@@ -414,8 +432,8 @@
                 </div>
                 
                 <div class="flex gap-6 order-3">
-                    <a href="#" class="font-inter text-sm text-white/60 hover:text-white transition-colors duration-300">Privacy Policy</a>
-                    <a href="#" class="font-inter text-sm text-white/60 hover:text-white transition-colors duration-300">Terms of Service</a>
+                    <a href="/privacy-policy.pdf" target="_blank" class="font-inter text-sm text-white/60 hover:text-white transition-colors duration-300">Privacy Policy</a>
+                    <a href="/terms-of-service.pdf" target="_blank" class="font-inter text-sm text-white/60 hover:text-white transition-colors duration-300">Terms of Service</a>
                 </div>
             </div>
         </div>
