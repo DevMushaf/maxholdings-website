@@ -36,6 +36,7 @@
         @yield('content')
     </main>
     
+    @include('components.whatsapp-chat')
     @include('partials.footer')
     
     @stack('scripts')
