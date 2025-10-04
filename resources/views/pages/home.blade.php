@@ -89,7 +89,7 @@
 
 
 @section('content')
-<!-- Modern Hero Section with Parallax Effect -->
+<!-- Hero Section with Parallax Effect -->
 <section class="hero-section relative overflow-hidden min-h-screen flex items-center" 
          style="background-image: url('{{ asset('images/homeheroimage.webp') }}'); 
                 background-size: cover; 
@@ -110,9 +110,10 @@
 
     <!-- Hero Content -->
     <div class="relative z-10 container mx-auto px-4 py-20">
-        <div class="max-w-5xl hero-content transition-transform duration-500 ease-out">
-          
-            <h1 class="hero-title font-poppins font-bold text-white mb-8 leading-tight animate-fade-in-up text-3xl md:text-5xl lg:text-6xl xl:text-7xl">
+        <div class="max-w-5xl hero-content transition-transform duration-500 ease-out text-left">
+        
+            <h1 class="hero-title font-poppins font-bold text-white mb-8 leading-tight animate-fade-in-up 
+                    text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl">
                 Innovation, Unity, and Growth
             </h1>
             
@@ -121,12 +122,19 @@
                 innovation, collaboration, and sustainable growth beyond boundaries.
             </p>
             
-            <div class="flex flex-col sm:flex-row gap-6 items-center sm:items-start animate-fade-in-up">
+            <div class="flex flex-col sm:flex-row gap-6 items-start animate-fade-in-up">
                 <a href="#services" class="group">
-                    <button class="btn-primary inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-semibold rounded-full shadow-2xl hover:shadow-red-500/25 transform hover:scale-105 transition-all duration-300">
+                    <button class="btn-primary inline-flex items-center gap-3 px-8 py-4 
+                                bg-gradient-to-r from-red-600 to-red-700 
+                                hover:from-red-700 hover:to-red-800 
+                                text-white font-semibold rounded-full 
+                                shadow-2xl hover:shadow-red-500/25 
+                                transform hover:scale-105 transition-all duration-300">
                         <span>Explore Our Services</span>
-                        <svg class="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        <svg class="w-5 h-5 transition-transform duration-300 group-hover:translate-x-1" 
+                            fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" 
+                                d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
                         </svg>
                     </button>
                 </a>
@@ -145,7 +153,7 @@
     </div>
 </section>
 
-<!-- Enhanced Services Section with Consistent Styling -->
+<!-- Services Section -->
 <section id="services" class="py-24 lg:py-32 bg-gradient-to-b from-gray-50 to-white relative overflow-hidden">
     <!-- Background Pattern -->
     <div class="absolute inset-0 opacity-5">
@@ -228,7 +236,7 @@
     </div>
 </section>
 
-
+<!-- Company Overview Section -->
 <section class="py-24 lg:py-32 bg-white relative overflow-hidden">
     <!-- Background Elements -->
     <div class="absolute top-0 left-0 w-full h-64 bg-gradient-to-b from-red-50/50 to-transparent"></div>
@@ -526,10 +534,6 @@
 
             <!-- Mobile/Tablet Layout -->
             <div class="lg:hidden text-center">
-                <div class="inline-flex items-center gap-2 bg-red-50 text-red-600 rounded-full px-6 py-2 mb-8 font-medium text-sm">
-                    <div class="w-2 h-2 bg-red-500 rounded-full"></div>
-                    <span class="font-inter font-semibold tracking-wide">LEADERSHIP MESSAGE</span>
-                </div>
                 
                 <h2 class="font-poppins font-bold text-3xl md:text-4xl text-gray-900 mb-12 leading-tight">
                     Message From Our <span class="text-red-500">CEO</span>
@@ -538,18 +542,10 @@
                 <!-- CEO Image -->
                 <div class="mb-12">
                     <div class="relative inline-block">
-                        <img src="{{ asset('images/ceopicture.jpg') }}" 
+                        <img src="{{ asset('images/ceopicture.png') }}" 
                              alt="Shiraq Shaleel - Founder / CEO" 
                              class="w-48 h-48 md:w-64 md:h-64 rounded-3xl object-cover shadow-2xl mx-auto">
                         
-                        <!-- Mobile Badge -->
-                        <div class="absolute -bottom-4 left-1/2 transform -translate-x-1/2">
-                            <div class="bg-white rounded-xl shadow-lg px-4 py-2 border border-gray-100">
-                                <div class="text-center">
-                                    <div class="text-lg font-bold text-gray-900">CEO & Founder</div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 
@@ -602,9 +598,9 @@
     
     <div class="container mx-auto px-4 relative z-10">
         <div class="max-w-7xl mx-auto">
-            <!-- Desktop Layout (Mirrored) -->
+            <!-- Desktop Layout -->
             <div class="hidden lg:grid lg:grid-cols-5 lg:gap-16 items-center">
-                <!-- Message Content (Left Side) -->
+                <!-- Message Content -->
                 <div class="lg:col-span-3">
                     
                     <h2 class="font-poppins font-bold text-4xl lg:text-5xl text-gray-900 mb-12 leading-tight">
@@ -648,7 +644,7 @@
                     </div>
                 </div>
 
-                <!-- COO Image (Right Side) -->
+                <!-- COO Image -->
                 <div class="lg:col-span-2">
                     <div class="relative">
                         <!-- Decorative Elements -->
@@ -667,10 +663,6 @@
 
             <!-- Mobile/Tablet Layout -->
             <div class="lg:hidden text-center">
-                <div class="inline-flex items-center gap-2 bg-orange-50 text-orange-600 rounded-full px-6 py-2 mb-8 font-medium text-sm">
-                    <div class="w-2 h-2 bg-orange-500 rounded-full"></div>
-                    <span class="font-inter font-semibold tracking-wide">OPERATIONS LEADERSHIP</span>
-                </div>
                 
                 <h2 class="font-poppins font-bold text-3xl md:text-4xl text-gray-900 mb-12 leading-tight">
                     Message From Our <span class="text-orange-600">COO</span>
@@ -682,15 +674,6 @@
                         <img src="{{ asset('images/coopicture.png') }}" 
                              alt="Afdhal Arafath - Director / COO" 
                              class="w-48 h-48 md:w-64 md:h-64 rounded-3xl object-cover shadow-2xl mx-auto">
-                        
-                        <!-- Mobile Badge -->
-                        <div class="absolute -bottom-4 left-1/2 transform -translate-x-1/2">
-                            <div class="bg-white rounded-xl shadow-lg px-4 py-2 border border-gray-100">
-                                <div class="text-center">
-                                    <div class="text-lg font-bold text-gray-900">Director & COO</div>
-                                </div>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 
