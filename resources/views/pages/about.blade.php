@@ -180,6 +180,75 @@
     </div>
 </section>
 
+<!-- Our Associate Companies Section -->
+<section class="py-24 lg:py-32 bg-gradient-to-b from-white to-gray-50 relative overflow-hidden">
+    <!-- Background Pattern -->
+    <div class="absolute inset-0 opacity-5">
+        <div class="absolute inset-0" style="background-image: radial-gradient(circle at 1px 1px, #333 1px, transparent 0); background-size: 40px 40px;"></div>
+    </div>
+    
+    <!-- Animated Background Elements -->
+    <div class="absolute inset-0">
+        <div class="absolute top-1/3 left-1/4 w-80 h-80 bg-red-500/10 rounded-full blur-3xl animate-pulse" style="animation-delay: 1s;"></div>
+        <div class="absolute bottom-1/3 right-1/4 w-72 h-72 bg-orange-500/10 rounded-full blur-3xl animate-pulse" style="animation-delay: 3s;"></div>
+    </div>
+    
+    <div class="container mx-auto px-4 relative z-10">
+        <!-- Section Header -->
+        <div class="text-center mb-16">
+            <h2 class="font-poppins font-bold text-4xl lg:text-5xl text-gray-900 mb-4">
+                Our <span class="text-red-500">Associate Companies</span>
+            </h2>
+            <p class="font-inter text-lg text-gray-600 max-w-2xl mx-auto">
+                Accelerating Innovation, Together
+            </p>
+        </div>
+
+        <!-- Associates Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+            
+            <!-- Endevo -->
+            <div class="group relative">
+                <div class="bg-white rounded-3xl p-8 md:p-12 shadow-xl hover:shadow-2xl transition-all duration-500 border border-gray-100 transform hover:-translate-y-2 h-full flex flex-col items-center justify-center text-center">
+                    <!-- Logo Container -->
+                    <div class="relative mb-6 w-full flex items-center justify-center">
+                        <div class="relative w-48 h-48 md:w-56 md:h-56 flex items-center justify-center">
+                            <img src="{{ asset('images/endevologo.png') }}" 
+                                 alt="Endevo Logo" 
+                                 class="w-full h-full object-contain transform transition-all duration-700 group-hover:scale-110">
+                        </div>
+                    </div>
+                    
+                    <!-- Decorative Line -->
+                    <div class="w-20 h-1 bg-gradient-to-r from-red-500 to-orange-500 rounded-full mb-4 transform group-hover:w-32 transition-all duration-500"></div>
+                    
+                </div>
+            </div>
+
+            <!-- DigiPrint Lab -->
+            <div class="group relative">
+                <div class="bg-white rounded-3xl p-8 md:p-12 shadow-xl hover:shadow-2xl transition-all duration-500 border border-gray-100 transform hover:-translate-y-2 h-full flex flex-col items-center justify-center text-center">
+                    <!-- Logo Container -->
+                    <div class="relative mb-6 w-full flex items-center justify-center">
+                        <div class="relative w-48 h-48 md:w-56 md:h-56 flex items-center justify-center">
+                            <img src="{{ asset('images/digiprintlogo.png') }}" 
+                                 alt="DigiPrint Lab Logo" 
+                                 class="w-full h-full object-contain transform transition-all duration-700 group-hover:scale-110">
+                        </div>
+                    </div>
+                    
+                    <!-- Decorative Line -->
+                    <div class="w-20 h-1 bg-gradient-to-r from-red-500 to-orange-500 rounded-full mb-4 transform group-hover:w-32 transition-all duration-500"></div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
 <!-- Vision & Mission Section -->
 <section class="py-24 lg:py-32 bg-gradient-to-b from-white to-white relative overflow-hidden">
     <!-- Animated Background Elements -->
