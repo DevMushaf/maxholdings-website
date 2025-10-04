@@ -56,15 +56,15 @@
 
                     <!-- Career Opportunities -->
                     <div>
-                        <p class="font-poppins text-xs text-orange-400 mb-2 tracking-wide uppercase">Career Opportunities</p>
+                        <p class="font-poppins text-xs text-red-400 mb-2 tracking-wide uppercase">Career Opportunities</p>
                         <a href="mailto:careers@maxholdingsl.com" class="flex items-start gap-3 group">
-                            <i class="fas fa-briefcase text-orange-500 mt-1 group-hover:scale-110 transition-transform duration-300"></i>
+                            <i class="fas fa-briefcase text-red-500 mt-1 group-hover:scale-110 transition-transform duration-300"></i>
                             <span class="font-inter font-normal text-sm text-white/80 leading-[24px] group-hover:text-white transition-colors duration-300">
                                 careers@maxholdingsl.com
                             </span>
                         </a>
                         <a href="tel:+94777623864" class="flex items-start gap-3 group mt-2">
-                            <i class="fas fa-phone text-orange-500 mt-1 group-hover:scale-110 transition-transform duration-300"></i>
+                            <i class="fas fa-phone text-red-500 mt-1 group-hover:scale-110 transition-transform duration-300"></i>
                             <span class="font-inter font-normal text-sm text-white/80 leading-[24px] group-hover:text-white transition-colors duration-300">
                                 +94 777 623 864
                             </span>
@@ -75,16 +75,16 @@
                     <div class="pt-2">
                         <p class="font-poppins font-medium text-base text-white mb-3">Follow Us</p>
                         <div class="flex gap-3">
-                            <a href="#" class="w-10 h-10 bg-white/10 hover:bg-red-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 group">
+                            <a href="https://www.facebook.com/share/1WE1JrXcb7/?mibextid=wwXIfr" target="_blank" class="w-10 h-10 bg-white/10 hover:bg-red-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 group">
                                 <i class="fab fa-facebook-f text-white text-sm"></i>
                             </a>
                             <a href="#" class="w-10 h-10 bg-white/10 hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 group">
                                 <i class="fab fa-instagram text-white text-sm"></i>
                             </a>
-                            <a href="#" class="w-10 h-10 bg-white/10 hover:bg-green-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 group">
+                            <a href="https://wa.me/94777893778" target="_blank" class="w-10 h-10 bg-white/10 hover:bg-green-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 group">
                                 <i class="fab fa-whatsapp text-white text-sm"></i>
                             </a>
-                            <a href="#" class="w-10 h-10 bg-white/10 hover:bg-blue-600 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 group">
+                            <a href="https://www.linkedin.com/company/max-engineering-experts-consultancy-pvt-ltd/" target="_blank" class="w-10 h-10 bg-white/10 hover:bg-blue-600 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 group">
                                 <i class="fab fa-linkedin-in text-white text-sm"></i>
                             </a>
                         </div>
@@ -190,15 +190,15 @@
 
                         <!-- Career Opportunities -->
                         <div>
-                            <p class="font-poppins text-xs text-orange-400 mb-2 tracking-wide uppercase">Careers</p>
+                            <p class="font-poppins text-xs text-red-400 mb-2 tracking-wide uppercase">Careers</p>
                             <a href="mailto:careers@maxholdingsl.com" class="flex items-start gap-2 group">
-                                <i class="fas fa-briefcase text-orange-500 mt-1 text-xs group-hover:scale-110 transition-transform duration-300"></i>
+                                <i class="fas fa-briefcase text-red-500 mt-1 text-xs group-hover:scale-110 transition-transform duration-300"></i>
                                 <span class="font-inter font-normal text-xs text-white/80 leading-5 group-hover:text-white transition-colors duration-300">
                                     careers@maxholdingsl.com
                                 </span>
                             </a>
                             <a href="tel:+94777623864" class="flex items-start gap-2 group mt-1">
-                                <i class="fas fa-phone text-orange-500 mt-1 text-xs group-hover:scale-110 transition-transform duration-300"></i>
+                                <i class="fas fa-phone text-red-500 mt-1 text-xs group-hover:scale-110 transition-transform duration-300"></i>
                                 <span class="font-inter font-normal text-xs text-white/80 leading-5 group-hover:text-white transition-colors duration-300">
                                     +94 777 623 864
                                 </span>
@@ -209,16 +209,16 @@
                         <div class="pt-2">
                             <p class="font-poppins font-medium text-sm text-white mb-3">Follow Us</p>
                             <div class="flex gap-2">
-                                <a href="#" class="w-8 h-8 bg-white/10 hover:bg-red-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
+                                <a href="https://www.facebook.com/share/1WE1JrXcb7/?mibextid=wwXIfr" target="_blank" class="w-8 h-8 bg-white/10 hover:bg-red-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
                                     <i class="fab fa-facebook-f text-white text-xs"></i>
                                 </a>
                                 <a href="#" class="w-8 h-8 bg-white/10 hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
                                     <i class="fab fa-instagram text-white text-xs"></i>
                                 </a>
-                                <a href="#" class="w-8 h-8 bg-white/10 hover:bg-green-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
+                                <a href="https://wa.me/94777893778" target="_blank" class="w-8 h-8 bg-white/10 hover:bg-green-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
                                     <i class="fab fa-whatsapp text-white text-xs"></i>
                                 </a>
-                                <a href="#" class="w-8 h-8 bg-white/10 hover:bg-blue-600 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
+                                <a href="https://www.linkedin.com/company/max-engineering-experts-consultancy-pvt-ltd/" target="_blank" class="w-8 h-8 bg-white/10 hover:bg-blue-600 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
                                     <i class="fab fa-linkedin-in text-white text-xs"></i>
                                 </a>
                             </div>
@@ -326,15 +326,15 @@
 
                         <!-- Career Opportunities -->
                         <div>
-                            <p class="font-poppins text-xs text-orange-400 mb-2 tracking-wide uppercase">Careers</p>
+                            <p class="font-poppins text-xs text-red-400 mb-2 tracking-wide uppercase">Careers</p>
                             <a href="mailto:careers@maxholdingsl.com" class="flex items-center justify-center gap-2 group">
-                                <i class="fas fa-briefcase text-orange-500 text-xs group-hover:scale-110 transition-transform duration-300"></i>
+                                <i class="fas fa-briefcase text-red-500 text-xs group-hover:scale-110 transition-transform duration-300"></i>
                                 <span class="font-inter font-normal text-xs text-white/80 leading-6 group-hover:text-white transition-colors duration-300">
                                     careers@maxholdingsl.com
                                 </span>
                             </a>
                             <a href="tel:+94777623864" class="flex items-center justify-center gap-2 group mt-1">
-                                <i class="fas fa-phone text-orange-500 text-xs group-hover:scale-110 transition-transform duration-300"></i>
+                                <i class="fas fa-phone text-red-500 text-xs group-hover:scale-110 transition-transform duration-300"></i>
                                 <span class="font-inter font-normal text-xs text-white/80 leading-6 group-hover:text-white transition-colors duration-300">
                                     +94 777 623 864
                                 </span>
@@ -345,16 +345,16 @@
                         <div class="pt-2">
                             <p class="font-poppins font-medium text-base text-white mb-3">Follow Us</p>
                             <div class="flex gap-3 justify-center">
-                                <a href="#" class="w-10 h-10 bg-white/10 hover:bg-red-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
+                                <a href="https://www.facebook.com/share/1WE1JrXcb7/?mibextid=wwXIfr" target="_blank" class="w-10 h-10 bg-white/10 hover:bg-red-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
                                     <i class="fab fa-facebook-f text-white text-sm"></i>
                                 </a>
                                 <a href="#" class="w-10 h-10 bg-white/10 hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
                                     <i class="fab fa-instagram text-white text-sm"></i>
                                 </a>
-                                <a href="#" class="w-10 h-10 bg-white/10 hover:bg-green-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
+                                <a href="https://wa.me/94777893778" target="_blank" class="w-10 h-10 bg-white/10 hover:bg-green-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
                                     <i class="fab fa-whatsapp text-white text-sm"></i>
                                 </a>
-                                <a href="#" class="w-10 h-10 bg-white/10 hover:bg-blue-600 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
+                                <a href="https://www.linkedin.com/company/max-engineering-experts-consultancy-pvt-ltd/" target="_blank" class="w-10 h-10 bg-white/10 hover:bg-blue-600 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
                                     <i class="fab fa-linkedin-in text-white text-sm"></i>
                                 </a>
                             </div>
