@@ -1,12 +1,22 @@
-<footer class="py-16 relative overflow-hidden bg-gradient-to-br from-gray-900 via-red-900/80 to-orange-900">
+<footer class="py-16 relative overflow-hidden bg-gradient-to-br from-gray-900 via-gray-800 to-red-900">
     <!-- Background Pattern -->
     <div class="absolute inset-0 opacity-5">
         <div class="absolute inset-0" style="background-image: radial-gradient(circle at 1px 1px, #fff 1px, transparent 0); background-size: 40px 40px;"></div>
     </div>
 
-    <!-- Decorative Elements -->
-    <div class="absolute top-10 right-10 w-32 h-32 bg-red-500/10 rounded-full blur-3xl animate-pulse"></div>
-    <div class="absolute bottom-10 left-10 w-40 h-40 bg-orange-500/10 rounded-full blur-3xl animate-pulse" style="animation-delay: 2s;"></div>
+    <!-- Animated Decorative Elements - matching Journey section -->
+    <div class="absolute inset-0">
+        <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-red-500/10 rounded-full blur-3xl animate-pulse"></div>
+        <div class="absolute bottom-1/4 right-1/4 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl animate-pulse" style="animation-delay: 2s;"></div>
+        <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-orange-500/10 rounded-full blur-3xl animate-pulse" style="animation-delay: 4s;"></div>
+    </div>
+    
+    <!-- Particles Effect -->
+    <div class="absolute inset-0 overflow-hidden">
+        <div class="absolute top-20 left-20 w-2 h-2 bg-white/20 rounded-full animate-ping" style="animation-delay: 1s;"></div>
+        <div class="absolute top-40 right-40 w-1 h-1 bg-red-400/30 rounded-full animate-ping" style="animation-delay: 3s;"></div>
+        <div class="absolute bottom-40 left-1/3 w-2 h-2 bg-blue-400/20 rounded-full animate-ping" style="animation-delay: 5s;"></div>
+    </div>
 
     <div class="container mx-auto px-4 relative z-10">
         <!-- Desktop View -->
@@ -78,7 +88,7 @@
                             <a href="https://www.facebook.com/share/1WE1JrXcb7/?mibextid=wwXIfr" target="_blank" class="w-10 h-10 bg-white/10 hover:bg-red-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 group">
                                 <i class="fab fa-facebook-f text-white text-sm"></i>
                             </a>
-                            <a href="#" class="w-10 h-10 bg-white/10 hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 group">
+                            <a href="#" target="_blank" class="w-10 h-10 bg-white/10 hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 group">
                                 <i class="fab fa-instagram text-white text-sm"></i>
                             </a>
                             <a href="https://wa.me/94777893778" target="_blank" class="w-10 h-10 bg-white/10 hover:bg-green-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110 group">
@@ -99,20 +109,21 @@
                     Our Company
                 </h3>
                 <div class="space-y-4">
-                    <a href="#" class="block font-inter font-normal text-base text-white/80 leading-[28px] hover:text-white hover:translate-x-2 transition-all duration-300">
+                    <p class="font-inter font-normal text-base text-white/80 leading-[28px] transition-all duration-300">
                         <i class="fas fa-chevron-right text-red-500 text-xs mr-2"></i>MAX HOLDINGS
-                    </a>
-                    <a href="#" class="block font-inter font-normal text-base text-white/80 leading-[28px] hover:text-white hover:translate-x-2 transition-all duration-300">
+                    </p>
+                    <p class="font-inter font-normal text-base text-white/80 leading-[28px] transition-all duration-300">
                         <i class="fas fa-chevron-right text-red-500 text-xs mr-2"></i>MAX ENGINEERING
-                    </a>
-                    <a href="#" class="block font-inter font-normal text-base text-white/80 leading-[28px] hover:text-white hover:translate-x-2 transition-all duration-300">
+                    </p>
+                    <p class="font-inter font-normal text-base text-white/80 leading-[28px] transition-all duration-300">
                         <i class="fas fa-chevron-right text-red-500 text-xs mr-2"></i>MAX MANPOWER
-                    </a>
-                    <a href="#" class="block font-inter font-normal text-base text-white/80 leading-[28px] hover:text-white hover:translate-x-2 transition-all duration-300">
+                    </p>
+                    <p class="font-inter font-normal text-base text-white/80 leading-[28px] transition-all duration-300">
                         <i class="fas fa-chevron-right text-red-500 text-xs mr-2"></i>MAX TOURISM
-                    </a>
+                    </p>
                 </div>
             </div>
+
 
             <!-- Stay Connected Column -->
             <div>
@@ -212,13 +223,13 @@
                                 <a href="https://www.facebook.com/share/1WE1JrXcb7/?mibextid=wwXIfr" target="_blank" class="w-8 h-8 bg-white/10 hover:bg-red-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
                                     <i class="fab fa-facebook-f text-white text-xs"></i>
                                 </a>
-                                <a href="#" class="w-8 h-8 bg-white/10 hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
+                                <a href="#" target="_blank" class="w-8 h-8 bg-white/10 hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
                                     <i class="fab fa-instagram text-white text-xs"></i>
                                 </a>
                                 <a href="https://wa.me/94777893778" target="_blank" class="w-8 h-8 bg-white/10 hover:bg-green-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
                                     <i class="fab fa-whatsapp text-white text-xs"></i>
                                 </a>
-                                <a href="https://www.linkedin.com/company/max-engineering-experts-consultancy-pvt-ltd/" target="_blank" class="w-8 h-8 bg-white/10 hover:bg-blue-600 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
+                                <a href="https://www.linkedin.com/company/max-engineering-experts-consultancy-pvt-ltd/" class="w-8 h-8 bg-white/10 hover:bg-blue-600 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
                                     <i class="fab fa-linkedin-in text-white text-xs"></i>
                                 </a>
                             </div>
@@ -235,20 +246,21 @@
                         Our Company
                     </h3>
                     <div class="space-y-3">
-                        <a href="#" class="block font-inter font-normal text-sm text-white/80 leading-6 hover:text-white hover:translate-x-2 transition-all duration-300">
+                        <p class="font-inter font-normal text-sm text-white/80 leading-6 transition-all duration-300">
                             <i class="fas fa-chevron-right text-red-500 text-xs mr-2"></i>MAX HOLDINGS
-                        </a>
-                        <a href="#" class="block font-inter font-normal text-sm text-white/80 leading-6 hover:text-white hover:translate-x-2 transition-all duration-300">
+                        </p>
+                        <p class="font-inter font-normal text-sm text-white/80 leading-6 transition-all duration-300">
                             <i class="fas fa-chevron-right text-red-500 text-xs mr-2"></i>MAX ENGINEERING
-                        </a>
-                        <a href="#" class="block font-inter font-normal text-sm text-white/80 leading-6 hover:text-white hover:translate-x-2 transition-all duration-300">
+                        </p>
+                        <p class="font-inter font-normal text-sm text-white/80 leading-6 transition-all duration-300">
                             <i class="fas fa-chevron-right text-red-500 text-xs mr-2"></i>MAX MANPOWER
-                        </a>
-                        <a href="#" class="block font-inter font-normal text-sm text-white/80 leading-6 hover:text-white hover:translate-x-2 transition-all duration-300">
+                        </p>
+                        <p class="font-inter font-normal text-sm text-white/80 leading-6 transition-all duration-300">
                             <i class="fas fa-chevron-right text-red-500 text-xs mr-2"></i>MAX TOURISM
-                        </a>
+                        </p>
                     </div>
                 </div>
+
 
                 <!-- Stay Connected Section -->
                 <div>
@@ -348,7 +360,7 @@
                                 <a href="https://www.facebook.com/share/1WE1JrXcb7/?mibextid=wwXIfr" target="_blank" class="w-10 h-10 bg-white/10 hover:bg-red-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
                                     <i class="fab fa-facebook-f text-white text-sm"></i>
                                 </a>
-                                <a href="#" class="w-10 h-10 bg-white/10 hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
+                                <a href="#" target="_blank" class="w-10 h-10 bg-white/10 hover:bg-gradient-to-r hover:from-purple-500 hover:to-pink-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
                                     <i class="fab fa-instagram text-white text-sm"></i>
                                 </a>
                                 <a href="https://wa.me/94777893778" target="_blank" class="w-10 h-10 bg-white/10 hover:bg-green-500 rounded-full flex items-center justify-center transition-all duration-300 hover:scale-110">
@@ -369,18 +381,18 @@
                         Our Company
                     </h3>
                     <div class="space-y-3">
-                        <a href="#" class="block font-inter font-normal text-sm text-white/80 leading-6 hover:text-white transition-colors duration-300">
+                        <p class="font-inter font-normal text-sm text-white/80 leading-6 transition-colors duration-300">
                             <i class="fas fa-chevron-right text-red-500 text-xs mr-2"></i>MAX HOLDINGS
-                        </a>
-                        <a href="#" class="block font-inter font-normal text-sm text-white/80 leading-6 hover:text-white transition-colors duration-300">
+                        </p>
+                        <p class="font-inter font-normal text-sm text-white/80 leading-6 transition-colors duration-300">
                             <i class="fas fa-chevron-right text-red-500 text-xs mr-2"></i>MAX ENGINEERING
-                        </a>
-                        <a href="#" class="block font-inter font-normal text-sm text-white/80 leading-6 hover:text-white transition-colors duration-300">
+                        </p>
+                        <p class="font-inter font-normal text-sm text-white/80 leading-6 transition-colors duration-300">
                             <i class="fas fa-chevron-right text-red-500 text-xs mr-2"></i>MAX MANPOWER
-                        </a>
-                        <a href="#" class="block font-inter font-normal text-sm text-white/80 leading-6 hover:text-white transition-colors duration-300">
+                        </p>
+                        <p class="font-inter font-normal text-sm text-white/80 leading-6 transition-colors duration-300">
                             <i class="fas fa-chevron-right text-red-500 text-xs mr-2"></i>MAX TOURISM
-                        </a>
+                        </p>
                     </div>
                 </div>
 

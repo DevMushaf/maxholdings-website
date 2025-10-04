@@ -83,7 +83,7 @@
 </section>
 
 <!-- Our Subsidiaries Section -->
-<section class="py-24 lg:py-32 bg-gradient-to-br from-red-50 to-orange-50 relative overflow-hidden">
+<section class="py-24 lg:py-32 bg-gradient-to-b from-gray-50 to-gray-50 relative overflow-hidden">
     <!-- Background Elements -->
     <div class="absolute top-0 left-0 w-full h-64 bg-gradient-to-b from-red-50/50 to-transparent"></div>
     
@@ -159,9 +159,18 @@
                         <div class="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
                         <span class="text-green-600 font-semibold text-sm uppercase tracking-wider">Travel Experiences</span>
                     </div>
-                    <h3 class="font-poppins font-bold text-3xl lg:text-4xl text-gray-900 mb-6">
-                        Max Tourism
-                    </h3>
+                    <div class="flex items-start justify-between gap-4 mb-6">
+                        <h3 class="font-poppins font-bold text-3xl lg:text-4xl text-gray-900">
+                            Max Tourism
+                        </h3>
+                        <a href="https://www.facebook.com/share/1RFrcvTEvd/?mibextid=wwXIfr" 
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        class="group/fb flex-shrink-0 w-12 h-12 rounded-full bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center shadow-lg hover:shadow-xl transform hover:scale-110 transition-all duration-300 hover:from-blue-600 hover:to-blue-700"
+                        aria-label="Visit Max Tourism on Facebook">
+                            <i class="fab fa-facebook-f text-white text-xl group-hover/fb:scale-110 transition-transform duration-300"></i>
+                        </a>
+                    </div>
                     <p class="text-lg leading-relaxed text-gray-700 mb-8 text-justify">
                         Max Tourism opens the gateway to Sri Lanka's wonders through meaningful and responsible travel. We craft experiences that highlight the island's natural beauty and cultural richness, while uplifting local communities. With us, every journey becomes more than a trip-it transforms into a lasting memory for global explorers.
                     </p>
@@ -172,49 +181,82 @@
 </section>
 
 <!-- Vision & Mission Section -->
-<section class="py-24 lg:py-32 bg-white relative overflow-hidden">
+<section class="py-24 lg:py-32 bg-gradient-to-b from-white to-white relative overflow-hidden">
+    <!-- Animated Background Elements -->
+    <div class="absolute inset-0">
+        <div class="absolute top-1/4 right-1/4 w-96 h-96 bg-red-500/10 rounded-full blur-3xl animate-pulse"></div>
+        <div class="absolute bottom-1/4 left-1/4 w-80 h-80 bg-orange-500/10 rounded-full blur-3xl animate-pulse" style="animation-delay: 2s;"></div>
+    </div>
+    
+    <!-- Floating Particles -->
+    <div class="absolute inset-0 overflow-hidden pointer-events-none">
+        <div class="absolute top-20 left-20 w-2 h-2 bg-red-400/30 rounded-full animate-ping" style="animation-delay: 1s;"></div>
+        <div class="absolute top-40 right-40 w-1 h-1 bg-orange-400/40 rounded-full animate-ping" style="animation-delay: 3s;"></div>
+        <div class="absolute bottom-40 left-1/3 w-2 h-2 bg-red-400/30 rounded-full animate-ping" style="animation-delay: 5s;"></div>
+    </div>
+    
     <div class="container mx-auto px-4 relative z-10">
 
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-stretch">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 max-w-6xl mx-auto">
             <!-- Vision Card -->
-            <div class="group relative flex flex-col h-full">
-                <div class="absolute inset-0 bg-gradient-to-r from-red-100 to-pink-100 rounded-3xl blur-2xl opacity-60 group-hover:opacity-80 transition-all duration-500"></div>
-                <div class="relative bg-white rounded-3xl p-12 shadow-xl hover:shadow-2xl transition-all duration-500 flex-1 flex flex-col justify-between border border-red-100 h-full">
-                    <!-- Icon + Heading -->
-                    <div class="flex items-center justify-center gap-6 mb-4">
-                        <div class="w-20 h-20 rounded-full bg-gradient-to-tr from-red-400 to-red-600 flex items-center justify-center shadow-xl group-hover:scale-110 transition-transform duration-500 overflow-hidden">
-                            <img src="{{ asset('images/vision.png') }}" alt="Vision Icon" class="w-12 h-12 object-contain z-10">
+            <div class="group relative">
+                
+                <!-- Card Content -->
+                <div class="relative bg-white/90 backdrop-blur-sm rounded-2xl md:rounded-3xl p-6 md:p-8 lg:p-10 shadow-xl hover:shadow-2xl transition-all duration-500 border border-red-100/50 h-full flex flex-col">
+                    <!-- Icon Container -->
+                    <div class="mb-6 md:mb-8">
+                        <div class="w-16 h-16 md:w-20 md:h-20 bg-gradient-to-br from-red-500 to-orange-500 rounded-2xl flex items-center justify-center transform group-hover:scale-110 group-hover:rotate-3 transition-all duration-500 shadow-lg">
+                            <i class="fas fa-eye text-white text-2xl md:text-3xl"></i>
                         </div>
-                        <h3 class="font-poppins font-bold text-3xl text-gray-900 relative">
-                            Vision
-                            <div class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-gradient-to-r from-red-400 to-red-600 rounded-full"></div>
-                        </h3>
                     </div>
-                    <!-- Text -->
-                    <p class="font-inter text-gray-700 text-base leading-relaxed max-w-md mx-auto flex-1 mt-2 text-justify">
-                        To be the leading provider of innovative and reliable manpower solutions, empowering organizations and individuals to achieve sustainable growth and success globally.
-                    </p>
+                    
+                    <!-- Title -->
+                    <div class="mb-4 md:mb-6">
+                        <h3 class="font-poppins font-bold text-2xl md:text-3xl text-gray-900 mb-2 flex items-center gap-2 md:gap-3">
+                            Vision
+                            <div class="w-10 md:w-12 h-1 bg-gradient-to-r from-red-500 to-orange-500 rounded-full"></div>
+                        </h3>
+                        <div class="w-20 md:w-24 h-1 bg-gradient-to-r from-red-500/50 to-transparent rounded-full"></div>
+                    </div>
+                    
+                    <!-- Text Content -->
+                    <div class="flex-1">
+                        <p class="font-inter text-gray-700 text-sm md:text-base lg:text-lg leading-relaxed text-justify">
+                            To be the leading provider of innovative and reliable manpower solutions, empowering organizations and individuals to achieve sustainable growth and success globally.
+                        </p>
+                    </div>
+                    
                 </div>
             </div>
 
             <!-- Mission Card -->
-            <div class="group relative flex flex-col h-full">
-                <div class="absolute inset-0 bg-gradient-to-r from-red-100 to-pink-100 rounded-3xl blur-2xl opacity-60 group-hover:opacity-80 transition-all duration-500"></div>
-                <div class="relative bg-white rounded-3xl p-12 shadow-xl hover:shadow-2xl transition-all duration-500 flex-1 flex flex-col justify-between border border-red-100 h-full">
-                    <!-- Icon + Heading -->
-                    <div class="flex items-center justify-center gap-6 mb-4">
-                        <div class="w-20 h-20 rounded-full bg-gradient-to-tr from-red-400 to-red-600 flex items-center justify-center shadow-xl group-hover:scale-110 transition-transform duration-500 overflow-hidden">
-                            <img src="{{ asset('images/mission.png') }}" alt="Mission Icon" class="w-12 h-12 object-contain z-10">
+            <div class="group relative">
+                
+                <!-- Card Content -->
+                <div class="relative bg-white/90 backdrop-blur-sm rounded-2xl md:rounded-3xl p-6 md:p-8 lg:p-10 shadow-xl hover:shadow-2xl transition-all duration-500 border border-orange-100/50 h-full flex flex-col">
+                    <!-- Icon Container -->
+                    <div class="mb-6 md:mb-8">
+                        <div class="w-16 h-16 md:w-20 md:h-20 bg-gradient-to-br from-orange-500 to-red-500 rounded-2xl flex items-center justify-center transform group-hover:scale-110 group-hover:rotate-3 transition-all duration-500 shadow-lg">
+                            <i class="fas fa-bullseye text-white text-2xl md:text-3xl"></i>
                         </div>
-                        <h3 class="font-poppins font-bold text-3xl text-gray-900 relative">
-                            Mission
-                            <div class="absolute -bottom-2 left-1/2 transform -translate-x-1/2 w-16 h-1 bg-gradient-to-r from-red-400 to-red-600 rounded-full"></div>
-                        </h3>
                     </div>
-                    <!-- Text -->
-                    <p class="font-inter text-gray-700 text-base leading-relaxed max-w-md mx-auto flex-1 mt-2 text-justify">
-                        To connect businesses with skilled and dedicated professionals, ensuring the right talent for the right opportunities. Foster trust and long-term partnerships through exceptional service, integrity, and professionalism while supporting employees in achieving their career aspirations.
-                    </p>
+                    
+                    <!-- Title -->
+                    <div class="mb-4 md:mb-6">
+                        <h3 class="font-poppins font-bold text-2xl md:text-3xl text-gray-900 mb-2 flex items-center gap-2 md:gap-3">
+                            Mission
+                            <div class="w-10 md:w-12 h-1 bg-gradient-to-r from-orange-500 to-red-500 rounded-full"></div>
+                        </h3>
+                        <div class="w-20 md:w-24 h-1 bg-gradient-to-r from-orange-500/50 to-transparent rounded-full"></div>
+                    </div>
+                    
+                    <!-- Text Content -->
+                    <div class="flex-1">
+                        <p class="font-inter text-gray-700 text-sm md:text-base lg:text-lg leading-relaxed text-justify">
+                            To connect businesses with skilled and dedicated professionals, ensuring the right talent for the right opportunities. Foster trust and long-term partnerships through exceptional service, integrity, and professionalism while supporting employees in achieving their career aspirations.
+                        </p>
+                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -222,7 +264,7 @@
 </section>
 
 <!-- Values Section-->
-<section class="py-24 lg:py-32 bg-gradient-to-br from-red-50 to-orange-50 relative overflow-hidden">
+<section class="py-24 lg:py-32 bg-gradient-to-b from-gray-50 to-white relative overflow-hidden">
     <div class="container mx-auto px-4 relative z-10">
         <!-- Section Header -->
         <div class="text-center mb-20">
