@@ -257,6 +257,54 @@
                 <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-blue-500 to-cyan-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
             </div>
 
+            <!-- Civil Engineering -->
+            <div class="group relative bg-gradient-to-br from-violet-50 to-purple-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-violet-100 hover:border-violet-300">
+                <div class="mb-6">
+                    <div class="bg-gradient-to-br from-violet-500 to-purple-600 w-14 h-14 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-md">
+                        <i class="fas fa-drafting-compass text-white text-xl"></i>
+                    </div>
+                </div>
+                <h3 class="font-poppins font-bold text-xl text-gray-900 mb-3 group-hover:text-violet-600 transition-colors duration-300">
+                    Civil Engineering
+                </h3>
+                <p class="font-inter text-gray-700 leading-relaxed text-sm">
+                    Innovative civil engineering solutions covering structural design, urban planning, and infrastructure development to support sustainable growth and modern living.
+                </p>
+                <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-violet-500 to-purple-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
+            </div>
+
+            <!-- Construction Services -->
+            <div class="group relative bg-gradient-to-br from-sky-50 to-blue-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-sky-100 hover:border-sky-300">
+                <div class="mb-6">
+                    <div class="bg-gradient-to-br from-sky-500 to-blue-600 w-14 h-14 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-md">
+                        <i class="fas fa-building text-white text-xl"></i>
+                    </div>
+                </div>
+                <h3 class="font-poppins font-bold text-xl text-gray-900 mb-3 group-hover:text-sky-600 transition-colors duration-300">
+                    Construction Services
+                </h3>
+                <p class="font-inter text-gray-700 leading-relaxed text-sm">
+                    End-to-end construction expertise, from concept to completion, delivering high-quality projects with precision, safety, and timely execution.
+                </p>
+                <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-sky-500 to-blue-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
+            </div>
+
+            <!-- Mechanical & Electrical Engineering -->
+            <div class="group relative bg-gradient-to-br from-slate-50 to-blue-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-slate-100 hover:border-slate-300">
+                <div class="mb-6">
+                    <div class="bg-gradient-to-br from-slate-500 to-blue-600 w-14 h-14 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-md">
+                        <i class="fas fa-bolt text-white text-xl"></i>
+                    </div>
+                </div>
+                <h3 class="font-poppins font-bold text-xl text-gray-900 mb-3 group-hover:text-slate-600 transition-colors duration-300">
+                    Mechanical & Electrical Engineering
+                </h3>
+                <p class="font-inter text-gray-700 leading-relaxed text-sm">
+                    Comprehensive M&E services including HVAC, plumbing, and electrical systems, ensuring efficiency, safety, and seamless integration in every project.
+                </p>
+                <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-slate-500 to-blue-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
+            </div>
+
         </div>
     </div>
 </section>
@@ -532,6 +580,242 @@
                     End-to-end support with visa processing, documentation, and travel formalities to ensure hassle-free journeys.
                 </p>
                 <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-green-500 to-emerald-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- Endevo Digital Services Section -->
+<section class="py-24 lg:py-32 bg-gradient-to-b from-gray-50 to-white relative overflow-hidden">
+    <div class="container mx-auto px-4 relative z-10">
+        <!-- Section Header -->
+        <div class="text-center mb-20">
+            <h2 class="font-poppins font-bold text-4xl lg:text-5xl text-gray-900 mb-6">
+                Services by <span class="text-purple-600">Endevo Digital</span>
+            </h2>
+            <p class="font-inter text-lg text-gray-600 mx-auto leading-relaxed max-w-[1100px] text-justify">
+                Endevo Digital empowers businesses with cutting-edge digital solutions that drive growth, 
+                enhance user experience, and strengthen online presence. From custom software to comprehensive 
+                digital marketing strategies, we deliver innovative technology services tailored to your unique goals.
+            </p>
+        </div>
+
+        <!-- Services Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- Software Development -->
+            <div class="group relative bg-gradient-to-br from-purple-50 to-indigo-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-purple-100 hover:border-purple-300">
+                <div class="mb-6">
+                    <div class="bg-gradient-to-br from-purple-500 to-indigo-600 w-14 h-14 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-md">
+                        <i class="fas fa-code text-white text-xl"></i>
+                    </div>
+                </div>
+                <h3 class="font-poppins font-bold text-xl text-gray-900 mb-3 group-hover:text-purple-600 transition-colors duration-300">
+                    Software Development
+                </h3>
+                <p class="font-inter text-gray-700 leading-relaxed text-sm">
+                    Custom software solutions tailored to your business needs, ranging from desktop applications to enterprise systems.
+                </p>
+                <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-purple-500 to-indigo-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
+            </div>
+
+            <!-- Web Development -->
+            <div class="group relative bg-gradient-to-br from-purple-50 to-indigo-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-purple-100 hover:border-purple-300">
+                <div class="mb-6">
+                    <div class="bg-gradient-to-br from-purple-500 to-indigo-600 w-14 h-14 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-md">
+                        <i class="fas fa-laptop-code text-white text-xl"></i>
+                    </div>
+                </div>
+                <h3 class="font-poppins font-bold text-xl text-gray-900 mb-3 group-hover:text-purple-600 transition-colors duration-300">
+                    Web Development
+                </h3>
+                <p class="font-inter text-gray-700 leading-relaxed text-sm">
+                    Design and development of responsive, user-friendly websites and web applications to establish a strong online presence.
+                </p>
+                <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-purple-500 to-indigo-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
+            </div>
+
+            <!-- API Development & Integration -->
+            <div class="group relative bg-gradient-to-br from-purple-50 to-indigo-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-purple-100 hover:border-purple-300">
+                <div class="mb-6">
+                    <div class="bg-gradient-to-br from-purple-500 to-indigo-600 w-14 h-14 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-md">
+                        <i class="fas fa-plug text-white text-xl"></i>
+                    </div>
+                </div>
+                <h3 class="font-poppins font-bold text-xl text-gray-900 mb-3 group-hover:text-purple-600 transition-colors duration-300">
+                    API Development & Integration
+                </h3>
+                <p class="font-inter text-gray-700 leading-relaxed text-sm">
+                    Seamless API creation and third-party integration to enhance interoperability between systems and improve functionality.
+                </p>
+                <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-purple-500 to-indigo-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
+            </div>
+
+            <!-- Digital Marketing -->
+            <div class="group relative bg-gradient-to-br from-purple-50 to-indigo-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-purple-100 hover:border-purple-300">
+                <div class="mb-6">
+                    <div class="bg-gradient-to-br from-purple-500 to-indigo-600 w-14 h-14 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-md">
+                        <i class="fas fa-bullhorn text-white text-xl"></i>
+                    </div>
+                </div>
+                <h3 class="font-poppins font-bold text-xl text-gray-900 mb-3 group-hover:text-purple-600 transition-colors duration-300">
+                    Digital Marketing
+                </h3>
+                <p class="font-inter text-gray-700 leading-relaxed text-sm">
+                    Data-driven marketing strategies including social media, email marketing, and PPC to boost online visibility and engagement.
+                </p>
+                <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-purple-500 to-indigo-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
+            </div>
+
+            <!-- UI/UX Design -->
+            <div class="group relative bg-gradient-to-br from-purple-50 to-indigo-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-purple-100 hover:border-purple-300">
+                <div class="mb-6">
+                    <div class="bg-gradient-to-br from-purple-500 to-indigo-600 w-14 h-14 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-md">
+                        <i class="fas fa-palette text-white text-xl"></i>
+                    </div>
+                </div>
+                <h3 class="font-poppins font-bold text-xl text-gray-900 mb-3 group-hover:text-purple-600 transition-colors duration-300">
+                    UI/UX Design
+                </h3>
+                <p class="font-inter text-gray-700 leading-relaxed text-sm">
+                    Intuitive and aesthetically pleasing design solutions focused on enhancing user experience and interface usability.
+                </p>
+                <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-purple-500 to-indigo-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
+            </div>
+
+            <!-- SEO -->
+            <div class="group relative bg-gradient-to-br from-purple-50 to-indigo-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-purple-100 hover:border-purple-300">
+                <div class="mb-6">
+                    <div class="bg-gradient-to-br from-purple-500 to-indigo-600 w-14 h-14 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-md">
+                        <i class="fas fa-search text-white text-xl"></i>
+                    </div>
+                </div>
+                <h3 class="font-poppins font-bold text-xl text-gray-900 mb-3 group-hover:text-purple-600 transition-colors duration-300">
+                    SEO (Search Engine Optimization)
+                </h3>
+                <p class="font-inter text-gray-700 leading-relaxed text-sm">
+                    Optimization strategies to improve website rankings on search engines, drive organic traffic, and increase online discoverability.
+                </p>
+                <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-purple-500 to-indigo-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- DigiPrint Lab Services Section -->
+<section class="py-24 lg:py-32 bg-white relative overflow-hidden">
+    <div class="container mx-auto px-4 relative z-10">
+        <!-- Section Header -->
+        <div class="text-center mb-20">
+            <h2 class="font-poppins font-bold text-4xl lg:text-5xl text-gray-900 mb-6">
+                Services by <span class="text-pink-600">DigiPrint Lab</span>
+            </h2>
+            <p class="font-inter text-lg text-gray-600 mx-auto leading-relaxed max-w-[1100px] text-justify">
+                DigiPrint Lab brings your brand to life through exceptional printing and branding solutions. 
+                From custom merchandise to large-format displays, we deliver vibrant, high-quality prints that 
+                make a lasting impression for businesses, events, and personal projects.
+            </p>
+        </div>
+
+        <!-- Services Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+            <!-- Custom Printing Solutions -->
+            <div class="group relative bg-gradient-to-br from-pink-50 to-rose-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-pink-100 hover:border-pink-300">
+                <div class="mb-6">
+                    <div class="bg-gradient-to-br from-pink-500 to-rose-600 w-14 h-14 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-md">
+                        <i class="fas fa-print text-white text-xl"></i>
+                    </div>
+                </div>
+                <h3 class="font-poppins font-bold text-xl text-gray-900 mb-3 group-hover:text-pink-600 transition-colors duration-300">
+                    Custom Printing Solutions
+                </h3>
+                <p class="font-inter text-gray-700 leading-relaxed text-sm">
+                    Comprehensive printing services including brochures, flyers, business cards, packaging, labels, and more tailored to meet both personal and business needs.
+                </p>
+                <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-pink-500 to-rose-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
+            </div>
+
+            <!-- Corporate Hampers & Gifting -->
+            <div class="group relative bg-gradient-to-br from-pink-50 to-rose-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-pink-100 hover:border-pink-300">
+                <div class="mb-6">
+                    <div class="bg-gradient-to-br from-pink-500 to-rose-600 w-14 h-14 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-md">
+                        <i class="fas fa-gift text-white text-xl"></i>
+                    </div>
+                </div>
+                <h3 class="font-poppins font-bold text-xl text-gray-900 mb-3 group-hover:text-pink-600 transition-colors duration-300">
+                    Corporate Hampers & Gifting
+                </h3>
+                <p class="font-inter text-gray-700 leading-relaxed text-sm">
+                    Curated corporate hampers with branded merchandise and personalized packaging ideal for festive seasons, employee appreciation, and client gifting.
+                </p>
+                <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-pink-500 to-rose-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
+            </div>
+
+            <!-- T-Shirt & Apparel Printing -->
+            <div class="group relative bg-gradient-to-br from-pink-50 to-rose-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-pink-100 hover:border-pink-300">
+                <div class="mb-6">
+                    <div class="bg-gradient-to-br from-pink-500 to-rose-600 w-14 h-14 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-md">
+                        <i class="fas fa-tshirt text-white text-xl"></i>
+                    </div>
+                </div>
+                <h3 class="font-poppins font-bold text-xl text-gray-900 mb-3 group-hover:text-pink-600 transition-colors duration-300">
+                    T-Shirt & Apparel Printing
+                </h3>
+                <p class="font-inter text-gray-700 leading-relaxed text-sm">
+                    High-quality printing on T-shirts, hoodies, uniforms, and workwear perfect for events, team branding, and promotional campaigns.
+                </p>
+                <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-pink-500 to-rose-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
+            </div>
+
+            <!-- Large Format Printing -->
+            <div class="group relative bg-gradient-to-br from-pink-50 to-rose-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-pink-100 hover:border-pink-300">
+                <div class="mb-6">
+                    <div class="bg-gradient-to-br from-pink-500 to-rose-600 w-14 h-14 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-md">
+                        <i class="fas fa-image text-white text-xl"></i>
+                    </div>
+                </div>
+                <h3 class="font-poppins font-bold text-xl text-gray-900 mb-3 group-hover:text-pink-600 transition-colors duration-300">
+                    Large Format Printing
+                </h3>
+                <p class="font-inter text-gray-700 leading-relaxed text-sm">
+                    Banners, posters, standees, signage, and backdrops vibrant, durable, and ideal for indoor and outdoor promotional use.
+                </p>
+                <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-pink-500 to-rose-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
+            </div>
+
+            <!-- Merchandise Branding -->
+            <div class="group relative bg-gradient-to-br from-pink-50 to-rose-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-pink-100 hover:border-pink-300">
+                <div class="mb-6">
+                    <div class="bg-gradient-to-br from-pink-500 to-rose-600 w-14 h-14 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-md">
+                        <i class="fas fa-mug-hot text-white text-xl"></i>
+                    </div>
+                </div>
+                <h3 class="font-poppins font-bold text-xl text-gray-900 mb-3 group-hover:text-pink-600 transition-colors duration-300">
+                    Merchandise Branding
+                </h3>
+                <p class="font-inter text-gray-700 leading-relaxed text-sm">
+                    Customized branding on mugs, pens, notebooks, water bottles, tech accessories, and more perfect for giveaways and brand visibility.
+                </p>
+                <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-pink-500 to-rose-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
+            </div>
+
+            <!-- Event & Exhibition Printing -->
+            <div class="group relative bg-gradient-to-br from-pink-50 to-rose-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-pink-100 hover:border-pink-300">
+                <div class="mb-6">
+                    <div class="bg-gradient-to-br from-pink-500 to-rose-600 w-14 h-14 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-md">
+                        <i class="fas fa-calendar-alt text-white text-xl"></i>
+                    </div>
+                </div>
+                <h3 class="font-poppins font-bold text-xl text-gray-900 mb-3 group-hover:text-pink-600 transition-colors duration-300">
+                    Event & Exhibition Printing
+                </h3>
+                <p class="font-inter text-gray-700 leading-relaxed text-sm">
+                    End-to-end printing solutions for events, including backdrops, booth materials, invitation cards, badges, and branded displays.
+                </p>
+                <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-pink-500 to-rose-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
             </div>
 
         </div>
