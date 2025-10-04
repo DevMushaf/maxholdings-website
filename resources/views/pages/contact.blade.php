@@ -61,7 +61,7 @@
             </p>
         </div>
         
-        <!-- Contact Cards Grid - Simplified Design -->
+        <!-- Contact Cards Grid -->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
             
             <!-- Phone Contact Card -->
@@ -79,14 +79,14 @@
                             Call Us
                         </h3>
                         <div class="space-y-2">
-                            <a href="tel:0777623864" class="block font-inter text-base text-gray-600 hover:text-red-500 transition-colors duration-300">
-                                0777 623 864
+                            <a href="tel:+94777623864" class="block font-inter text-base text-gray-600 hover:text-red-500 transition-colors duration-300 tabular-nums">
+                                +94 777 623 864
                             </a>
-                            <a href="tel:0772415915" class="block font-inter text-base text-gray-600 hover:text-red-500 transition-colors duration-300">
-                                0772 415 915
+                            <a href="tel:+94772415915" class="block font-inter text-base text-gray-600 hover:text-red-500 transition-colors duration-300 tabular-nums">
+                                +94 772 415 915
                             </a>
-                            <a href="tel:0777893778" class="block font-inter text-base text-gray-600 hover:text-red-500 transition-colors duration-300">
-                                0777 893 778
+                            <a href="tel:+94777893778" class="block font-inter text-base text-gray-600 hover:text-red-500 transition-colors duration-300 tabular-nums">
+                                +94 777 893 778
                             </a>
                         </div>
                         <p class="font-inter text-sm text-gray-500 mt-4">Support 24/7</p>
@@ -96,25 +96,36 @@
 
             <!-- Email Contact Card -->
             <div class="group relative bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transform transition-all duration-300 hover:-translate-y-1 h-full flex flex-col">
-                
                 <div class="p-8 text-center flex-1 flex flex-col justify-between relative">
                     <!-- Icon -->
                     <div class="w-16 h-16 bg-gray-100 rounded-full flex items-center justify-center mb-6 mx-auto group-hover:bg-gray-200 transition-colors duration-300">
                         <i class="fas fa-envelope text-gray-600 text-2xl"></i>
                     </div>
-                    
+
                     <!-- Content -->
-                    <div class="flex-grow">
-                        <h3 class="font-poppins font-bold text-2xl text-gray-900 mb-4">
-                            Email Us
-                        </h3>
-                        <a href="mailto:inquiries@maxholdingsl.com" class="font-inter text-base text-gray-600 hover:text-red-500 transition-colors duration-300 break-all">
-                            inquiries@maxholdingsl.com
-                        </a>
-                        <p class="font-inter text-sm text-gray-500 mt-4">Mon - Sat : 8.00-17.00</p>
+                    <div class="flex-grow flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-poppins font-bold text-2xl text-gray-900 mb-4">
+                                Email Us
+                            </h3>
+                            <div class="space-y-2">
+                                <a href="mailto:inquiries@maxholdingsl.com" class="block font-inter text-base text-gray-600 hover:text-red-500 transition-colors duration-300 break-all">
+                                    inquiries@maxholdingsl.com
+                                </a>
+                                <a href="mailto:careers@maxholdingsl.com" class="block font-inter text-base text-gray-600 hover:text-red-500 transition-colors duration-300 break-all">
+                                    careers@maxholdingsl.com
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Bottom-aligned footer -->
+                        <p class="font-inter text-sm text-gray-500 mt-6">
+                            Mon - Sat : 8.00 - 17.00
+                        </p>
                     </div>
                 </div>
             </div>
+
 
             <!-- Location Contact Card -->
             <div class="group relative bg-white border border-gray-200 rounded-2xl overflow-hidden shadow-sm hover:shadow-lg transform transition-all duration-300 hover:-translate-y-1 h-full flex flex-col">
@@ -131,9 +142,9 @@
                             Visit Us
                         </h3>
                         <div class="font-inter text-base text-gray-600 leading-relaxed space-y-1">
-                            <p>Minuwangoda, Kaduwela,</p>
-                            <p>Mawanella, Hatton,</p>
-                            <p>Norwood</p>
+                            <p>Sri Lanka</p>
+                            <p>Saudi Arabia</p>
+                            <p>Maldives</p>
                         </div>
                         <p class="font-inter text-sm text-gray-500 mt-4">Mon - Sat : 8.00-17.00</p>
                     </div>
@@ -144,8 +155,8 @@
     </div>
 </section>
 
-<!-- Get In Touch Section with Form and Map -->
-<section id="map-section" class="py-24 lg:py-32 bg-white relative overflow-hidden">
+<!-- Get In Touch Section with Form -->
+<section id="contact-form-section" class="py-24 lg:py-32 bg-white relative overflow-hidden">
     <!-- Background Elements -->
     <div class="absolute top-0 right-0 w-1/3 h-1/3 bg-gradient-to-bl from-red-50 to-transparent"></div>
     <div class="absolute bottom-0 left-0 w-1/3 h-1/3 bg-gradient-to-tr from-red-50 to-transparent"></div>
@@ -161,12 +172,11 @@
             </p>
         </div>
 
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start max-w-7xl mx-auto">
-            
-            <!-- Contact Form -->
+        <!-- Contact Form - Centered and Full Width -->
+        <div class="max-w-3xl mx-auto">
             <div class="relative">
                 <div class="absolute inset-0 bg-gradient-to-br from-red-100 to-orange-100 rounded-3xl blur-2xl opacity-30"></div>
-                <div class="relative bg-white rounded-3xl p-8 md:p-12 shadow-2xl border border-gray-100">
+                <div class="relative bg-white rounded-3xl p-6 sm:p-8 md:p-12 shadow-2xl border border-gray-100">
                     <form action="#" method="POST" class="space-y-6">
                         @csrf
                         
@@ -238,61 +248,8 @@
                     </form>
                 </div>
             </div>
-
-            <!-- Map Container -->
-            <div class="relative h-full min-h-[600px] lg:min-h-[700px]">
-                <div class="absolute inset-0 bg-gradient-to-br from-red-100 to-orange-100 rounded-3xl blur-2xl opacity-30"></div>
-                <div class="relative bg-white rounded-3xl overflow-hidden shadow-2xl border border-gray-100 h-full">
-                    <!-- Map Header -->
-                    <div class="bg-gradient-to-r from-gray-900 to-gray-800 p-6 flex items-center justify-between">
-                        <div class="flex items-center gap-3">
-                            <div class="w-10 h-10 bg-gradient-to-br from-red-600 to-red-700 rounded-full flex items-center justify-center">
-                                <i class="fas fa-map-marker-alt text-white"></i>
-                            </div>
-                            <div>
-                                <h3 class="font-poppins font-bold text-white text-lg">Our Location</h3>
-                                <p class="font-inter text-gray-300 text-sm">Kopiwatta, Sri Lanka</p>
-                            </div>
-                        </div>
-                        <a href="https://maps.app.goo.gl/j3bDFPdAY4WMoe8a6" target="_blank" class="text-white hover:text-red-400 transition-colors duration-300">
-                            <i class="fas fa-external-link-alt text-lg"></i>
-                        </a>
-                    </div>
-                    
-                    <!-- Map Embed -->
-                    <div class="relative h-[550px] lg:h-[620px]">
-                        <iframe 
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126756.22125840187!2d79.73296279726561!3d6.874794100000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae2e5334187af55%3A0x25836bf7418cbc00!2sMax%20Holdings!5e0!3m2!1sen!2slk!4v1759308187091!5m2!1sen!2slk"
-                            width="100%" 
-                            height="100%" 
-                            style="border:0;" 
-                            allowfullscreen="" 
-                            loading="lazy" 
-                            referrerpolicy="no-referrer-when-downgrade"
-                            class="grayscale-0 hover:grayscale-0 transition-all duration-500"
-                        ></iframe>
-                        
-                        <!-- Map Overlay Info -->
-                        <div class="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-sm rounded-xl p-4 shadow-lg border border-gray-200">
-                            <div class="flex items-start gap-3">
-                                <div class="w-10 h-10 bg-gradient-to-br from-red-600 to-red-700 rounded-lg flex items-center justify-center flex-shrink-0">
-                                    <i class="fas fa-location-arrow text-white"></i>
-                                </div>
-                                <div>
-                                    <p class="font-poppins font-bold text-gray-900 text-sm mb-1">Head Office</p>
-                                    <p class="font-inter text-xs text-gray-600">Minuwangoda, Western Province, Sri Lanka</p>
-                                    <a href="https://maps.app.goo.gl/j3bDFPdAY4WMoe8a6" target="_blank" class="inline-flex items-center gap-1 text-red-600 text-xs font-semibold mt-2 hover:text-red-700 transition-colors duration-300">
-                                        <span>Get Directions</span>
-                                        <i class="fas fa-arrow-right text-xs"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
         </div>
+
     </div>
 </section>
 
@@ -368,7 +325,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Simulate form submission (replace with actual submission logic)
             setTimeout(() => {
                 submitBtn.innerHTML = '<i class="fas fa-check mr-2"></i> Message Sent!';
-                submitBtn.classList.remove('from-red-600', 'to-red-600');
+                submitBtn.classList.remove('from-red-600', 'to-red-700');
                 submitBtn.classList.add('from-green-500', 'to-emerald-600');
                 
                 // Reset form
@@ -377,7 +334,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     submitBtn.innerHTML = originalText;
                     submitBtn.disabled = false;
                     submitBtn.classList.remove('from-green-500', 'to-emerald-600');
-                    submitBtn.classList.add('from-red-600', 'to-red-600');
+                    submitBtn.classList.add('from-red-600', 'to-red-700');
                 }, 2000);
             }, 2000);
         });
@@ -402,7 +359,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
     
     // Animate elements on scroll
-    document.querySelectorAll('.group, h2, h3, form, iframe').forEach(el => {
+    document.querySelectorAll('.group, h2, h3, form').forEach(el => {
         el.style.opacity = '0';
         el.style.transform = 'translateY(30px)';
         el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
@@ -438,24 +395,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
             e.target.value = value;
-        });
-    }
-    
-    // -------------------------------
-    // Map Interaction Enhancement
-    // -------------------------------
-    const mapIframe = document.querySelector('iframe');
-    if (mapIframe) {
-        // Prevent scroll zoom until clicked
-        mapIframe.style.pointerEvents = 'none';
-        
-        const mapContainer = mapIframe.parentElement;
-        mapContainer.addEventListener('click', () => {
-            mapIframe.style.pointerEvents = 'auto';
-        });
-        
-        mapContainer.addEventListener('mouseleave', () => {
-            mapIframe.style.pointerEvents = 'none';
         });
     }
     
