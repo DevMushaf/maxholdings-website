@@ -16,4 +16,4 @@ Route::get('/blogs', [BlogsController::class, 'index'])->name('blogs');
 Route::get('/blog/{slug}', [BlogController::class, 'show'])->name('blog.show');
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 
-// Sample Routes for other pages now
+// Sample Routes for other pages now new
