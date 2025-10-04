@@ -494,11 +494,11 @@
                                 At Max Holdings, our vision has always been simple yet powerful to build opportunities 
                                 that create real impact. Whether through engineering innovation, empowering manpower, 
                                 or redefining tourism experiences, we are driven by a passion to deliver excellence that 
-                                goes beyond expectations.
+                                goes beyond expectations.<br><br>
 
                                 We believe that success is built on trust, collaboration, and a commitment to continuous 
                                 growth. Every project we undertake is more than just a business endeavor; it is a promise 
-                                to our clients, our people, and the communities we serve.
+                                to our clients, our people, and the communities we serve.<br><br>
 
                                 As we continue to expand across industries and borders, our focus remains on shaping a 
                                 sustainable future, where progress and responsibility walk hand in hand. Together, let's 
@@ -562,11 +562,11 @@
                             At Max Holdings, our vision has always been simple yet powerful to build opportunities 
                             that create real impact. Whether through engineering innovation, empowering manpower, 
                             or redefining tourism experiences, we are driven by a passion to deliver excellence that 
-                            goes beyond expectations.
+                            goes beyond expectations.<br><br>
 
                             We believe that success is built on trust, collaboration, and a commitment to continuous 
                             growth. Every project we undertake is more than just a business endeavor; it is a promise 
-                            to our clients, our people, and the communities we serve.
+                            to our clients, our people, and the communities we serve.<br><br>
 
                             As we continue to expand across industries and borders, our focus remains on shaping a 
                             sustainable future, where progress and responsibility walk hand in hand. Together, let's 
@@ -583,6 +583,147 @@
                         </h3>
                         <p class="font-inter text-lg md:text-xl text-gray-600">
                             Founder & Chief Executive Officer
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- COO Message Section -->
+<section class="py-24 lg:py-32 bg-gradient-to-b from-gray-50 to-white relative overflow-hidden">
+    <!-- Background Elements -->
+    <div class="absolute top-0 right-0 w-full h-64 bg-gradient-to-b from-orange-50/50 to-transparent"></div>
+    
+    <!-- Floating Elements -->
+    <div class="absolute top-20 right-10 w-20 h-20 bg-orange-100 rounded-full opacity-50 animate-float"></div>
+    <div class="absolute bottom-20 left-10 w-32 h-32 bg-red-100 rounded-full opacity-30 animate-float" style="animation-delay: 2s;"></div>
+    
+    <div class="container mx-auto px-4 relative z-10">
+        <div class="max-w-7xl mx-auto">
+            <!-- Desktop Layout (Mirrored) -->
+            <div class="hidden lg:grid lg:grid-cols-5 lg:gap-16 items-center">
+                <!-- Message Content (Left Side) -->
+                <div class="lg:col-span-3">
+                    
+                    <h2 class="font-poppins font-bold text-4xl lg:text-5xl text-gray-900 mb-12 leading-tight">
+                        Message From Our <span class="text-orange-600">COO</span>
+                    </h2>
+                    
+                    <div class="relative">
+                        <!-- Stylized Quote -->
+                        <div class="absolute -top-8 -left-4 text-8xl font-bold text-orange-600/10 leading-none select-none">"</div>
+                        
+                        <div class="relative bg-white border border-gray-100 rounded-3xl p-10 shadow-lg">
+                            <p class="font-inter italic text-[16px] leading-[30px] text-gray-700 mb-6 text-justify">
+                                At Max Holdings, what drives us every day is the belief that growth comes through passion, 
+                                teamwork, and a shared vision for the future. For me, it's not just about building a company 
+                                it's about creating opportunities, nurturing people, and delivering real value to the 
+                                communities we serve.<br><br>
+
+                                I've always believed that success is a journey-built step by step, with trust, collaboration, 
+                                and determination at the core. Every challenge we take on pushes us to think smarter, work 
+                                harder, and aim higher not just for ourselves, but for everyone connected to us.<br><br>
+
+                                As we move forward, my focus is simple: keep improving, keep innovating, and keep building 
+                                a future where progress and responsibility go hand in hand. Together, let's continue shaping 
+                                something meaningful, lasting, and impactful.
+                            </p>
+                        </div>
+                        
+                        <div class="absolute -bottom-4 right-4 text-6xl font-bold text-orange-600/10 leading-none select-none">"</div>
+                    </div>
+                    
+                    <!-- COO Details -->
+                    <div class="mt-8 flex items-center gap-4">
+                        <div>
+                            <h3 class="font-poppins font-bold text-2xl text-gray-900">
+                                Afdhal Arafath
+                            </h3>
+                            <p class="font-inter text-lg text-gray-600">
+                                Director & Chief Operating Officer
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- COO Image (Right Side) -->
+                <div class="lg:col-span-2">
+                    <div class="relative">
+                        <!-- Decorative Elements -->
+                        <div class="absolute -top-6 -right-6 w-24 h-24 bg-gradient-to-bl from-orange-500/20 to-red-500/20 rounded-full blur-2xl"></div>
+                        <div class="absolute -bottom-4 -left-4 w-16 h-16 bg-gradient-to-bl from-red-500/20 to-orange-500/20 rounded-full blur-xl"></div>
+                        
+                        <!-- Main Image -->
+                        <div class="relative z-10">
+                            <img src="{{ asset('images/coopicture.png') }}" 
+                                 alt="Afdhal Arafath - Director / COO" 
+                                 class="w-full max-w-md mx-auto rounded-3xl aspect-square object-cover shadow-2xl hover:shadow-3xl transition-shadow duration-500">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobile/Tablet Layout -->
+            <div class="lg:hidden text-center">
+                <div class="inline-flex items-center gap-2 bg-orange-50 text-orange-600 rounded-full px-6 py-2 mb-8 font-medium text-sm">
+                    <div class="w-2 h-2 bg-orange-500 rounded-full"></div>
+                    <span class="font-inter font-semibold tracking-wide">OPERATIONS LEADERSHIP</span>
+                </div>
+                
+                <h2 class="font-poppins font-bold text-3xl md:text-4xl text-gray-900 mb-12 leading-tight">
+                    Message From Our <span class="text-orange-600">COO</span>
+                </h2>
+                
+                <!-- COO Image -->
+                <div class="mb-12">
+                    <div class="relative inline-block">
+                        <img src="{{ asset('images/coopicture.png') }}" 
+                             alt="Afdhal Arafath - Director / COO" 
+                             class="w-48 h-48 md:w-64 md:h-64 rounded-3xl object-cover shadow-2xl mx-auto">
+                        
+                        <!-- Mobile Badge -->
+                        <div class="absolute -bottom-4 left-1/2 transform -translate-x-1/2">
+                            <div class="bg-white rounded-xl shadow-lg px-4 py-2 border border-gray-100">
+                                <div class="text-center">
+                                    <div class="text-lg font-bold text-gray-900">Director & COO</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Message Content -->
+                <div class="max-w-4xl mx-auto">
+                    <div class="relative bg-white border border-gray-100 rounded-3xl p-6 md:p-8 shadow-lg mb-8">
+                        <div class="absolute -top-4 left-4 text-6xl font-bold text-orange-600/10 leading-none select-none">"</div>
+                        
+                        <p class="font-inter italic text-[16px] leading-[30px] text-gray-700 mb-4 relative z-10 text-justify">
+                            At Max Holdings, what drives us every day is the belief that growth comes through passion, 
+                            teamwork, and a shared vision for the future. For me, it's not just about building a company 
+                            it's about creating opportunities, nurturing people, and delivering real value to the 
+                            communities we serve.<br><br>
+
+                            I've always believed that success is a journey-built step by step, with trust, collaboration, 
+                            and determination at the core. Every challenge we take on pushes us to think smarter, work 
+                            harder, and aim higher not just for ourselves, but for everyone connected to us.<br><br>
+
+                            As we move forward, my focus is simple: keep improving, keep innovating, and keep building 
+                            a future where progress and responsibility go hand in hand. Together, let's continue shaping 
+                            something meaningful, lasting, and impactful.
+                        </p>
+                        
+                        <div class="absolute -bottom-2 right-4 text-4xl font-bold text-orange-600/10 leading-none select-none">"</div>
+                    </div>
+                    
+                    <!-- COO Details -->
+                    <div>
+                        <h3 class="font-poppins font-bold text-2xl md:text-3xl text-gray-900 mb-2">
+                            Afdhal Arafath
+                        </h3>
+                        <p class="font-inter text-lg md:text-xl text-gray-600">
+                            Director & Chief Operating Officer
                         </p>
                     </div>
                 </div>
