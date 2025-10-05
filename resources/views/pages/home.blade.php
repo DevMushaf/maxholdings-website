@@ -109,7 +109,7 @@
     </div>
 
     <!-- Hero Content -->
-    <div class="relative z-10 container mx-auto px-4 py-20">
+    <div class="w-full max-w-7xl mx-auto px-6 sm:px-10 md:px-12 relative z-10">
         <div class="max-w-5xl hero-content transition-transform duration-500 ease-out text-left">
         
             <h1 class="hero-title font-poppins font-bold text-white mb-8 leading-tight animate-fade-in-up 
@@ -160,7 +160,7 @@
         <div class="absolute inset-0" style="background-image: radial-gradient(circle at 1px 1px, #333 1px, transparent 0); background-size: 40px 40px;"></div>
     </div>
     
-    <div class="container mx-auto px-4 relative z-10">
+    <div class="w-full max-w-7xl mx-auto px-6 sm:px-10 md:px-12 relative z-10">
         <!-- Section Header -->
         <div class="text-center mb-20">
             
@@ -241,7 +241,7 @@
     <!-- Background Elements -->
     <div class="absolute top-0 left-0 w-full h-64 bg-gradient-to-b from-red-50/50 to-transparent"></div>
     
-    <div class="container mx-auto px-4 relative z-10">
+    <div class="w-full max-w-7xl mx-auto px-6 sm:px-10 md:px-12 relative z-10">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-20 items-center">
             
             <!-- Enhanced Image -->
@@ -300,7 +300,7 @@
         <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-orange-500/10 rounded-full blur-3xl animate-pulse" style="animation-delay: 4s;"></div>
     </div>
     
-    <div class="container mx-auto px-4 relative z-10">
+    <div class="w-full max-w-7xl mx-auto px-6 sm:px-10 md:px-12 relative z-10">
         <!-- Section Header -->
         <div class="text-center mb-20">
             <h2 class="font-poppins font-bold text-4xl lg:text-6xl text-white mb-8 leading-tight">
@@ -391,7 +391,7 @@
         </div>
     </div>
     
-    <div class="container mx-auto px-4 relative z-10">
+    <div class="w-full max-w-7xl mx-auto px-6 sm:px-10 md:px-12 relative z-10">
         <!-- Section Header -->
         <div class="text-center mb-20">
             <h2 class="font-poppins font-bold text-4xl lg:text-5xl text-gray-900 mb-6 leading-tight">
@@ -553,7 +553,7 @@
                     <div class="relative bg-white border border-gray-100 rounded-3xl p-6 md:p-8 shadow-lg mb-8">
                         <div class="absolute -top-4 left-4 text-6xl font-bold text-red-600/10 leading-none select-none">"</div>
                         
-                        <p class="font-inter italic text-[16px] leading-[30px] text-gray-700 mb-4 relative z-10">
+                        <p class="font-inter italic text-[16px] leading-[30px] text-gray-700 mb-4 relative z-10 text-justify">
                             At Max Holdings, our vision has always been simple yet powerful to build opportunities 
                             that create real impact. Whether through engineering innovation, empowering manpower, 
                             or redefining tourism experiences, we are driven by a passion to deliver excellence that 
