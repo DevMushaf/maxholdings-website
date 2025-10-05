@@ -108,8 +108,8 @@
                 <!-- Content -->
                 <div class="w-full lg:w-7/12 p-12 md:p-16 bg-white">
                     <div class="flex items-center gap-3 mb-6">
-                        <div class="w-3 h-3 bg-blue-500 rounded-full animate-pulse"></div>
-                        <span class="text-blue-600 font-semibold text-sm uppercase tracking-wider">Engineering Excellence</span>
+                        <div class="w-3 h-3 rounded-full animate-pulse" style="background-color: #032153;"></div>
+                        <span class="font-semibold text-sm uppercase tracking-wider" style="color: #032153;">Engineering Excellence</span>
                     </div>
                     <h3 class="font-poppins font-bold text-3xl lg:text-4xl text-gray-900 mb-6">
                         Max Engineering
@@ -132,8 +132,8 @@
                 <!-- Content -->
                 <div class="w-full lg:w-7/12 p-12 md:p-16 bg-white">
                     <div class="flex items-center gap-3 mb-6">
-                        <div class="w-3 h-3 bg-orange-500 rounded-full animate-pulse"></div>
-                        <span class="text-orange-600 font-semibold text-sm uppercase tracking-wider">Workforce Solutions</span>
+                        <div class="w-3 h-3 rounded-full animate-pulse" style="background-color: #032153;"></div>
+                        <span class="font-semibold text-sm uppercase tracking-wider" style="color: #032153;">Workforce Solutions</span>
                     </div>
                     <h3 class="font-poppins font-bold text-3xl lg:text-4xl text-gray-900 mb-6">
                         Max Manpower
@@ -156,8 +156,8 @@
                 <!-- Content -->
                 <div class="w-full lg:w-7/12 p-12 md:p-16 bg-white">
                     <div class="flex items-center gap-3 mb-6">
-                        <div class="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-                        <span class="text-green-600 font-semibold text-sm uppercase tracking-wider">Travel Experiences</span>
+                        <div class="w-3 h-3 rounded-full animate-pulse" style="background-color: #032153;"></div>
+                        <span class="font-semibold text-sm uppercase tracking-wider" style="color: #032153;">Travel Experiences</span>
                     </div>
                     <div class="flex items-start justify-between gap-4 mb-6">
                         <h3 class="font-poppins font-bold text-3xl lg:text-4xl text-gray-900">
@@ -209,10 +209,10 @@
             
             <!-- Endevo -->
             <div class="group relative">
-                <div class="bg-white rounded-3xl p-8 md:p-12 shadow-xl hover:shadow-2xl transition-all duration-500 border border-gray-100 transform hover:-translate-y-2 h-full flex flex-col items-center justify-center text-center">
+                <div class="bg-white rounded-3xl p-4 shadow-lg hover:shadow-2xl transition-all duration-500 border border-gray-100 transform hover:-translate-y-1 h-full flex flex-col items-center justify-center text-center">
                     <!-- Logo Container -->
-                    <div class="relative mb-6 w-full flex items-center justify-center">
-                        <div class="relative w-48 h-48 md:w-56 md:h-56 flex items-center justify-center">
+                    <div class="relative mb-3 w-full flex items-center justify-center">
+                        <div class="relative w-64 h-64 md:w-72 md:h-72 flex items-center justify-center">
                             <img src="{{ asset('images/endevologo.png') }}" 
                                  alt="Endevo Logo" 
                                  class="w-full h-full object-contain transform transition-all duration-700 group-hover:scale-110">
@@ -220,17 +220,16 @@
                     </div>
                     
                     <!-- Decorative Line -->
-                    <div class="w-20 h-1 bg-gradient-to-r from-red-500 to-orange-500 rounded-full mb-4 transform group-hover:w-32 transition-all duration-500"></div>
-                    
+                    <div class="w-24 h-1 bg-gradient-to-r from-red-500 to-orange-500 rounded-full mb-2 transform group-hover:w-32 transition-all duration-500"></div>
                 </div>
             </div>
 
             <!-- DigiPrint Lab -->
             <div class="group relative">
-                <div class="bg-white rounded-3xl p-8 md:p-12 shadow-xl hover:shadow-2xl transition-all duration-500 border border-gray-100 transform hover:-translate-y-2 h-full flex flex-col items-center justify-center text-center">
+                <div class="bg-white rounded-3xl p-4 shadow-lg hover:shadow-2xl transition-all duration-500 border border-gray-100 transform hover:-translate-y-1 h-full flex flex-col items-center justify-center text-center">
                     <!-- Logo Container -->
-                    <div class="relative mb-6 w-full flex items-center justify-center">
-                        <div class="relative w-48 h-48 md:w-56 md:h-56 flex items-center justify-center">
+                    <div class="relative mb-3 w-full flex items-center justify-center">
+                        <div class="relative w-64 h-64 md:w-72 md:h-72 flex items-center justify-center">
                             <img src="{{ asset('images/digiprintlogo.png') }}" 
                                  alt="DigiPrint Lab Logo" 
                                  class="w-full h-full object-contain transform transition-all duration-700 group-hover:scale-110">
@@ -238,16 +237,13 @@
                     </div>
                     
                     <!-- Decorative Line -->
-                    <div class="w-20 h-1 bg-gradient-to-r from-red-500 to-orange-500 rounded-full mb-4 transform group-hover:w-32 transition-all duration-500"></div>
-
+                    <div class="w-24 h-1 bg-gradient-to-r from-red-500 to-orange-500 rounded-full mb-2 transform group-hover:w-32 transition-all duration-500"></div>
                 </div>
             </div>
 
         </div>
-
     </div>
 </section>
-
 
 <!-- Vision & Mission Section -->
 <section class="py-24 lg:py-32 bg-gradient-to-b from-white to-white relative overflow-hidden">
