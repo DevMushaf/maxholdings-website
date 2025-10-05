@@ -148,7 +148,7 @@
         <!-- Section Header -->
         <div class="text-center mb-20">
             <h2 class="font-poppins font-bold text-4xl lg:text-5xl text-gray-900 mb-6">
-                Max <span class="text-blue-600">Engineering</span> Services
+                Max <span class="text-[#032153]">Engineering</span> Services
             </h2>
             <p class="font-inter text-lg text-gray-600 mx-auto leading-relaxed max-w-[1000px] text-justify">
                 Max Engineering specializes in designing and delivering advanced solutions for 
@@ -162,147 +162,147 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
 
             <!-- Passenger Lifts -->
-            <div class="group relative bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-blue-100 hover:border-blue-300">
+            <div class="group relative bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-blue-100 hover:border-[#032153]">
                 <div class="mb-6">
-                    <div class="bg-gradient-to-br from-blue-500 to-indigo-600 w-14 h-14 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-md">
+                    <div class="bg-gradient-to-br from-[#032153] to-[#032153] w-14 h-14 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-md">
                         <i class="fa-solid fa-building text-white text-xl"></i>
                     </div>
                 </div>
-                <h3 class="font-poppins font-bold text-xl text-gray-900 mb-3 group-hover:text-blue-600 transition-colors duration-300">
+                <h3 class="font-poppins font-bold text-xl text-gray-900 mb-3 group-hover:text-[#032153] transition-colors duration-300">
                     Passenger Lifts
                 </h3>
                 <p class="font-inter text-gray-700 leading-relaxed text-sm">
                     Safe, reliable, and cost-effective vertical transport designed for everyday use in residential and commercial buildings.
                 </p>
-                <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-blue-500 to-indigo-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
+                <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-[#032153] to-[#032153] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
             </div>
 
             <!-- Home Lifts -->
-            <div class="group relative bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-indigo-100 hover:border-indigo-300">
+            <div class="group relative bg-gradient-to-br from-indigo-50 to-purple-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-indigo-100 hover:border-[#032153]">
                 <div class="mb-6">
-                    <div class="bg-gradient-to-br from-indigo-500 to-purple-600 w-14 h-14 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-md">
+                    <div class="bg-gradient-to-br from-[#032153] to-[#032153] w-14 h-14 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-md">
                         <i class="fas fa-home text-white text-xl"></i>
                     </div>
                 </div>
-                <h3 class="font-poppins font-bold text-xl text-gray-900 mb-3 group-hover:text-indigo-600 transition-colors duration-300">
+                <h3 class="font-poppins font-bold text-xl text-gray-900 mb-3 group-hover:text-[#032153] transition-colors duration-300">
                     Home Lifts
                 </h3>
                 <p class="font-inter text-gray-700 leading-relaxed text-sm">
                     Convenient and modern lift solutions that enhance accessibility and independence for the elderly and differently-abled.
                 </p>
-                <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-indigo-500 to-purple-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
+                <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-[#032153] to-[#032153] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
             </div>
 
             <!-- Accessibility Solutions -->
-            <div class="group relative bg-gradient-to-br from-cyan-50 to-blue-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-cyan-100 hover:border-cyan-300">
+            <div class="group relative bg-gradient-to-br from-cyan-50 to-blue-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-cyan-100 hover:border-[#032153]">
                 <div class="mb-6">
-                    <div class="bg-gradient-to-br from-cyan-500 to-blue-600 w-14 h-14 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-md">
+                    <div class="bg-gradient-to-br from-[#032153] to-[#032153] w-14 h-14 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-md">
                         <i class="fas fa-universal-access text-white text-xl"></i>
                     </div>
                 </div>
-                <h3 class="font-poppins font-bold text-xl text-gray-900 mb-3 group-hover:text-cyan-600 transition-colors duration-300">
+                <h3 class="font-poppins font-bold text-xl text-gray-900 mb-3 group-hover:text-[#032153] transition-colors duration-300">
                     Accessibility Solutions
                 </h3>
                 <p class="font-inter text-gray-700 leading-relaxed text-sm">
                     Compact and efficient installations for stairways, ensuring maximum safety while requiring minimal space and maintenance.
                 </p>
-                <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-cyan-500 to-blue-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
+                <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-[#032153] to-[#032153] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
             </div>
 
             <!-- Lift Components -->
-            <div class="group relative bg-gradient-to-br from-violet-50 to-purple-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-violet-100 hover:border-violet-300">
+            <div class="group relative bg-gradient-to-br from-violet-50 to-purple-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-violet-100 hover:border-[#032153]">
                 <div class="mb-6">
-                    <div class="bg-gradient-to-br from-violet-500 to-purple-600 w-14 h-14 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-md">
+                    <div class="bg-gradient-to-br from-[#032153] to-[#032153] w-14 h-14 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-md">
                         <i class="fas fa-cog text-white text-xl"></i>
                     </div>
                 </div>
-                <h3 class="font-poppins font-bold text-xl text-gray-900 mb-3 group-hover:text-violet-600 transition-colors duration-300">
+                <h3 class="font-poppins font-bold text-xl text-gray-900 mb-3 group-hover:text-[#032153] transition-colors duration-300">
                     Lift Components
                 </h3>
                 <p class="font-inter text-gray-700 leading-relaxed text-sm">
                     High-quality components from trusted brands, extending the performance and lifespan of existing lift systems at optimal cost.
                 </p>
-                <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-violet-500 to-purple-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
+                <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-[#032153] to-[#032153] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
             </div>
 
             <!-- Escalators -->
-            <div class="group relative bg-gradient-to-br from-sky-50 to-blue-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-sky-100 hover:border-sky-300">
+            <div class="group relative bg-gradient-to-br from-sky-50 to-blue-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-sky-100 hover:border-[#032153]">
                 <div class="mb-6">
-                    <div class="bg-gradient-to-br from-sky-500 to-blue-600 w-14 h-14 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-md">
+                    <div class="bg-gradient-to-br from-[#032153] to-[#032153] w-14 h-14 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-md">
                         <i class="fas fa-sort-amount-up text-white text-xl"></i>
                     </div>
                 </div>
-                <h3 class="font-poppins font-bold text-xl text-gray-900 mb-3 group-hover:text-sky-600 transition-colors duration-300">
+                <h3 class="font-poppins font-bold text-xl text-gray-900 mb-3 group-hover:text-[#032153] transition-colors duration-300">
                     Escalators
                 </h3>
                 <p class="font-inter text-gray-700 leading-relaxed text-sm">
                     Smooth, energy-efficient, and low-noise escalators built for durability, flexible design, and seamless indoor or outdoor integration.
                 </p>
-                <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-sky-500 to-blue-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
+                <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-[#032153] to-[#032153] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
             </div>
 
             <!-- Maintenance & After-Sales -->
-            <div class="group relative bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-blue-100 hover:border-blue-300">
+            <div class="group relative bg-gradient-to-br from-blue-50 to-cyan-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-blue-100 hover:border-[#032153]">
                 <div class="mb-6">
-                    <div class="bg-gradient-to-br from-blue-500 to-cyan-600 w-14 h-14 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-md">
+                    <div class="bg-gradient-to-br from-[#032153] to-[#032153] w-14 h-14 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-md">
                         <i class="fas fa-tools text-white text-xl"></i>
                     </div>
                 </div>
-                <h3 class="font-poppins font-bold text-xl text-gray-900 mb-3 group-hover:text-blue-600 transition-colors duration-300">
+                <h3 class="font-poppins font-bold text-xl text-gray-900 mb-3 group-hover:text-[#032153] transition-colors duration-300">
                     Maintenance & After-Sales
                 </h3>
                 <p class="font-inter text-gray-700 leading-relaxed text-sm">
                     Comprehensive maintenance solutions to ensure long-term reliability, safety, and uninterrupted operation.
                 </p>
-                <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-blue-500 to-cyan-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
+                <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-[#032153] to-[#032153] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
             </div>
 
             <!-- Civil Engineering -->
-            <div class="group relative bg-gradient-to-br from-violet-50 to-purple-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-violet-100 hover:border-violet-300">
+            <div class="group relative bg-gradient-to-br from-violet-50 to-purple-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-violet-100 hover:border-[#032153]">
                 <div class="mb-6">
-                    <div class="bg-gradient-to-br from-violet-500 to-purple-600 w-14 h-14 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-md">
+                    <div class="bg-gradient-to-br from-[#032153] to-[#032153] w-14 h-14 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-md">
                         <i class="fas fa-drafting-compass text-white text-xl"></i>
                     </div>
                 </div>
-                <h3 class="font-poppins font-bold text-xl text-gray-900 mb-3 group-hover:text-violet-600 transition-colors duration-300">
+                <h3 class="font-poppins font-bold text-xl text-gray-900 mb-3 group-hover:text-[#032153] transition-colors duration-300">
                     Civil Engineering
                 </h3>
                 <p class="font-inter text-gray-700 leading-relaxed text-sm">
                     Innovative civil engineering solutions covering structural design, urban planning, and infrastructure development to support sustainable growth and modern living.
                 </p>
-                <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-violet-500 to-purple-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
+                <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-[#032153] to-[#032153] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
             </div>
 
             <!-- Construction Services -->
-            <div class="group relative bg-gradient-to-br from-sky-50 to-blue-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-sky-100 hover:border-sky-300">
+            <div class="group relative bg-gradient-to-br from-sky-50 to-blue-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-sky-100 hover:border-[#032153]">
                 <div class="mb-6">
-                    <div class="bg-gradient-to-br from-sky-500 to-blue-600 w-14 h-14 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-md">
+                    <div class="bg-gradient-to-br from-[#032153] to-[#032153] w-14 h-14 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-md">
                         <i class="fas fa-building text-white text-xl"></i>
                     </div>
                 </div>
-                <h3 class="font-poppins font-bold text-xl text-gray-900 mb-3 group-hover:text-sky-600 transition-colors duration-300">
+                <h3 class="font-poppins font-bold text-xl text-gray-900 mb-3 group-hover:text-[#032153] transition-colors duration-300">
                     Construction Services
                 </h3>
                 <p class="font-inter text-gray-700 leading-relaxed text-sm">
                     End-to-end construction expertise, from concept to completion, delivering high-quality projects with precision, safety, and timely execution.
                 </p>
-                <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-sky-500 to-blue-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
+                <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-[#032153] to-[#032153] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
             </div>
 
             <!-- Mechanical & Electrical Engineering -->
-            <div class="group relative bg-gradient-to-br from-slate-50 to-blue-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-slate-100 hover:border-slate-300">
+            <div class="group relative bg-gradient-to-br from-slate-50 to-blue-50 rounded-2xl p-8 hover:shadow-xl transition-all duration-300 border border-slate-100 hover:border-[#032153]">
                 <div class="mb-6">
-                    <div class="bg-gradient-to-br from-slate-500 to-blue-600 w-14 h-14 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-md">
+                    <div class="bg-gradient-to-br from-[#032153] to-[#032153] w-14 h-14 rounded-xl flex items-center justify-center transform group-hover:scale-110 transition-transform duration-300 shadow-md">
                         <i class="fas fa-bolt text-white text-xl"></i>
                     </div>
                 </div>
-                <h3 class="font-poppins font-bold text-xl text-gray-900 mb-3 group-hover:text-slate-600 transition-colors duration-300">
+                <h3 class="font-poppins font-bold text-xl text-gray-900 mb-3 group-hover:text-[#032153] transition-colors duration-300">
                     Mechanical & Electrical Engineering
                 </h3>
                 <p class="font-inter text-gray-700 leading-relaxed text-sm">
                     Comprehensive M&E services including HVAC, plumbing, and electrical systems, ensuring efficiency, safety, and seamless integration in every project.
                 </p>
-                <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-slate-500 to-blue-600 transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
+                <div class="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-[#032153] to-[#032153] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300 rounded-b-2xl"></div>
             </div>
 
         </div>
