@@ -435,7 +435,7 @@
         <div class="mt-16 pt-8 border-t border-white/10">
             <div class="flex flex-col md:flex-row justify-between items-center gap-4">
                 <p class="font-inter text-sm text-white/60 text-center md:text-left order-2 md:order-1">
-                    © 2024 Max Holdings. All rights reserved.
+                    © 2025 Max Holdings. All rights reserved.
                 </p>
                 
                 <!-- Developed by Endevo Digital -->
@@ -443,8 +443,7 @@
                     <p class="font-inter text-sm text-white/60 text-center">
                         Developed by 
                         <a href="https://endevodigital.com/index" target="_blank" rel="noopener noreferrer"
-                            class="font-poppins font-semibold text-transparent bg-clip-text bg-gradient-to-r from-red-400 via-orange-400 to-red-500 
-                                 hover:from-red-500 hover:via-orange-500 hover:to-red-600 transition-all duration-300 tracking-wide">
+                            class="font-poppins font-semibold text-white transition-all duration-300 tracking-wide">
                             Endevo Digital
                         </a>
                     </p>

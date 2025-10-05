@@ -19,70 +19,70 @@
             'desc'  => 'Providing skilled and unskilled general workers to meet the day-to-day operational needs of multiple industries.',
             'img'   => 'images/manpowersupply.png',
             'badge' => 'Consultancy',
-            'badgeColor' => 'text-orange-700',
-            'hoverColor' => 'group-hover:text-orange-700',
-            'borderColor'=> 'hover:border-orange-200',
-            'gradient'   => 'from-orange-500/5',
+            'badgeColor' => 'text-red-700',
+            'hoverColor' => 'group-hover:text-red-700',
+            'borderColor'=> 'hover:border-red-200',
+            'gradient'   => 'from-red-500/5',
         ],
         [
             'title' => 'Accessibility Solutions',
             'desc'  => 'Custom stairway installations that ensure maximum safety, minimal space usage, and low-maintenance accessibility.',
             'img'   => 'images/accessibility.png',
             'badge' => 'Solutions',
-            'badgeColor' => 'text-green-700',
-            'hoverColor' => 'group-hover:text-green-700',
-            'borderColor'=> 'hover:border-green-200',
-            'gradient'   => 'from-green-500/5',
+            'badgeColor' => 'text-red-700',
+            'hoverColor' => 'group-hover:text-red-700',
+            'borderColor'=> 'hover:border-red-200',
+            'gradient'   => 'from-red-500/5',
         ],
         [
             'title' => 'Escalators',
             'desc'  => 'Smooth and efficient escalator systems with low noise, energy-saving technology, and flexible indoor/outdoor designs.',
             'img'   => 'images/escalators.png',
             'badge' => 'Engineering',
-            'badgeColor' => 'text-green-700',
-            'hoverColor' => 'group-hover:text-green-700',
-            'borderColor'=> 'hover:border-green-200',
-            'gradient'   => 'from-green-500/5',
+            'badgeColor' => 'text-red-700',
+            'hoverColor' => 'group-hover:text-red-700',
+            'borderColor'=> 'hover:border-red-200',
+            'gradient'   => 'from-red-500/5',
         ],
         [
             'title' => 'Home Lifts',
             'desc'  => 'Convenient and innovative lift solutions that enhance accessibility for seniors and differently-abled individuals.',
             'img'   => 'images/homelifts.png',
             'badge' => 'Accessibility',
-            'badgeColor' => 'text-green-700',
-            'hoverColor' => 'group-hover:text-green-700',
-            'borderColor'=> 'hover:border-green-200',
-            'gradient'   => 'from-green-500/5',
+            'badgeColor' => 'text-red-700',
+            'hoverColor' => 'group-hover:text-red-700',
+            'borderColor'=> 'hover:border-red-200',
+            'gradient'   => 'from-red-500/5',
         ],
         [
             'title' => 'Tourism',
             'desc'  => 'Personalized and customizable tour packages designed to create unforgettable travel experiences.',
             'img'   => 'images/tourism.png',
             'badge' => 'Travel',
-            'badgeColor' => 'text-green-700',
-            'hoverColor' => 'group-hover:text-green-700',
-            'borderColor'=> 'hover:border-green-200',
-            'gradient'   => 'from-green-500/5',
+            'badgeColor' => 'text-red-700',
+            'hoverColor' => 'group-hover:text-red-700',
+            'borderColor'=> 'hover:border-red-200',
+            'gradient'   => 'from-red-500/5',
         ],
         [
             'title' => 'Event Management',
             'desc'  => 'End-to-end event planning and execution corporate events, private functions, and large-scale gatherings managed with excellence.',
             'img'   => 'images/eventmanagement.png',
             'badge' => 'Events',
-            'badgeColor' => 'text-green-700',
-            'hoverColor' => 'group-hover:text-green-700',
-            'borderColor'=> 'hover:border-green-200',
-            'gradient'   => 'from-green-500/5',
+            'badgeColor' => 'text-red-700',
+            'hoverColor' => 'group-hover:text-red-700',
+            'borderColor'=> 'hover:border-red-200',
+            'gradient'   => 'from-red-500/5',
         ],
         [
             'title' => 'Event Item Supply',
             'desc'  => 'Providing complete event essentials including sound, lighting, stage setups, and décor to make every occasion seamless and impactful.',
             'img'   => 'images/eventitemsupply.png',
             'badge' => 'Support',
-            'badgeColor' => 'text-green-700',
-            'hoverColor' => 'group-hover:text-green-700',
-            'borderColor'=> 'hover:border-green-200',
-            'gradient'   => 'from-green-500/5',
+            'badgeColor' => 'text-red-700',
+            'hoverColor' => 'group-hover:text-red-700',
+            'borderColor'=> 'hover:border-red-200',
+            'gradient'   => 'from-red-500/5',
         ],
     ];
 @endphp
@@ -456,7 +456,6 @@
     </div>
 </section>
 
-
 <!--CEO Message Section -->
 <section class="py-24 lg:py-32 bg-white relative overflow-hidden">
     <!-- Background Elements -->
@@ -481,7 +480,7 @@
                         <div class="relative z-10">
                             <img src="{{ asset('images/ceopicture.png') }}" 
                                  alt="Shiraq Shaleel - Founder / CEO" 
-                                 class="w-full max-w-md mx-auto rounded-3xl aspect-square object-cover shadow-2xl hover:shadow-3xl transition-shadow duration-500">
+                                 class="w-full max-w-md mx-auto rounded-3xl object-cover shadow-2xl hover:shadow-3xl transition-shadow duration-500">
                         </div>
                     </div>
                 </div>
@@ -544,7 +543,7 @@
                     <div class="relative inline-block">
                         <img src="{{ asset('images/ceopicture.png') }}" 
                              alt="Shiraq Shaleel - Founder / CEO" 
-                             class="w-48 h-48 md:w-64 md:h-64 rounded-3xl object-cover shadow-2xl mx-auto">
+                             class="w-full max-w-xs md:max-w-sm rounded-3xl object-contain shadow-2xl mx-auto">
                         
                     </div>
                 </div>
@@ -655,7 +654,7 @@
                         <div class="relative z-10">
                             <img src="{{ asset('images/coopicture.png') }}" 
                                  alt="Afdhal Arafath - Director / COO" 
-                                 class="w-full max-w-md mx-auto rounded-3xl aspect-square object-cover shadow-2xl hover:shadow-3xl transition-shadow duration-500">
+                                 class="w-full max-w-md mx-auto rounded-3xl object-cover shadow-2xl hover:shadow-3xl transition-shadow duration-500">
                         </div>
                     </div>
                 </div>
@@ -673,7 +672,7 @@
                     <div class="relative inline-block">
                         <img src="{{ asset('images/coopicture.png') }}" 
                              alt="Afdhal Arafath - Director / COO" 
-                             class="w-48 h-48 md:w-64 md:h-64 rounded-3xl object-cover shadow-2xl mx-auto">
+                             class="w-full max-w-xs md:max-w-sm rounded-3xl object-contain shadow-2xl mx-auto">
                     </div>
                 </div>
                 
