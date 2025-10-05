@@ -450,8 +450,8 @@
                 </div>
                 
                 <div class="flex gap-6 order-3">
-                    <a href="/privacy-policy.pdf" target="_blank" class="font-inter text-sm text-white/60 hover:text-white transition-colors duration-300">Privacy Policy</a>
-                    <a href="/terms-of-service.pdf" target="_blank" class="font-inter text-sm text-white/60 hover:text-white transition-colors duration-300">Terms of Service</a>
+                    <a href="{{ route('privacy-policy') }}" target="_blank" class="font-inter text-sm text-white/60 hover:text-white transition-colors duration-300">Privacy Policy</a>
+                    <a href="{{ route('terms-of-service') }}" target="_blank" class="font-inter text-sm text-white/60 hover:text-white transition-colors duration-300">Terms of Service</a>
                 </div>
             </div>
         </div>

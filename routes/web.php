@@ -8,6 +8,8 @@ use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\BlogsController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\PrivacyPolicyController;
+use App\Http\Controllers\TermsOfServiceController;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/about', [AboutController::class, 'index'])->name('about');
@@ -15,5 +17,7 @@ Route::get('/services', [ServicesController::class, 'index'])->name('services');
 Route::get('/blogs', [BlogsController::class, 'index'])->name('blogs');
 Route::get('/blog/{slug}', [BlogController::class, 'show'])->name('blog.show');
 Route::get('/contact', [ContactController::class, 'index'])->name('contact');
+Route::get('/privacy-policy', [PrivacyPolicyController::class, 'index'])->name('privacy-policy');
+Route::get('/terms-of-service', [TermsOfServiceController::class, 'index'])->name('terms-of-service');
 
 // Sample Routes for other pages now new
