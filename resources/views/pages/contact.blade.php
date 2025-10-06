@@ -50,7 +50,7 @@
         <div class="absolute inset-0" style="background-image: radial-gradient(circle at 1px 1px, #333 1px, transparent 0); background-size: 40px 40px;"></div>
     </div>
     
-    <div class="container mx-auto px-4 relative z-10">
+    <div class="w-full max-w-7xl mx-auto px-6 sm:px-10 md:px-12 relative z-10">
         <!-- Section Header -->
         <div class="text-center mb-16">
             <h2 class="font-poppins font-bold text-4xl lg:text-5xl text-gray-900 mb-6">
@@ -161,7 +161,7 @@
     <div class="absolute top-0 right-0 w-1/3 h-1/3 bg-gradient-to-bl from-red-50 to-transparent"></div>
     <div class="absolute bottom-0 left-0 w-1/3 h-1/3 bg-gradient-to-tr from-red-50 to-transparent"></div>
     
-    <div class="container mx-auto px-4 relative z-10">
+    <div class="w-full max-w-7xl mx-auto px-6 sm:px-10 md:px-12 relative z-10">
         <!-- Section Header -->
         <div class="text-center mb-16">
             <h2 class="font-poppins font-bold text-4xl lg:text-5xl text-gray-900 mb-6">

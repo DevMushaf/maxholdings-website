@@ -11,7 +11,7 @@
         <div class="absolute bottom-1/4 right-1/4 w-80 h-80 bg-orange-500/10 rounded-full blur-3xl animate-pulse" style="animation-delay: 2s;"></div>
     </div>
     
-    <div class="container mx-auto px-4 relative z-10">
+    <div class="w-full max-w-7xl mx-auto px-6 sm:px-10 md:px-12 relative z-10">
         <div class="max-w-4xl mx-auto">
             <!-- Breadcrumb -->
             <nav class="flex items-center gap-2 text-white/60 mb-8 text-sm">
@@ -71,7 +71,7 @@
 
 <!-- Blog Content -->
 <section class="py-16 lg:py-24 bg-white">
-    <div class="container mx-auto px-4">
+    <div class="w-full max-w-7xl mx-auto px-6 sm:px-10 md:px-12 relative z-10">
         <div class="max-w-4xl mx-auto">
             <!-- Social Share -->
             <div class="flex items-center gap-4 mb-12 pb-8 border-b border-gray-200">
@@ -118,7 +118,7 @@
 <!-- Related Articles -->
 @if(count($relatedBlogs) > 0)
 <section class="py-24 bg-gradient-to-b from-gray-50 to-white">
-    <div class="container mx-auto px-4">
+    <div class="w-full max-w-7xl mx-auto px-6 sm:px-10 md:px-12 relative z-10">
         <div class="max-w-6xl mx-auto">
             <!-- Section Header -->
             <div class="text-center mb-16">
@@ -202,7 +202,7 @@
         <div class="absolute bottom-1/4 right-1/4 w-80 h-80 bg-orange-500/10 rounded-full blur-3xl animate-pulse" style="animation-delay: 2s;"></div>
     </div>
     
-    <div class="container mx-auto px-4 relative z-10">
+    <div class="w-full max-w-7xl mx-auto px-6 sm:px-10 md:px-12 relative z-10">
         <div class="max-w-3xl mx-auto text-center">
             <h2 class="font-poppins font-bold text-4xl lg:text-5xl mb-6 leading-tight">
                 Ready to Learn <span class="bg-gradient-to-r from-red-400 to-orange-500 bg-clip-text text-transparent">More?</span>
@@ -241,6 +241,10 @@
 
     html {
         scroll-behavior: smooth;
+    }
+
+    .blog-content p{
+    text-align: justify;
     }
 
     .line-clamp-2 {

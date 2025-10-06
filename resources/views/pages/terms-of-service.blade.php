@@ -66,7 +66,7 @@
             <!-- Section 4 -->
             <div class="bg-white rounded-lg shadow-sm p-8">
                 <h2 class="font-poppins text-xl font-bold text-gray-900 mb-4">4. Intellectual Property</h2>
-                <p class="font-inter text-gray-700">
+                <p class="font-inter text-gray-700 text-justify">
                     All content on this site, including text, images, code, logos, and branding, is the exclusive property of Max Holdings or its licensors. Unauthorized use is strictly prohibited.
                 </p>
             </div>
@@ -74,10 +74,10 @@
             <!-- Section 5 -->
             <div class="bg-white rounded-lg shadow-sm p-8">
                 <h2 class="font-poppins text-xl font-bold text-gray-900 mb-4">5. Pricing & Payments</h2>
-                <p class="font-inter text-gray-700 mb-3">
+                <p class="font-inter text-gray-700 mb-3 text-justify">
                     All pricing is subject to change based on project scope, requirements, and agreements. Final prices will be confirmed via formal quotations or contracts.
                 </p>
-                <p class="font-inter text-gray-700">
+                <p class="font-inter text-gray-700 text-justify">
                     Payments are to be made according to agreed terms. Late payments may incur additional fees or service delays.
                 </p>
             </div>
@@ -85,7 +85,7 @@
             <!-- Section 6 -->
             <div class="bg-white rounded-lg shadow-sm p-8">
                 <h2 class="font-poppins text-xl font-bold text-gray-900 mb-4">6. Termination of Services</h2>
-                <p class="font-inter text-gray-700">
+                <p class="font-inter text-gray-700 text-justify">
                     We reserve the right to suspend or terminate access to our services or website without notice if you violate these terms or engage in fraudulent, illegal, or harmful activities.
                 </p>
             </div>
@@ -93,7 +93,7 @@
             <!-- Section 7 -->
             <div class="bg-white rounded-lg shadow-sm p-8">
                 <h2 class="font-poppins text-xl font-bold text-gray-900 mb-4">7. Disclaimers</h2>
-                <p class="font-inter text-gray-700">
+                <p class="font-inter text-gray-700 text-justify">
                     Our services are provided "as is" and "as available" without warranties of any kind. We do not guarantee uninterrupted access or error-free performance.
                 </p>
             </div>
@@ -115,7 +115,7 @@
             <!-- Section 9 -->
             <div class="bg-white rounded-lg shadow-sm p-8">
                 <h2 class="font-poppins text-xl font-bold text-gray-900 mb-4">9. Links to Third-Party Sites</h2>
-                <p class="font-inter text-gray-700">
+                <p class="font-inter text-gray-700 text-justify">
                     Our website may contain links to external sites. We are not responsible for their content, privacy policies, or practices.
                 </p>
             </div>
@@ -123,7 +123,7 @@
             <!-- Section 10 -->
             <div class="bg-white rounded-lg shadow-sm p-8">
                 <h2 class="font-poppins text-xl font-bold text-gray-900 mb-4">10. Governing Law</h2>
-                <p class="font-inter text-gray-700">
+                <p class="font-inter text-gray-700 text-justify">
                     These Terms are governed by the laws of Sri Lanka. Any disputes shall be resolved under the jurisdiction of Sri Lankan courts.
                 </p>
             </div>
@@ -131,7 +131,7 @@
             <!-- Section 11 -->
             <div class="bg-white rounded-lg shadow-sm p-8">
                 <h2 class="font-poppins text-xl font-bold text-gray-900 mb-4">11. Modifications to Terms</h2>
-                <p class="font-inter text-gray-700">
+                <p class="font-inter text-gray-700 text-justify">
                     We may revise these Terms periodically. Continued use of the website after changes are posted constitutes acceptance of those changes.
                 </p>
             </div>

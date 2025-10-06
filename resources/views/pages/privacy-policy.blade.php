@@ -22,7 +22,7 @@
 
         <!-- Introduction -->
         <div class="bg-white rounded-lg shadow-sm p-8 mb-6">
-            <p class="font-inter text-gray-700 leading-relaxed">
+            <p class="font-inter text-gray-700 leading-relaxed text-justify">
                 Max Holdings respects your privacy and is committed to protecting any personal information you provide to us. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.
             </p>
         </div>
@@ -133,7 +133,7 @@
             <!-- Section 10 -->
             <div class="bg-white rounded-lg shadow-sm p-8">
                 <h2 class="font-poppins text-xl font-bold text-gray-900 mb-4">10. International Data Transfers</h2>
-                <p class="font-inter text-gray-700">
+                <p class="font-inter text-gray-700 text-justify">
                     If you are accessing our services outside Sri Lanka, please be aware that your information may be transferred to and processed in countries with different data protection laws.
                 </p>
             </div>
@@ -141,7 +141,7 @@
             <!-- Section 11 -->
             <div class="bg-white rounded-lg shadow-sm p-8">
                 <h2 class="font-poppins text-xl font-bold text-gray-900 mb-4">11. Changes to This Privacy Policy</h2>
-                <p class="font-inter text-gray-700">
+                <p class="font-inter text-gray-700 text-justify">
                     We may update this policy from time to time. Changes will be posted on this page, and where appropriate, notified via email.
                 </p>
             </div>

@@ -60,7 +60,7 @@ class BlogController extends Controller
                 'content' => '<p>Sri Lanka, often referred to as the "Pearl of the Indian Ocean," is a land of breathtaking landscapes, rich cultural heritage, and unparalleled hospitality. For travelers seeking to explore this tropical paradise, Max Tourism offers a gateway to unforgettable experiences. As a division of Max Holdings Pvt Ltd, Max Tourism is dedicated to promoting Sri Lanka\'s beauty through sustainable travel, while providing tailored services that cater to the unique needs of every traveler.</p>
 
 <h2>Discover Sri Lanka with Max Tourism</h2>
-<p>Max Tourism is more than just a travel agency—it\'s a partner in creating memories that last a lifetime. Whether you\'re a solo adventurer, a family on vacation, or a corporate group seeking a unique retreat, Max Tourism offers a range of services designed to make your journey seamless and extraordinary.</p>
+<p>Max Tourism is more than just a travel agency-it\'s a partner in creating memories that last a lifetime. Whether you\'re a solo adventurer, a family on vacation, or a corporate group seeking a unique retreat, Max Tourism offers a range of services designed to make your journey seamless and extraordinary.</p>
 
 <h3>Expert VISA Consultation</h3>
 <p>Traveling to a new country can often be daunting, especially when it comes to navigating the complexities of visa applications. Max Tourism simplifies this process with its expert VISA consultation services. Our team ensures accurate documentation, timely submissions, and hassle-free approvals, allowing you to focus on planning your dream trip without any stress. From tourist visas to special permits, we handle it all, making your journey smooth from start to finish.</p>

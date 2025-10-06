@@ -50,7 +50,7 @@
         <div class="absolute inset-0" style="background-image: radial-gradient(circle at 1px 1px, #333 1px, transparent 0); background-size: 40px 40px;"></div>
     </div>
     
-    <div class="container mx-auto px-4 relative z-10">
+    <div class="w-full max-w-7xl mx-auto px-6 sm:px-10 md:px-12 relative z-10">
         <!-- Section Header -->
         <div class="text-center mb-16">
             <h2 class="font-poppins font-bold text-4xl lg:text-5xl text-gray-900 mb-6">
@@ -87,7 +87,7 @@
     <!-- Background Elements -->
     <div class="absolute top-0 left-0 w-full h-64 bg-gradient-to-b from-red-50/50 to-transparent"></div>
     
-    <div class="container mx-auto px-4 relative z-10">
+    <div class="w-full max-w-7xl mx-auto px-6 sm:px-10 md:px-12 relative z-10">
         <!-- Section Header -->
         <div class="text-center mb-20">
             <h2 class="font-poppins font-bold text-4xl lg:text-5xl text-gray-900 mb-6">
@@ -193,7 +193,7 @@
         <div class="absolute bottom-1/3 right-1/4 w-72 h-72 bg-orange-500/10 rounded-full blur-3xl animate-pulse" style="animation-delay: 3s;"></div>
     </div>
     
-    <div class="container mx-auto px-4 relative z-10">
+    <div class="w-full max-w-7xl mx-auto px-6 sm:px-10 md:px-12 relative z-10">
         <!-- Section Header -->
         <div class="text-center mb-16">
             <h2 class="font-poppins font-bold text-4xl lg:text-5xl text-gray-900 mb-4">
@@ -260,7 +260,7 @@
         <div class="absolute bottom-40 left-1/3 w-2 h-2 bg-red-400/30 rounded-full animate-ping" style="animation-delay: 5s;"></div>
     </div>
     
-    <div class="container mx-auto px-4 relative z-10">
+    <div class="w-full max-w-7xl mx-auto px-6 sm:px-10 md:px-12 relative z-10">
 
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 max-w-6xl mx-auto">
             <!-- Vision Card -->
@@ -330,7 +330,7 @@
 
 <!-- Values Section-->
 <section class="py-24 lg:py-32 bg-gradient-to-b from-gray-50 to-white relative overflow-hidden">
-    <div class="container mx-auto px-4 relative z-10">
+    <div class="w-full max-w-7xl mx-auto px-6 sm:px-10 md:px-12 relative z-10">
         <!-- Section Header -->
         <div class="text-center mb-20">
             <h2 class="font-poppins font-bold text-4xl lg:text-5xl text-gray-900 mb-6">
@@ -465,7 +465,7 @@
         <div class="absolute bottom-40 left-1/3 w-2 h-2 bg-orange-400/20 rounded-full animate-ping" style="animation-delay: 5s;"></div>
     </div>
     
-    <div class="container mx-auto px-4 relative z-10">
+    <div class="w-full max-w-7xl mx-auto px-6 sm:px-10 md:px-12 relative z-10">
         <!-- Section Header -->
         <div class="text-center mb-20">
             <h2 class="font-poppins font-bold text-4xl lg:text-6xl text-white mb-6">

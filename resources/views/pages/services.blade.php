@@ -79,7 +79,7 @@
     <div class="absolute top-20 right-20 w-64 h-64 bg-red-100 rounded-full opacity-20 blur-3xl"></div>
     <div class="absolute bottom-20 left-20 w-80 h-80 bg-orange-100 rounded-full opacity-20 blur-3xl"></div>
     
-    <div class="container mx-auto px-4 relative z-10 max-w-6xl">
+    <div class="w-full max-w-7xl mx-auto px-6 sm:px-10 md:px-12 relative z-10">
         <!-- Section Header -->
         <div class="text-center mb-8 lg:mb-12">
             <h2 class="font-poppins font-bold text-4xl lg:text-5xl text-gray-900 mb-6">
@@ -144,7 +144,7 @@
 
 <!-- Max Engineering Services Section -->
 <section class="py-24 lg:py-32 bg-white relative overflow-hidden">
-    <div class="container mx-auto px-4 relative z-10">
+    <div class="w-full max-w-7xl mx-auto px-6 sm:px-10 md:px-12 relative z-10">
         <!-- Section Header -->
         <div class="text-center mb-20">
             <h2 class="font-poppins font-bold text-4xl lg:text-5xl text-gray-900 mb-6">
@@ -311,7 +311,7 @@
 
 <!-- Max Manpower Services Section -->
 <section class="py-24 lg:py-32 bg-gradient-to-b from-gray-50 to-white relative overflow-hidden">
-    <div class="container mx-auto px-4 relative z-10">
+    <div class="w-full max-w-7xl mx-auto px-6 sm:px-10 md:px-12 relative z-10">
         <!-- Section Header -->
         <div class="text-center mb-20">
             <h2 class="font-poppins font-bold text-4xl lg:text-5xl text-gray-900 mb-6">
@@ -469,7 +469,7 @@
 
 <!-- Max Tourism Services Section -->
 <section class="py-24 lg:py-32 bg-white relative overflow-hidden">
-    <div class="container mx-auto px-4 relative z-10">
+    <div class="w-full max-w-7xl mx-auto px-6 sm:px-10 md:px-12 relative z-10">
         <!-- Section Header -->
         <div class="text-center mb-20">
             <h2 class="font-poppins font-bold text-4xl lg:text-5xl text-gray-900 mb-6">
@@ -588,7 +588,7 @@
 
 <!-- Endevo Digital Services Section -->
 <section class="py-24 lg:py-32 bg-gradient-to-b from-gray-50 to-white relative overflow-hidden">
-    <div class="container mx-auto px-4 relative z-10">
+    <div class="w-full max-w-7xl mx-auto px-6 sm:px-10 md:px-12 relative z-10">
         <!-- Section Header -->
         <div class="text-center mb-20">
             <h2 class="font-poppins font-bold text-4xl lg:text-5xl text-gray-900 mb-6">
@@ -706,7 +706,7 @@
 
 <!-- DigiPrint Lab Services Section -->
 <section class="py-24 lg:py-32 bg-white relative overflow-hidden">
-    <div class="container mx-auto px-4 relative z-10">
+    <div class="w-full max-w-7xl mx-auto px-6 sm:px-10 md:px-12 relative z-10">
         <!-- Section Header -->
         <div class="text-center mb-20">
             <h2 class="font-poppins font-bold text-4xl lg:text-5xl text-gray-900 mb-6">
