@@ -20,4 +20,4 @@ Route::get('/contact', [ContactController::class, 'index'])->name('contact');
 Route::get('/privacy-policy', [PrivacyPolicyController::class, 'index'])->name('privacy-policy');
 Route::get('/terms-of-service', [TermsOfServiceController::class, 'index'])->name('terms-of-service');
 
-// Sample Routes for other pages now new
+// Sample Routes for other pages now new new new
