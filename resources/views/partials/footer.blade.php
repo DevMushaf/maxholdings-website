@@ -108,19 +108,32 @@
                     <i class="fas fa-building text-red-500"></i>
                     Our Company
                 </h3>
-                <div class="space-y-4">
-                    <p class="font-inter font-normal text-base text-white/80 leading-[28px] transition-all duration-300">
-                        <i class="fas fa-chevron-right text-red-500 text-xs mr-2"></i>MAX HOLDINGS
-                    </p>
-                    <p class="font-inter font-normal text-base text-white/80 leading-[28px] transition-all duration-300">
-                        <i class="fas fa-chevron-right text-red-500 text-xs mr-2"></i>MAX ENGINEERING
-                    </p>
-                    <p class="font-inter font-normal text-base text-white/80 leading-[28px] transition-all duration-300">
-                        <i class="fas fa-chevron-right text-red-500 text-xs mr-2"></i>MAX MANPOWER
-                    </p>
-                    <p class="font-inter font-normal text-base text-white/80 leading-[28px] transition-all duration-300">
-                        <i class="fas fa-chevron-right text-red-500 text-xs mr-2"></i>MAX TOURISM
-                    </p>
+                
+                <!-- Logo Grid -->
+                <div class="grid grid-cols-3 gap-4">
+                    <img src="/images/maxholdingslogowhitebg.png" 
+                        alt="Max Holdings" 
+                        class="h-16 mx-auto object-contain grayscale hover:grayscale-0 transition duration-300" />
+
+                    <img src="/images/maxholdingsenglogo.png" 
+                        alt="Max Engineering" 
+                        class="h-16 mx-auto object-contain grayscale hover:grayscale-0 transition duration-300" />
+
+                    <img src="/images/maxholdingsmclogowhitebg.png" 
+                        alt="Max Manpower" 
+                        class="h-16 mx-auto object-contain grayscale hover:grayscale-0 transition duration-300" />
+
+                    <img src="/images/maxholdingslogowhitebg.png" 
+                        alt="Max Tourism" 
+                        class="h-16 mx-auto object-contain grayscale hover:grayscale-0 transition duration-300" />
+
+                    <img src="/images/endevologo.png" 
+                        alt="Endevo" 
+                        class="h-16 mx-auto object-contain grayscale hover:grayscale-0 transition duration-300" />
+
+                    <img src="/images/digiprintlogobg.png" 
+                        alt="DigiPrint" 
+                        class="h-16 mx-auto object-contain grayscale hover:grayscale-0 transition duration-300" />
                 </div>
             </div>
 
@@ -242,24 +255,31 @@
 
             <div class="grid grid-cols-2 gap-12">
                 <!-- Our Company Column -->
-                <div>
+                <div class="w-full">
                     <h3 class="font-poppins font-semibold text-xl text-white mb-5 flex items-center gap-2">
                         <i class="fas fa-building text-red-500"></i>
                         Our Company
                     </h3>
-                    <div class="space-y-3">
-                        <p class="font-inter font-normal text-sm text-white/80 leading-6 transition-all duration-300">
-                            <i class="fas fa-chevron-right text-red-500 text-xs mr-2"></i>MAX HOLDINGS
-                        </p>
-                        <p class="font-inter font-normal text-sm text-white/80 leading-6 transition-all duration-300">
-                            <i class="fas fa-chevron-right text-red-500 text-xs mr-2"></i>MAX ENGINEERING
-                        </p>
-                        <p class="font-inter font-normal text-sm text-white/80 leading-6 transition-all duration-300">
-                            <i class="fas fa-chevron-right text-red-500 text-xs mr-2"></i>MAX MANPOWER
-                        </p>
-                        <p class="font-inter font-normal text-sm text-white/80 leading-6 transition-all duration-300">
-                            <i class="fas fa-chevron-right text-red-500 text-xs mr-2"></i>MAX TOURISM
-                        </p>
+
+                    <!-- Logo Grid -->
+                    <div class="grid grid-cols-3 gap-y-4 gap-x-0">
+                        <img src="/images/maxholdingslogowhitebg.png" alt="Max Holdings"
+                            class="w-full max-w-[90px] object-contain grayscale hover:grayscale-0 hover:scale-105 transition duration-300" />
+
+                        <img src="/images/maxholdingsenglogo.png" alt="Max Engineering"
+                            class="w-full max-w-[90px] object-contain grayscale hover:grayscale-0 hover:scale-105 transition duration-300" />
+
+                        <img src="/images/maxholdingsmclogowhitebg.png" alt="Max Manpower"
+                            class="w-full max-w-[90px] object-contain grayscale hover:grayscale-0 hover:scale-105 transition duration-300" />
+
+                        <img src="/images/maxholdingslogowhitebg.png" alt="Max Tourism"
+                            class="w-full max-w-[90px] object-contain grayscale hover:grayscale-0 hover:scale-105 transition duration-300" />
+
+                        <img src="/images/endevologo.png" alt="Endevo"
+                            class="w-full max-w-[90px] object-contain grayscale hover:grayscale-0 hover:scale-105 transition duration-300" />
+
+                        <img src="/images/digiprintlogobg.png" alt="DigiPrint"
+                            class="w-full max-w-[90px] object-contain grayscale hover:grayscale-0 hover:scale-105 transition duration-300" />
                     </div>
                 </div>
 
@@ -384,19 +404,26 @@
                         <i class="fas fa-building text-red-500"></i>
                         Our Company
                     </h3>
-                    <div class="space-y-3">
-                        <p class="font-inter font-normal text-sm text-white/80 leading-6 transition-colors duration-300">
-                            <i class="fas fa-chevron-right text-red-500 text-xs mr-2"></i>MAX HOLDINGS
-                        </p>
-                        <p class="font-inter font-normal text-sm text-white/80 leading-6 transition-colors duration-300">
-                            <i class="fas fa-chevron-right text-red-500 text-xs mr-2"></i>MAX ENGINEERING
-                        </p>
-                        <p class="font-inter font-normal text-sm text-white/80 leading-6 transition-colors duration-300">
-                            <i class="fas fa-chevron-right text-red-500 text-xs mr-2"></i>MAX MANPOWER
-                        </p>
-                        <p class="font-inter font-normal text-sm text-white/80 leading-6 transition-colors duration-300">
-                            <i class="fas fa-chevron-right text-red-500 text-xs mr-2"></i>MAX TOURISM
-                        </p>
+
+                    <!-- Logo Grid -->
+                    <div class="grid grid-cols-3 gap-y-4 justify-items-center">
+                        <img src="/images/maxholdingslogowhitebg.png" alt="Max Holdings"
+                            class="w-[90px] object-contain grayscale hover:grayscale-0 hover:scale-105 transition duration-300" />
+
+                        <img src="/images/maxholdingsenglogo.png" alt="Max Engineering"
+                            class="w-[90px] object-contain grayscale hover:grayscale-0 hover:scale-105 transition duration-300" />
+
+                        <img src="/images/maxholdingsmclogowhitebg.png" alt="Max Manpower"
+                            class="w-[90px] object-contain grayscale hover:grayscale-0 hover:scale-105 transition duration-300" />
+
+                        <img src="/images/maxholdingslogowhitebg.png" alt="Max Tourism"
+                            class="w-[90px] object-contain grayscale hover:grayscale-0 hover:scale-105 transition duration-300" />
+
+                        <img src="/images/endevologo.png" alt="Endevo"
+                            class="w-[90px] object-contain grayscale hover:grayscale-0 hover:scale-105 transition duration-300" />
+                            
+                        <img src="/images/digiprintlogobg.png" alt="DigiPrint"
+                            class="w-[90px] object-contain grayscale hover:grayscale-0 hover:scale-105 transition duration-300" />
                     </div>
                 </div>
 
