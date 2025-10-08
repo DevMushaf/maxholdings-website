@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Insights & Stories - Max Holdings Blog')
+@section('title', 'Blogs - Max Holdings')
 
 @php
     $blogs = [
