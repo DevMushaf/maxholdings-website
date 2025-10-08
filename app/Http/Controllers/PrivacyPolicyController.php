@@ -12,4 +12,4 @@ class PrivacyPolicyController extends Controller
     }
 }
 
-// checking
+// checking nkkw
