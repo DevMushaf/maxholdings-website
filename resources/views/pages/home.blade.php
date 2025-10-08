@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Innovation, Unity, and Growth - Max Holdings')
+@section('title', 'Home - Max Holdings')
 
 @php
     $services = [
