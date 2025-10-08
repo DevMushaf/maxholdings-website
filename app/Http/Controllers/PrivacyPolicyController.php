@@ -11,3 +11,5 @@ class PrivacyPolicyController extends Controller
         return view('pages.privacy-policy');
     }
 }
+
+// checking nkkw
