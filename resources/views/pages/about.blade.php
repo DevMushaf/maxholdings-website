@@ -124,7 +124,7 @@
             <div class="group flex flex-col lg:flex-row-reverse items-center rounded-3xl overflow-hidden transition-all duration-700 bg-white">
                 <!-- Image Container -->
                 <div class="w-full lg:w-5/12 relative overflow-hidden bg-white flex items-center justify-center min-h-[400px]">
-                    <img src="{{ asset('images/maxholdingsmclogo.png') }}" 
+                    <img src="{{ asset('images/maxholdingsmclogowhitebg.png') }}" 
                          alt="Max Manpower Logo" 
                          class="w-full h-full object-contain p-12 transform transition-transform duration-700 group-hover:scale-105">
                 </div>
@@ -148,7 +148,7 @@
             <div class="group flex flex-col lg:flex-row items-center rounded-3xl overflow-hidden transition-all duration-700 bg-white">
                 <!-- Image Container -->
                 <div class="w-full lg:w-5/12 relative overflow-hidden bg-white flex items-center justify-center min-h-[400px]">
-                    <img src="{{ asset('images/maxholdingslogo1.png') }}" 
+                    <img src="{{ asset('images/maxholdingstourismlogowhitebg.png') }}" 
                          alt="Max Tourism Logo" 
                          class="w-full h-full object-contain p-12 transform transition-transform duration-700 group-hover:scale-105">
                 </div>

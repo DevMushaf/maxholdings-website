@@ -34,7 +34,7 @@
             <div class="flex flex-wrap justify-center gap-3 mt-12 animate-fade-in-up">
                 <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-full px-6 py-3 hover:bg-white/20 transition-all duration-300 cursor-pointer group">
                     <div class="flex items-center gap-2">
-                        <i class="fas fa-cogs text-red-400 group-hover:scale-110 transition-transform duration-300"></i>
+                        <i class="fas fa-cogs text-orange-400 group-hover:scale-110 transition-transform duration-300"></i>
                         <span class="font-inter text-sm font-medium">Engineering</span>
                     </div>
                 </div>
@@ -46,8 +46,26 @@
                 </div>
                 <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-full px-6 py-3 hover:bg-white/20 transition-all duration-300 cursor-pointer group">
                     <div class="flex items-center gap-2">
-                        <i class="fas fa-plane text-red-400 group-hover:scale-110 transition-transform duration-300"></i>
+                        <i class="fas fa-plane text-orange-400 group-hover:scale-110 transition-transform duration-300"></i>
                         <span class="font-inter text-sm font-medium">Tourism</span>
+                    </div>
+                </div>
+                <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-full px-6 py-3 hover:bg-white/20 transition-all duration-300 cursor-pointer group">
+                    <div class="flex items-center gap-2">
+                        <i class="fas fa-laptop-code text-orange-400 group-hover:scale-110 transition-transform duration-300"></i>
+                        <span class="font-inter text-sm font-medium">Software Development</span>
+                    </div>
+                </div>
+                <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-full px-6 py-3 hover:bg-white/20 transition-all duration-300 cursor-pointer group">
+                    <div class="flex items-center gap-2">
+                        <i class="fas fa-bullhorn text-orange-400 group-hover:scale-110 transition-transform duration-300"></i>
+                        <span class="font-inter text-sm font-medium">Branding</span>
+                    </div>
+                </div>
+                <div class="bg-white/10 backdrop-blur-md border border-white/20 rounded-full px-6 py-3 hover:bg-white/20 transition-all duration-300 cursor-pointer group">
+                    <div class="flex items-center gap-2">
+                        <i class="fas fa-calendar-alt text-orange-400 group-hover:scale-110 transition-transform duration-300"></i>
+                        <span class="font-inter text-sm font-medium">Events</span>
                     </div>
                 </div>
             </div>

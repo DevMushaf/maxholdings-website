@@ -8,7 +8,7 @@
             'title' => 'Max Holdings Pvt Ltd: Bridging the Gap Between Locals and Foreigners in Sri Lanka',
             'slug' => 'max-holdings-bridging-gap',
             'date' => 'February 15, 2025',
-            'image' => 'maxholdingslogowhitebg.png',
+            'image' => 'maxholdingslogo1.png',
             'excerpt' => 'Discover how Max Holdings is creating opportunities and fostering collaboration between local and international communities in Sri Lanka.',
             'category' => 'Company News',
             'readTime' => '5 min read',
@@ -19,7 +19,7 @@
             'title' => 'Max Tourism: Redefining Travel Experiences in Sri Lanka',
             'slug' => 'max-tourism-redefining-travel',
             'date' => 'March 17, 2025',
-            'image' => 'maxholdingslogowhitebg.png',
+            'image' => 'maxholdingstourismlogonobg.png',
             'excerpt' => 'Explore how Max Tourism is revolutionizing the travel industry with personalized and unforgettable experiences across Sri Lanka.',
             'category' => 'Tourism',
             'readTime' => '4 min read',
@@ -30,7 +30,7 @@
             'title' => 'Max Holdings Manpower Services: Empowering Sri Lanka\'s Workforce for a Brighter Future',
             'slug' => 'max-manpower-empowering-workforce',
             'date' => 'February 15, 2025',
-            'image' => 'maxholdingsmclogowhitebg.png',
+            'image' => 'maxholdingsmclogo.png',
             'excerpt' => 'Learn how Max Holdings Manpower Services is transforming lives by connecting skilled professionals with meaningful career opportunities.',
             'category' => 'Manpower',
             'readTime' => '6 min read',
@@ -41,7 +41,7 @@
             'title' => 'Max Holdings Engineering: Pioneering Innovation in Sri Lanka\'s Construction and Infrastructure Sector',
             'slug' => 'max-engineering-pioneering-innovation',
             'date' => 'February 15, 2025',
-            'image' => 'maxholdingsenglogo.png',
+            'image' => 'maxholdingsenglogonobg.png',
             'excerpt' => 'Discover the cutting-edge engineering solutions that are shaping Sri Lanka\'s future infrastructure and construction landscape.',
             'category' => 'Engineering',
             'readTime' => '7 min read',
@@ -114,7 +114,7 @@
                     <div class="relative aspect-[16/10] overflow-hidden">
                         <img src="{{ asset('images/' . $blog['image']) }}" 
                             alt="{{ $blog['title'] }}" 
-                            class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+                            class="w-full h-full object-contain transition-transform duration-700 group-hover:scale-110">
                         <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
 
                         <!-- Category Badge -->

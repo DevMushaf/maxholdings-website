@@ -52,7 +52,7 @@ class BlogController extends Controller
                 'title' => 'Max Tourism: Redefining Travel Experiences in Sri Lanka',
                 'slug' => 'max-tourism-redefining-travel',
                 'date' => 'March 17, 2025',
-                'image' => 'maxholdingslogowhitebg.png',
+                'image' => 'maxholdingstourismlogowhitebg.png',
                 'excerpt' => 'Explore how Max Tourism is revolutionizing the travel industry with personalized and unforgettable experiences across Sri Lanka.',
                 'author' => 'Max Tourism Team',
                 'category' => 'Tourism',

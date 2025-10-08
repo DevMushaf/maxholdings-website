@@ -113,27 +113,27 @@
                 <div class="grid grid-cols-3 gap-4">
                     <img src="/images/maxholdingslogowhitebg.png" 
                         alt="Max Holdings" 
-                        class="h-16 mx-auto object-contain grayscale hover:grayscale-0 transition duration-300" />
+                        class="h-18 mx-auto object-contain hover:scale-105 transition duration-300" />
 
                     <img src="/images/maxholdingsenglogo.png" 
                         alt="Max Engineering" 
-                        class="h-16 mx-auto object-contain grayscale hover:grayscale-0 transition duration-300" />
+                        class="h-18 mx-auto object-contain hover:scale-105 transition duration-300" />
 
                     <img src="/images/maxholdingsmclogowhitebg.png" 
                         alt="Max Manpower" 
-                        class="h-16 mx-auto object-contain grayscale hover:grayscale-0 transition duration-300" />
+                        class="h-18 mx-auto object-contain hover:scale-105 transition duration-300" />
 
-                    <img src="/images/maxholdingslogowhitebg.png" 
+                    <img src="/images/maxholdingstourismlogowhitebg.png" 
                         alt="Max Tourism" 
-                        class="h-16 mx-auto object-contain grayscale hover:grayscale-0 transition duration-300" />
+                        class="h-18 mx-auto object-contain hover:scale-105 transition duration-300" />
 
                     <img src="/images/endevologo.png" 
                         alt="Endevo" 
-                        class="h-16 mx-auto object-contain grayscale hover:grayscale-0 transition duration-300" />
+                        class="h-18 mx-auto object-contain hover:scale-105 transition duration-300" />
 
                     <img src="/images/digiprintlogobg.png" 
                         alt="DigiPrint" 
-                        class="h-16 mx-auto object-contain grayscale hover:grayscale-0 transition duration-300" />
+                        class="h-18 mx-auto object-contain hover:scale-105 transition duration-300" />
                 </div>
             </div>
 
@@ -264,22 +264,22 @@
                     <!-- Logo Grid -->
                     <div class="grid grid-cols-3 gap-y-4 gap-x-0">
                         <img src="/images/maxholdingslogowhitebg.png" alt="Max Holdings"
-                            class="w-full max-w-[90px] object-contain grayscale hover:grayscale-0 hover:scale-105 transition duration-300" />
+                            class="w-full max-w-[90px] object-contain hover:scale-105 transition duration-300" />
 
                         <img src="/images/maxholdingsenglogo.png" alt="Max Engineering"
-                            class="w-full max-w-[90px] object-contain grayscale hover:grayscale-0 hover:scale-105 transition duration-300" />
+                            class="w-full max-w-[90px] object-contain hover:scale-105 transition duration-300" />
 
                         <img src="/images/maxholdingsmclogowhitebg.png" alt="Max Manpower"
-                            class="w-full max-w-[90px] object-contain grayscale hover:grayscale-0 hover:scale-105 transition duration-300" />
+                            class="w-full max-w-[90px] object-contain hover:scale-105 transition duration-300" />
 
-                        <img src="/images/maxholdingslogowhitebg.png" alt="Max Tourism"
-                            class="w-full max-w-[90px] object-contain grayscale hover:grayscale-0 hover:scale-105 transition duration-300" />
+                        <img src="/images/maxholdingstourismlogowhitebg.png" alt="Max Tourism"
+                            class="w-full max-w-[90px] object-contain hover:scale-105 transition duration-300" />
 
                         <img src="/images/endevologo.png" alt="Endevo"
-                            class="w-full max-w-[90px] object-contain grayscale hover:grayscale-0 hover:scale-105 transition duration-300" />
+                            class="w-full max-w-[90px] object-contain hover:scale-105 transition duration-300" />
 
                         <img src="/images/digiprintlogobg.png" alt="DigiPrint"
-                            class="w-full max-w-[90px] object-contain grayscale hover:grayscale-0 hover:scale-105 transition duration-300" />
+                            class="w-full max-w-[90px] object-contain hover:scale-105 transition duration-300" />
                     </div>
                 </div>
 
@@ -408,22 +408,22 @@
                     <!-- Logo Grid -->
                     <div class="grid grid-cols-3 gap-y-4 justify-items-center">
                         <img src="/images/maxholdingslogowhitebg.png" alt="Max Holdings"
-                            class="w-[90px] object-contain grayscale hover:grayscale-0 hover:scale-105 transition duration-300" />
+                            class="w-[90px] object-contain hover:scale-105 transition duration-300" />
 
                         <img src="/images/maxholdingsenglogo.png" alt="Max Engineering"
-                            class="w-[90px] object-contain grayscale hover:grayscale-0 hover:scale-105 transition duration-300" />
+                            class="w-[90px] object-contain hover:scale-105 transition duration-300" />
 
                         <img src="/images/maxholdingsmclogowhitebg.png" alt="Max Manpower"
-                            class="w-[90px] object-contain grayscale hover:grayscale-0 hover:scale-105 transition duration-300" />
+                            class="w-[90px] object-contain hover:scale-105 transition duration-300" />
 
-                        <img src="/images/maxholdingslogowhitebg.png" alt="Max Tourism"
-                            class="w-[90px] object-contain grayscale hover:grayscale-0 hover:scale-105 transition duration-300" />
+                        <img src="/images/maxholdingstourismlogowhitebg.png" alt="Max Tourism"
+                            class="w-[90px] object-contain hover:scale-105 transition duration-300" />
 
                         <img src="/images/endevologo.png" alt="Endevo"
-                            class="w-[90px] object-contain grayscale hover:grayscale-0 hover:scale-105 transition duration-300" />
-                            
+                            class="w-[90px] object-contain hover:scale-105 transition duration-300" />
+
                         <img src="/images/digiprintlogobg.png" alt="DigiPrint"
-                            class="w-[90px] object-contain grayscale hover:grayscale-0 hover:scale-105 transition duration-300" />
+                            class="w-[90px] object-contain hover:scale-105 transition duration-300" />
                     </div>
                 </div>
 

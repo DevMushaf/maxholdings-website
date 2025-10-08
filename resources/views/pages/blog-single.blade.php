@@ -63,7 +63,7 @@
             <div class="aspect-[16/9] rounded-3xl overflow-hidden">
                 <img src="{{ asset('images/' . $blog['image']) }}" 
                      alt="{{ $blog['title'] }}" 
-                     class="w-full h-full object-cover">
+                     class="w-full h-full object-contain">
             </div>
         </div>
     </div>
